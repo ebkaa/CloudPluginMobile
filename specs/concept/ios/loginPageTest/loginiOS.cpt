@@ -1,0 +1,50 @@
+Created by nese on 2019-06-11
+
+This is a concept file with following syntax for each concept.
+# iOS 5720 ile Giris Yap
+* "gsmNumarasıalanı" li elementi bul ve "5307385720" değerini tek tek yaz
+*  Hide keyboard
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+*  Hide keyboard
+* "girisYapButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+
+# iOS 9973 ile Giris Yap
+* "gsmNumarasıalanı" li elementi bul ve "5054039973" değerini tek tek yaz
+*  Hide keyboard
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "123456" değerini yaz
+*  Hide keyboard
+* "girisYapButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+
+# 9973 çıkış yap
+* geri butonuna bas
+*"numaram9973" li elementi bul ve tıkla
+* "profilAyarGit" li elementi bul ve tıkla
+* "cikisButonu2" li elementi bul ve tıkla
+* "popupCikisYapButonu" li elementi bul ve tıkla
+
+# iOS 2468 ile Giris Yap
+* "gsmNumarasıalanı" li elementi bul ve "5338972468" değerini tek tek yaz
+*  Hide keyboard
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+*  Hide keyboard
+* "girisYapButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+
+# IOS non-turkcell hesap ile kayıtsız giriş
+* "5" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5364556824" değerini tek tek yaz
+*  Hide keyboard
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "kayitolBtn" li element sayfada bulunuyor mu kontrol et

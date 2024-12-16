@@ -1,0 +1,28 @@
+
+# Sol limitsiz Kullanim Karti alan kontrolleri
+
+* "limitsizInternet" li elementi bul yoksa "limitsizInternet bulunamadı" mesajını hata olarak göster
+* "indirme" li elementi bul yoksa "indirme bulunamadı" mesajını hata olarak göster
+* "yukleme" li elementi bul yoksa "yükleme bulunamadı" mesajını hata olarak göster
+* "kullanimBari" li elementi bul yoksa "kullanimBari bulunamadı" mesajını hata olarak göster
+* "limitsizText" li elementi bul yoksa "limitsizText bulunamadı" mesajını hata olarak göster
+* "btn_ekPaketAl" li elementi bul ve varsa tıkla
+* "btn_ekPaketAl" li elementi bul varsa "ekPaketAl page geçilemedi" mesajını hata olarak göster
+
+
+# Sol Kademeli Kullanim Karti alan kontrolleri
+
+* "kademeliKotali" li elementi bul yoksa "kademeliKotali bulunamadı" mesajını hata olarak göster
+* "indirme" li elementi bul yoksa "indirme bulunamadı" mesajını hata olarak göster
+* "yukleme" li elementi bul yoksa "yükleme bulunamadı" mesajını hata olarak göster
+* "kullanimBari" li elementi bul yoksa "kullanimBari bulunamadı" mesajını hata olarak göster
+*"birinciBarGB" li elementi bul yoksa "birinciBarGB bulunamadı" mesajını hata olarak göster
+*"ikinciBarGB" li elementi bul yoksa "ikinciBarGB bulunamadı" mesajını hata olarak göster
+*"ucuncuBarGB" li elementi bul yoksa "ucuncuBarGB bulunamadı" mesajını hata olarak göster
+*"dorduncuBarGB" li elementi bul yoksa "dorduncuBarGB bulunamadı" mesajını hata olarak göster
+*"birinciBarTL" li elementi bul yoksa "birinciBarTL bulunamadı" mesajını hata olarak göster
+*"ikinciBarTL" li elementi bul yoksa "ikinciBarTL bulunamadı" mesajını hata olarak göster
+*"ucuncuBarTL" li elementi bul yoksa "ucuncuBarTL bulunamadı" mesajını hata olarak göster
+*"dorduncuBarTL" li elementi bul yoksa "dorduncuBarTL bulunamadı" mesajını hata olarak göster
+* "kablosuzIslem" li elementi bul ve varsa tıkla
+* "kablosuzIslem" li elementi bul varsa "kablosuzIslem geçilemedi" mesajını hata olarak göster

@@ -1,0 +1,643 @@
+[
+  {
+    "key": "dinamikKartlarıKapatmaIkonu",
+    "iosValue": "//XCUIElementTypeButton[@name='close']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewClose",
+    "androidType": "id"
+  },
+  {
+    "key": "aramaveBaglantıKontrolu",
+    "iosValue": "//XCUIElementTypeButton[@name='ARAMA VE BAĞLANTI KONTROLÜ']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.LinearLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "yeniTalepIlet",
+    "iosValue": "**/XCUIElementTypeButton[`name='TALEP İLET'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc='TALEP İLET']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "chat",
+    "iosValue": "//XCUIElementTypeButton[@name='CHAT']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[3]/android.widget.LinearLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "enYakınTurkcell",
+    "iosValue": "**/XCUIElementTypeButton[`name='EN YAKIN TURKCELL'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"EN YAKIN TURKCELL\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "superOnlineBasvuru",
+    "iosValue": "//XCUIElementTypeButton[@name='SUPERONLINE BAŞVURU SORGULA']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[4]/android.widget.LinearLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "fiberNerede",
+    "iosValue": "//XCUIElementTypeButton[@name='FIBER NEREDE']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[5]/android.widget.LinearLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "talepIletButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='Talep İlet']",
+    "iostype": "xpath",
+    "androidValue": "-",
+    "androidType": "xpath"
+  },
+  {
+    "key": "closeButonu",
+    "iosValue": "close",
+    "iosType": "id"
+  },
+  {
+    "key": "artıIkonu",
+    "iosValue": "plus",
+    "iosType": "id",
+    "androidValue": "",
+    "androidType": "xpath"
+  },
+  {
+    "key": "oncekiTaleplerim",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Geçmiş taleplerinize buradan ulaşabilirsiniz.\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc=\"Geçmiş taleplerinize buradan ulaşabilirsiniz.\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunServisveKampanyaTalepleri",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Paket, Servis ve Kampanya Talepleri'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc='Paket, Servis ve Kampanya Talepleri']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ucretlendirmeveFaturaTalepleri",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Ücretlendirme ve Fatura Talepleri']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Ücretlendirme ve Fatura Talepleri']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "erkenOdemeBedeliIleKampanyaIptali",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Erken Ödeme Bedeli İle Kampanya İptali']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Erken Ödeme Bedeli İle Kampanya İptali']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "odemeninYansımamasıMukerrerOdemeTalepleri",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Ödemenin Yansımaması, Mükerrer Ödeme Talepleri']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Ödemenin Yansımaması, Mükerrer Ödeme Talepleri']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "abonelikBilgiDuzeltmeveDegisiklik",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Abonelik Bilgi Düzeltme Talepleri'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc='Abonelik Bilgi Düzeltme Talepleri']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hazırKartTlYuklemeSorunu",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Hazır Kart TL Yükleme Sorunu']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Hazır Kart TL Yükleme Sorunu']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "yazılıBilgiTalebi",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Yazılı Bilgi Talebi']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Yazılı Bilgi Talebi']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "abonelikIptali",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Abonelik İptali']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Abonelik İptali']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "platinumOzelEvraklıTarifeler",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Kuruma Özel Platin Tarife Talepleri']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Kuruma Özel Platin Tarife Talepleri']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "turkcellSanalMagazaTalepleri",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Sanal Mağaza Talepleri']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Sanal Mağaza Talepleri']",
+    "androidType": "xpath"
+  },
+  {
+  "key": "musteriHızmetIslemTalepleri",
+  "iosValue": "//XCUIElementTypeStaticText[@name='Müşteri Hizmetleri İşlem Kısıtlama Kaldırma']",
+  "iosType": "xpath",
+  "androidValue": "//android.widget.TextView[@content-desc='Müşteri Hizmetleri İşlem Kısıtlama Kaldırma']",
+  "androidType": "xpath"
+  },
+  {
+    "key": "ilSecimiDropdown",
+    "iosValue": "İl Seçiniz",
+    "iosType": "id",
+    "androidValue": "",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ilceSecimiDropdown",
+    "iosValue": "İlçe Seçiniz",
+    "iosType": "id",
+    "androidValue": "",
+    "androidType": "xpath"
+  },
+  {
+    "key": "turkcellTabı",
+    "iosValue": "TURKCELL",
+    "iosType": "id",
+    "androidValue": "",
+    "androidType": "xpath"
+  },
+  {
+    "key": "superonlineTabı",
+    "iosValue": "SUPERONLINE",
+    "iosType": "id",
+    "androidValue": "",
+    "androidType": "xpath"
+  },
+  {
+    "key": "talepText",
+    "androidValue":"com.ttech.android.onlineislem:id/editTextDemandDescription",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeCell/XCUIElementTypeTextView",
+    "iosType": "xpath"
+
+  },
+  {
+    "key": "talepGonder",
+    "androidValue":"com.ttech.android.onlineislem:id/buttonBottomSendDemand",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`name='Talep Gönder'`]",
+    "iosType": "classChain"
+
+  },
+  {
+    "key": "talepDekontFotoSec",
+    "androidValue":"com.ttech.android.onlineislem:id/imageViewIconDocument",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeCell[./XCUIElementTypeStaticText[contains(@name,'Dekont')]]/XCUIElementTypeButton[not(@name)]",
+    "iosType": "xpath"
+  },
+  {
+  "key": "talepKımlıkFotoSec",
+  "androidValue":"com.ttech.android.onlineislem:id/imageViewIconDocument",
+  "androidType": "id",
+  "iosValue": "//XCUIElementTypeCell[./XCUIElementTypeStaticText[contains(@name,'Kimlik')]]/XCUIElementTypeButton[not(@name)]",
+  "iosType": "xpath"
+  },
+  {
+  "key": "talepEkranFotoSec",
+  "androidValue":"com.ttech.android.onlineislem:id/imageViewIconDocument",
+  "androidType": "id",
+  "iosValue": "//XCUIElementTypeCell[./XCUIElementTypeStaticText[contains(@name,'Ekran')]]/XCUIElementTypeButton[not(@name)]",
+  "iosType": "xpath"
+  },
+
+  {
+    "key": "talepFotoSecBır",
+    "iosValue": "//XCUIElementTypeCell[./XCUIElementTypeStaticText[contains(@name,'Kimlik')]]//XCUIElementTypeButton[not(@name)]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "talepFotoSecIkı",
+    "iosValue": "//XCUIElementTypeCell[./XCUIElementTypeStaticText[contains(@name,'Dilekçe')]]//XCUIElementTypeButton[not(@name)]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "talepFotoSecUc",
+    "iosValue": "//XCUIElementTypeCell[./XCUIElementTypeStaticText[contains(@name,'Arka')]]//XCUIElementTypeButton[not(@name)]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "galeriFotoSec",
+    "androidValue":"com.ttech.android.onlineislem:id/textViewPickPhoto",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Fotoğraf Seç']",
+    "iosType": "xpath"
+
+  },
+  {
+    "key": "cameraPhoto",
+    "androidValue":"com.ttech.android.onlineislem:id/textViewTakePhoto",
+    "androidType": "id"
+
+  },
+  {
+    "key": "ızınVer",
+    "androidValue":"com.android.packageinstaller:id/permission_allow_button",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Tamam']",
+    "iosType": "xpath"
+
+  },
+  {
+    "key": "reddet",
+    "androidValue":"com.android.packageinstaller:id/permission_deny_button",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+
+  },
+
+  {
+    "key": "sonyGallery",
+    "androidValue":"//android.widget.TextView[@resource-id='android:id/text1']",
+    "androidType": "xpath"
+
+  },
+  {
+  "key": "sonyGalleryPhoto",
+  "androidValue":"android:id/button_always",
+  "androidType": "xpath"
+  },
+  {
+    "key": "samsungChoose",
+    "androidValue":"//*[@resource-id='com.simplemobiletools.gallery:id/dir_thumbnail']",
+    "androidType": "xpath",
+    "androidIndex": "1"
+
+  },
+  {
+    "key": "samsungGalleryPhoto",
+    "androidValue":"//*[@resource-id='com.simplemobiletools.gallery:id/dir_thumbnail']",
+    "androidType": "xpath"
+  },
+  {
+
+    "key": "samsungGalleryS7",
+    "androidValue":"//com.sec.samsung.gallery.glview.composeView.ThumbObject",
+    "androidType": "xpath"
+
+  },
+  {
+
+    "key": "samsungGallery",
+    "androidValue":"com.sec.samsung.gallery.glview.composeView.PositionControllerBase$ThumbObject",
+    "androidType": "class"
+
+  },{
+  "key": "samsungSPhoto",
+  "androidValue":"/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.ThumbObject[1]",
+  "androidType": "xpath"
+
+},
+  {
+    "key": "samsungJ5Photo",
+    "androidValue":"com.sec.samsung.gallery.glview.composeView.PositionControllerBase$ThumbObject",
+    "androidType": "class"
+
+  },
+  {
+    "key": "samsungsekızphotoChoose",
+    "androidValue":"com.sec.samsung.gallery.glview.composeView.ThumbObject",
+    "androidType": "class"
+  },
+  {
+    "key": "samsungsA5Photo",
+    "androidValue":"//com.sec.samsung.gallery.glview.composeView.ThumbObject",
+    "androidType": "xpath"
+  }
+  ,
+  {
+    "key": "samsungPhoto",
+    "androidValue":"com.simplemobiletools.gallery:id/medium_thumbnail",
+    "androidType": "id"
+  },
+  {
+    "key": "sonyPhoto",
+    "androidValue":"//*[@resource-id='com.simplemobiletools.gallery:id/dir_thumbnail']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sonyPhotoStep2",
+    "androidValue":"//*[@resource-id='com.simplemobiletools.gallery:id/medium_thumbnail']",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "odemenınYansımaması",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Ödemenin Yansımaması, Mükerrer Ödeme Talepleri']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kurumaOzelPlatınum",
+    "androidValue": "//android.widget.TextView[@content-desc='Kuruma Özel Platin Tarife Talepleri']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Kuruma Özel Platin Tarife Talepleri']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ıphoneGaleri",
+    "iosValue": "//XCUIElementTypeTable/XCUIElementTypeCell[@name='Anlar']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ıphoneGaleriPhotoChoose",
+    "iosValue": "XCUIElementTypeCell",
+    "iosType": "class",
+    "iosIndex" : "1"
+  },
+  {
+    "key":"kampanyaText",
+    "androidValue":"com.ttech.android.onlineislem:id/editTextMessage",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Bu alana yazabilirsiniz...'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key":"kampanyaGonder",
+    "androidValue":"com.ttech.android.onlineislem:id/imageViewSend",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`name='chatbot send'`]",
+    "iosType": "classChain"
+
+  },
+  {
+    "key":"talepUyarı",
+    "androidValue":"//android.widget.TextView[@content-desc=\"UYARI\"]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"UYARI\"]",
+    "iosType": "xpath"
+
+  },
+  {
+  "key":"talepUyarıText",
+  "androidValue":"//android.widget.TextView[@content-desc=\"UYARI\"]/following-sibling::android.widget.TextView",
+  "androidType": "xpath",
+  "iosValue": "//XCUIElementTypeStaticText[@name=\"UYARI\"]/following-sibling::XCUIElementTypeStaticText",
+  "iosType": "xpath"
+
+},
+  {
+    "key": "googlePhotoPopupIzınver",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.android.permissioncontroller:id/permission_allow_button",
+    "androidType": "id"
+  },
+  {
+    "key": "galeris6Choose",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "android:id/icon",
+    "androidType": "id"
+  },
+  {
+    "key": "enYakinTurkcellCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"En Yakın Turkcell\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sehirCheckBox",
+    "iosValue": "//XCUIElementTypeButton[@name=\"İstanbul\"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewArrowCity",
+    "androidType": "id"
+  },
+  {
+    "key": "karabuk",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Afyon\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Afyon\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ankara",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Ankara\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Ankara\"]",
+    "androidType": "xpath"
+  },
+
+
+
+  {
+    "key": "ılceCheckBox",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"İlçe Seçiniz\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewArrowCounty",
+    "androidType": "id"
+  },
+  {
+    "key": "karabukMerkez",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Çobanlar\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Çobanlar\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Cankaya",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Çankaya\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Çankaya\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Etimesgut",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Etimesgut\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Etimesgut\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "randevuAl",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonGetAppointment",
+    "androidType": "id"
+  },
+  {
+    "key": "randevuCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Randevu almak için aşağıdaki alanları doldurunuz.\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "acıkSaatler",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[contains(@content-desc='00')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "adressCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@content-desc='ATATURK MAH. MISAKI MILLI MEYDANI 20/D / Safranbolu 11111 Karabük']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "talebeGit",
+    "iosValue": "**/XCUIElementTypeButton[`name='Talebe Git'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPositive",
+    "androidType": "id"
+  },
+  {
+    "key": "talebinizIslemde",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Talebiniz şu anda işlemdedir.'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewDemandStatusTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "yuzyuzeMusteriHızmetleri",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"YÜZYÜZE MÜŞTERİ HİZMETLERİ\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"YÜZYÜZE MÜŞTERİ HİZMETLERİ\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "indirBtn",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"İndir\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonPositive']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "üsküdarİlce",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Üsküdar\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "bos_sayfa",
+    "iosValue": "**/XCUIElementTypeTable[`name=\"Boş liste\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "aramaBaglantiKontrolu",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"ARAMA BAĞLANTI KONTROLÜ\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"ARAMA BAĞLANTI KONTROLÜ\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "aramaBaglantıKontolTalepIlet",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Talep İlet\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "aramaBaglantiKontroluIkıncıCheckBox",
+    "iosValue": "(//XCUIElementTypeImage[@name=\"arrowBlue\"])[2]/..",
+    "iosType": "xpath",
+    "androidValue": "(//android.widget.TextView[@content-desc=\"Seçiniz\"])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "internetimYavaş",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"İnternetim yavaş/sayfa erişim problemi yaşıyorum\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"İnternetim yavaş/sayfa erişim problemi yaşıyorum\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sayfaIceriginiKontrolEt",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Sayfa içeriğini düzgün göremiyorum/videolar takılıyor\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Sayfa içeriğini düzgün göremiyorum/videolar takılıyor\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "DOUygulaması",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Dijital Operatör\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+
+  {
+    "key": "osmaniye",
+    "iosValue":  "**/XCUIElementTypeButton[`name=\"Osmaniye\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Osmaniye\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hasanbeyligi",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Hasanbeyli\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hasanbeyli\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "uyariPopup",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Aradığınız kriterlerle eşleşen bayi bilgisi bulunamamıştır\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Aradığınız kriterlerle eşleşen bayi bilgisi bulunamamıştır\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "finderICon",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.view.View[@content-desc=\"0.\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "yuzyuzeIndirPopup",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"İndir\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[contains(@text,'uygulaması yüklü değil')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "YeniTalepAcBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonNewDemand",
+    "androidType": "id"
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  }
+
+]
+
+

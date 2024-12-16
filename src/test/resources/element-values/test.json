@@ -1,0 +1,143 @@
+[{
+  "key": "aramaBtn",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@content-desc=\"Arama\"]",
+  "androidType": "xpath"
+},
+  {
+    "key": "aramaBar",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "editTextSearch",
+    "androidType": "id"
+  },
+  {
+    "key": "özelTv+",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@content-desc='TV+ ']",
+    "androidType": "xpath"
+  },{
+  "key": "özelTv+Check",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@resource-id='selectedPriceText']",
+  "androidType": "xpath"
+},{
+  "key": "bildirimlerim",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@content-desc='Bildirimlerim']",
+  "androidType": "xpath"
+},{
+  "key": "bildirimlerimCheck",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@content-desc='Bilgi']",
+  "androidType": "xpath"
+},{
+  "key": "vazgeçBtnN",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "com.ttech.android.onlineislem:id/buttonNegative",
+  "androidType": "id"
+},{
+  "key": "anaSayfaCheck",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@content-desc='Giriş Yap']",
+  "androidType": "xpath"
+},{
+  "key": "paketlerTab",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@content-desc=\"PAKETLER\"]",
+  "androidType": "xpath"
+},{
+  "key": "inceleBtn",
+  "iosValue": "(//XCUIElementTypeButton[@name=\"İncele\"])[1]",
+  "iosType": "xpath",
+  "androidValue": "//android.widget.Button",
+  "androidType": "xpath"
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "mesajlarım",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@content-desc=\"MESAJLARIM\"]",
+  "androidType": "xpath"
+},{
+  "key": "dijitalMagaza",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@content-desc=\"Dijital Mağaza\"]",
+  "androidType": "xpath"
+},{
+  "key": "turkcellKampanya",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@resource-id='selectedPriceText']",
+  "androidType": "xpath"
+},{
+  "key": "bildirimlerTabı",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@content-desc=\"Bildirimlerim\"]",
+  "androidType": "xpath"
+},{
+  "key": "uygulamalarTab",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@content-desc=\"UYGULAMALAR\"]",
+  "androidType": "xpath"
+},{
+  "key": "tümÜrünlerim",
+  "iosValue": "//*[@name=\"Tüm Ürünlerim\"]",
+  "iosType": "xpath",
+  "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonPackageAndTariffCard']",
+  "androidType": "xpath"
+},{
+  "key": "yeniServisAl",
+  "iosValue": "//XCUIElementTypeStaticText[@name=\"Servislerim\"]",
+  "iosType": "xpath",
+  "androidValue": "com.ttech.android.onlineislem:id/buttonNewService",
+  "androidType": "id"
+},{
+  "key": "servislerCheck",
+  "iosValue": "//XCUIElementTypeStaticText[@name=\"SERVİSLER\"]",
+  "iosType": "xpath",
+  "androidValue": "//*[@resource-id='sh_config']",
+  "androidType": "xpath"
+},{
+  "key": "hediyeKutum",
+  "iosValue": "**/XCUIElementTypeButton[`name='Hediye'`]",
+  "iosType": "classChain",
+  "androidValue": "//*[@content-desc=\"Hediye Kutum\"]",
+  "androidType": "xpath"
+},{
+  "key": "tarihçe",
+  "iosValue": "//*[@name=\"TARİHÇE\"]",
+  "iosType": "xpath",
+  "androidValue": "//*[@content-desc=\"TARİHÇE\"]",
+  "androidType": "xpath"
+},{
+  "key": "ayricaliklar",
+  "iosValue": "**/XCUIElementTypeStaticText[`name='AYRICALIKLAR'`]",
+  "iosType": "classChain",
+  "androidValue": "//*[@content-desc=\"AYRICALIKLAR\"]",
+  "androidType": "xpath"
+},{
+  "key": "keşfet",
+  "iosValue": "(//XCUIElementTypeButton[@name=\"Keşfet\"])[1]",
+  "iosType": "xpath",
+  "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonPrivilege']",
+  "androidType": "xpath"
+}
+]
+

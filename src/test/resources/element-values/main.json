@@ -1,0 +1,185 @@
+[
+  {
+    "key": "girisYapButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='Giriş Yap']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPasswordContinue",
+    "androidType": "id"
+  },
+  {
+    "key": "aramaButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Ara\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.ImageView[@content-desc=\"Arama\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "AnasayfaTLYukleButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='TL Yükle']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/linearLayoutTopUp",
+    "androidType": "id"
+  },
+  {
+    "key": "sepetimButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='Sepetim'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.ImageView[@content-desc='Sepetim']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "bildirimlerButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='Bildirimler'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewNotif",
+    "androidType": "id"
+  },
+  {
+    "key": "mesajlarımSekmesi",
+    "iosValue": "**/XCUIElementTypeButton[`name='MESAJLARIM'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewTitle",
+    "androidType": "id",
+    "androidIndex": "1"
+  },
+  {
+    "key": "siparişlerimTabı",
+    "iosValue": "**/XCUIElementTypeButton[`name='SİPARİŞLERİM'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewTitle",
+    "androidType": "id",
+    "androidIndex": "2"
+  },
+  {
+    "key": "taleplerimTabı",
+    "androidValue": "//android.widget.TextView[@content-desc=\"TALEPLERİM\"]",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeButton[`name='TALEPLERİM'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "randevularımTabı",
+    "iosValue": "**/XCUIElementTypeButton[`name='RANDEVULARIM'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "bildirimleralanıSekmeleri",
+    "iosValue": "com.ttech.android.onlineislem:id/textViewTitle",
+    "iosType": "id"
+  },
+  {
+    "key": "magazaButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='Dijital Mağaza'`][2]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/navigation_shop",
+    "androidType": "id"
+  },
+  {
+    "key": "islemMerkeziButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='İşlem Merkezi'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/navigation_myaccount",
+    "androidType": "id"
+  },
+  {
+    "key": "yardımButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='Yardım'`]",
+    "iosType": "classChain",
+    "iosIndex": 1,
+    "androidValue": "com.ttech.android.onlineislem:id/navigation_support",
+    "androidType": "id"
+  },
+  {
+    "key": "profilImage",
+    "iosValue": "//XCUIElementTypeButton[@name='Profil']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewProfilIcon",
+    "androidType": "id"
+  },
+  {
+    "key": "kullanıcıAdı",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": "id"
+  },
+  {
+    "key": "kullanıcıGSMNo",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": "id"
+  },
+  {
+    "key": "IOS-Klavye-BittiButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='Bitti']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "carpıButon",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewClose",
+    "androidType": "id"
+  },
+  {
+    "key": "carpıButonIkı",
+    "androidValue": "//android.widget.ImageView[@content-desc=\"Kapat\"]",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeButton[`name='Kapat'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "carpıButonIOS",
+    "androidValue": "//XCUIElementTypeButton[@name='Kapat']",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeButton[`name='Kapat' OR name='Bitti'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sallaKazan-closeButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/image_close",
+    "androidType": "id"
+  },
+  {
+    "key": "googlePıxelIzınverBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.android.permissioncontroller:id/permission_allow_always_button",
+    "androidType": "id"
+  },
+  {
+    "key": "aramaYapText",
+    "iosValue": "**/XCUIElementTypeSearchField[`name='Arama Yap'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.EditText[@text='Arama Yap']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "yoksayBtn",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Yoksay\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+
+  }
+,
+  {
+    "key": "ödemeYukumlulugu",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Sipariş onayı ödeme yükümlülüğü doğuracaktır. \"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+
+  }
+,
+  {
+    "key": "smsAyarlarımCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.view.View[@content-desc=\"SMS +\"]",
+    "androidType": "xpath"
+
+  }
+]
+
+

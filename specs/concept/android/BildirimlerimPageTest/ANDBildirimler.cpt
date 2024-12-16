@@ -1,0 +1,20 @@
+Created by sahabt on 2019-11-27
+This is a concept file with following syntax for each concept.
+# SuperOnline Hesabı ile giriş yap
+* Numara:"5307458832" ve şifre:"530530" ile giriş yapılmamışsa giriş yap
+* "numaram" li elementi bul ve tıkla
+* "superonlineHesabı" li elementi bul ve tıkla
+* "5" saniye bekle
+
+#IOS SuperOnline Hesabı İle Giriş
+ * Numara:"5307458832" ve şifre:"530530" ile giriş yapılmamışsa giriş yap
+* "numaram" li elementi bul ve tıkla
+* "superonlineHesabı" li elementi bul ve tıkla
+* "5" saniye bekle
+
+#Bireysel kullanıcı degistir
+
+* "numaram" li elementi bul ve tıkla
+* "5727Datasi"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "5727Datasi" li elementi bul ve tıkla
+* "5" saniye bekle

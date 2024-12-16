@@ -1,0 +1,37 @@
+Created by nese on 2019-06-12
+
+This is a concept file with following syntax for each concept.
+# iOS Login Kart Bilgilerini Gir
+* "5" saniye bekle
+* "krediKartıIsimAlanı" li elementi bul ve "Kullanıcı Adı" değerini yaz
+*  Hide keyboard
+* "kartNumarasıAlanı" li elementi bul ve "KrediKartNo" değerini yaz
+*  Hide keyboard
+* "kartSonKullanmaTarihiAlanı" li elementi bul ve tıkla
+* son kullanma tarihi gir
+*  Hide keyboard
+* "krediKartıIleOdeme-onBılgılendırmeCheckbox" elementinin koordinatlarına x="-5" y="5" degerlerini ekleyerek tıkla
+* "buKartileOdemeYapButonu" li elementi bulana kadar swipe et ve tıkla
+* "5" saniye bekle
+* "cvvAlanı" li elementi bul ve "Cvv" değerini yaz
+* "cvvBilgileri-mailAlanı" li elementi bul ve "g@gmail.com" değerini yaz
+*  Hide keyboard
+
+
+
+
+
+# iOS Logout Kart Bilgilerini Gir
+* "3" saniye bekle
+* "logout-krediKartıAdınızSoyadınız" li elementi bul ve "Kullanıcı Adı" değerini yaz
+* "logout-krediKartıGSMNumaranız" li elementi bul ve "5354556825" değerini yaz
+*  Hide keyboard
+* "krediKartıIleOdeme-onBılgılendırmeCheckbox" elementinin koordinatlarına x="-5" y="2" degerlerini ekleyerek tıkla
+* "odemeYapButonu" li elementi bulana kadar swipe et ve tıkla
+* "5" saniye bekle
+* "cvvAlanı" li elementi bul ve "Cvv" değerini yaz
+*  Hide keyboard
+* "cvvBilgileri-mailAlanı" li elementi bul ve "g@gmail.com" değerini yaz
+*  Hide keyboard
+
+

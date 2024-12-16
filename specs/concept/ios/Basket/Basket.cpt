@@ -1,0 +1,80 @@
+Created by testinium on 21.02.2020
+
+This is a concept file with following syntax for each concept.
+# Logout Sepete ekle
+/* "50","60" oranlarından "50","30" oranlarına "1" kere swipe et
+* "sepeteEkleBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+/* "sepeteEkleBtn" elementinin koordinatlarına x="200" y="-200" degerlerini ekleyerek tıkla
+* "sepeteEkleBtn" elementinin koordinatlarına x="0" y="0" degerlerini ekleyerek tıkla
+/* "sepeteEkleBtn" li elementi bul ve tıkla
+/ logout düzeltilcek
+* "logoutDevamEt" varsa tıkla yoksa "keyKoordinat" koordinata göre tıkla
+* "80","80" oranlarından "80","30" oranlarına "2" kere swipe et
+* "3" saniye bekle
+* "sıparıseDevamEt"li elementi bulana kadar "5" kere swipe yap ve elementi bul
+* "sıparıseDevamEt" elementinin koordinatlarına x="10" y="-100" degerlerini ekleyerek tıkla
+* "sıparıseDevamEt" li elementi bul ve tıkla
+
+# Logout Sepete telefon ekle
+* "telefon"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "telefon" li elementi bul ve tıkla
+* "pesin"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "pesin" li elementi bul ve tıkla
+* Logout Sepete ekle
+
+
+# Logout Akıllı telefon hemen al sepete ekle
+* dijital magazaya gir
+* "hemenAlButonu"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "hemenAlButonu" li elementi bul ve tıkla
+* "sepeteEkleBtn"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "pesin"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "pesin" li elementi bul ve tıkla
+* Logout Sepete ekle
+
+# Logout Telefon aksesuar sepete ekle
+
+* "tumuButonu"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "tumuButonu" li elementi bul ve tıkla
+* "cihazlarAksesuarlar"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "cihazlarAksesuarlar" li elementi bul ve tıkla
+* "aksesuarRandom"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "aksesuarRandom" li elementi bul ve tıkla
+* Logout Sepete ekle
+
+
+# Login Sepete ekle
+
+* "50","60" oranlarından "50","30" oranlarına "1" kere swipe et
+* "sepeteEkleBtn"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "sepeteEkleBtn" li elementi bul ve tıkla
+*  "krediSorgula" li elementi bul ve varsa tıkla
+*  "pesinSatinAl" li elementi bul ve varsa tıkla
+
+# Login Sepete telefon ekle
+
+* "telefon"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "telefon" li elementi bul ve tıkla
+* Login Sepete ekle
+
+# Login Akıllı telefon hemen al sepete ekle
+
+* dijital magazaya gir
+* "hemenAlButonu"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "hemenAlButonu" li elementi bul ve tıkla
+* Login Sepete ekle
+
+# Login Telefon aksesuar sepete ekle
+
+* "tumuButonu"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "tumuButonu" li elementi bul ve tıkla
+* "cihazlarAksesuarlar"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "cihazlarAksesuarlar" li elementi bul ve tıkla
+* "aksesuarRandom"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "aksesuarRandom" li elementi bul ve tıkla
+* Login Sepete ekle
+
+# Kontratlı tarifene ek sepete ekle
+* "telefon"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "telefon" li elementi bul ve tıkla
+* "tarifeneEk" li elementi bul ve tıkla

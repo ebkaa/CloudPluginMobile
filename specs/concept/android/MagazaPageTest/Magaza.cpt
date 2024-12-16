@@ -1,0 +1,318 @@
+Created by nese on 2019-06-11
+
+This is a concept file with following syntax for each concept.
+# Login Odeme Sayfası Bilgilerini Doldur
+* "5" saniye bekle
+* "magazaSatinAlma-TeslimAlacakKisi"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-TeslimAlacakKisi" li elementi bul ve "Test Otomasyon" değerini yaz
+* Klavyeyi kapat
+* "TCKN"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* "TCKN" li elementi bul ve "45106611958" değerini yaz
+* Klavyeyi kapat
+* "3" saniye bekle
+* "magazaSatinAlma-AdSoyad2"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-AdSoyad2" li elementi bul ve tıkla
+* "3" saniye bekle
+* "magazaSatinAlma-AdSoyad2" li elementi bul ve "Turkcell Test" değerini yaz
+* Klavyeyi kapat
+* "satinAlFarkliKart"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* "5" saniye bekle
+* "satinAlFarkliKart" li elementi bul ve tıkla
+* "5" saniye bekle
+* "satinAlFarkliKartIsım"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "satinAlFarkliKartIsım" li elementi bul ve "Turkcell Test" değerini yaz
+* Klavyeyi kapat
+* "satinAlFarkliKartNumara"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "satinAlFarkliKartNumara" li elementi bul ve "5440786728974016" değerini yaz
+* Klavyeyi kapat
+* "50","70" oranlarından "50","30" oranlarına "1" kere swipe et
+* "8" saniye bekle
+* "satinAlFarkliKartAy" li elementin  merkezine tıkla
+* "2" saniye bekle
+* "satinAlFarkliKartAySec" li elementi bul ve tıkla
+* "2" saniye bekle
+* "satinAlFarkliKartYil" li elementi bul ve tıkla
+* "2" saniye bekle
+* "satinAlFarkliKartYilSec" li elementi bul ve tıkla
+* "5" saniye bekle
+* "satinAlCvvAlani"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "satinAlCvvAlani" li elementi bul ve "936" değerini yaz
+* Klavyeyi kapat
+* "magazaSatinAlma-DevamButonu"li elementi bulana kadar "5" kere swipe yap ve elementi bul
+* "3" saniye bekle
+* "magazaSatinAlma-DevamButonu" li elementi bul ve tıkla
+* "3" saniye bekle
+* "satinAlOnBılgılendırme"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "3" saniye bekle
+* "satinAlOnBılgılendırme" li elementi bul ve tıkla
+* "2" saniye bekle
+* "satinAlOnBılgılendırmeDevam" li elementi bul ve tıkla
+* "5" saniye bekle
+* "50","80" oranlarından "50","30" oranlarına "2" kere swipe et
+* "sıparısOkudumOnay"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* "sıparısOkudumOnay" li elementi bul ve tıkla
+* "50","80" oranlarından "50","30" oranlarına "2" kere swipe et
+* "sıparısıTamamla" li elementi bul ve tıkla
+* "5" saniye bekle
+* "kartDogrulamaSayfası" li element sayfada bulunuyor mu kontrol et
+* "kartDogrulamaSayfası" li elementi bul ve tıkla
+* "5" saniye bekle
+* "sepetimButonu" li elementi bul ve tıkla
+* "50","60" oranlarından "50","30" oranlarına "3" kere swipe et
+* "sepetıSıl" li elementi bul ve varsa tıkla
+* "sepetıSılEvet" li elementi bul ve varsa tıkla
+* "2" saniye bekle
+
+# Login Aksesuar Odeme Bilgilerini Doldur
+* "5" saniye bekle
+* "magazaSatinAlma-TeslimAlacakKisi"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-TeslimAlacakKisi" li elementi bul ve "Test Otomasyon" değerini yaz
+* Klavyeyi kapat
+* "TCKN"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* "TCKN" li elementi bul ve "45106611958" değerini yaz
+* Klavyeyi kapat
+* "3" saniye bekle
+* "magazaSatinAlma-AdSoyad2"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-AdSoyad2" li elementi bul ve tıkla
+* "3" saniye bekle
+* "magazaSatinAlma-AdSoyad2" li elementi bul ve "Turkcell Test" değerini yaz
+* Klavyeyi kapat
+* "kredıKartOde"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* "kredıKartOde" li elementi bul ve tıkla
+* "satinAlFarkliKart"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "5" saniye bekle
+* "satinAlFarkliKart" li elementi bul ve tıkla
+* "5" saniye bekle
+* "satinAlFarkliKartIsım"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "satinAlFarkliKartIsım" li elementi bul ve "Turkcell Test" değerini yaz
+* Klavyeyi kapat
+* "satinAlFarkliKartNumara"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "satinAlFarkliKartNumara" li elementi bul ve "5440786728974016" değerini yaz
+* Klavyeyi kapat
+* "50","70" oranlarından "50","30" oranlarına "1" kere swipe et
+* "5" saniye bekle
+* "satinAlFarkliKartAy" li elementi bul ve tıkla
+* "2" saniye bekle
+* "satinAlFarkliKartAySec" li elementi bul ve tıkla
+* "2" saniye bekle
+* "satinAlFarkliKartYil" li elementi bul ve tıkla
+* "2" saniye bekle
+* "satinAlFarkliKartYilSec" li elementi bul ve tıkla
+* "5" saniye bekle
+* "satinAlCvvAlani"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "satinAlCvvAlani" li elementi bul ve "936" değerini yaz
+* Klavyeyi kapat
+* "magazaSatinAlma-DevamButonu"li elementi bulana kadar "5" kere swipe yap ve elementi bul
+* "3" saniye bekle
+* "magazaSatinAlma-DevamButonu" li elementi bul ve tıkla
+* "3" saniye bekle
+* "satinAlOnBılgılendırme"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "3" saniye bekle
+* "satinAlOnBılgılendırme" li elementi bul ve tıkla
+* "2" saniye bekle
+* "satinAlOnBılgılendırmeDevam" li elementi bul ve tıkla
+* "5" saniye bekle
+* "50","80" oranlarından "50","30" oranlarına "2" kere swipe et
+* "sıparısOkudumOnay"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* "sıparısOkudumOnay" li elementi bul ve tıkla
+* "50","80" oranlarından "50","30" oranlarına "2" kere swipe et
+* "sıparısıTamamla" li elementi bul ve tıkla
+* "5" saniye bekle
+* "kartDogrulamaSayfası" li element sayfada bulunuyor mu kontrol et
+* "kartDogrulamaSayfası" li elementi bul ve tıkla
+* "5" saniye bekle
+* "sepetimButonu" li elementi bul ve tıkla
+* "50","60" oranlarından "50","30" oranlarına "3" kere swipe et
+* "sepetıSıl" li elementi bul ve varsa tıkla
+* "sepetıSılEvet" li elementi bul ve varsa tıkla
+* "2" saniye bekle
+
+
+# Logout Odeme Sayfası Bilgilerini Doldur
+* "30" saniye bekle
+* "magazaSatinAlma-AdSoyad" li elementi bul ve "Test Otomasyon" değerini yaz
+* Klavyeyi kapat
+//* "magazaSatinAlma-Ceptelefonu" li elementi bul ve "307385720" değerini yaz
+//* "magazaSatinAlma-Ceptelefonu" li elementi bul ve "307385720" değerini tek tek yaz
+* "magazaSatinAlma-Ceptelefonu" li elementi bul ve tıkla
+* "4" saniye bekle
+* "magazaSatinAlma-Ceptelefonu" li elementi bul, temizle ve "307385720" değerini yaz
+* Klavyeyi kapat
+* "magazaSatinAlma-EpostaAdresi" li elementi bul ve "test@gmail.com" değerini yaz
+* Klavyeyi kapat
+* "magazaSatinAlma-TCKN" li elementi bul ve "45106611958" değerini yaz
+* Klavyeyi kapat
+* "magazaSatinAlma-TeslimAlacakKisi"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-TeslimAlacakKisi" li elementi bul ve "Test Otomasyon" değerini yaz
+* Klavyeyi kapat
+* "magazaSatinAlma-IletisimNumarasi2"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-IletisimNumarasi2" li elementi bul ve tıkla
+* "4" saniye bekle
+* "magazaSatinAlma-IletisimNumarasi2" li elementi bul, temizle ve "307385720" değerini yaz
+* Klavyeyi kapat
+* "magazaSatinAlma-IletisimNumarasi2" elementinin koordinatlarına x="11" y="250" degerlerini ekleyerek tıkla
+* "adanaSehiri" li elementi bul ve tıkla
+//* "magazaSatinAlma-IletisimNumarasi2" elementinin koordinatlarına x="11" y="450" degerlerini ekleyerek tıkla
+* "3" saniye bekle
+* "magazaSatinAlma-Adres"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-Adres" li elementi bul ve "Test Test Test" değerini yaz
+* Klavyeyi kapat
+* "magazaSatinAlma-PostaKodu1"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-PostaKodu1" li elementi bul ve "01720" değerini yaz
+* Klavyeyi kapat
+* "ödemeAdımınaDevamEtBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "3" saniye bekle
+*"ödemeAdımınaDevamEtBtn" li elementi bul ve tıkla
+* "magazaSatinAlma-KrediKartiAdSoyad" li elementi bul ve "Test Otomasyon" değerini yaz
+* Klavyeyi kapat
+* "magazaSatinAlma-KrediKartiNumarasi" li elementi bul ve tıkla
+* "magazaSatinAlma-KrediKartiNumarasi" li elementi bul ve "4912057039101356" değerini yaz
+* Klavyeyi kapat
+* "satinAlFarkliKartAy"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "satinAlFarkliKartAy" li elementi bul ve tıkla
+* "satinAlFarkliKartAySec" li elementi bul ve tıkla
+* "satinAlFarkliKartYil" li elementi bul ve tıkla
+* "satinAlFarkliKartYilSec" li elementi bul ve tıkla
+* "satinAlCvvAlani" li elementi bul ve "365" değerini yaz
+* Klavyeyi kapat
+* "sıparıseDevamEt"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "sıparıseDevamEt" li elementi bul ve tıkla
+* "3" saniye bekle
+* "5","60" oranlarından "5","23" oranlarına "9" kere swipe et
+* "ödemeYap" elementinin koordinatlarına x="5" y="-413" degerlerini ekleyerek tıkla
+* "ödemeYap" li elementi bul ve tıkla
+* "2" saniye bekle
+* "odemeTamamlandıChecklogout" li element sayfada bulunuyor mu kontrol et
+
+
+
+# Telefon kılıfı bölümüne gir
+* "tumuButonu" li elementi bul ve tıkla
+* "cihazlarAksesuarlar"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "cihazlarAksesuarlar" li elementi bul ve tıkla
+* "kılıfVeEkranKoruyucu"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "kılıfVeEkranKoruyucu" li elementi bul ve tıkla
+* "tabsEkranKoruyucu" li elementi bul ve tıkla
+
+# ilk telefonu hemen al login
+* "2" saniye bekle
+* Sepeti boşalt
+ "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+ "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+* "sorunPopup" li elementi bul ve varsa tıkla
+* "hemenAlButonu"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "hemenAlButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+* Urun stokta var mi kontrol et ikinci sıra= "hemenAlButonu2" birinci element = "hemenAlButonu"
+
+
+
+# ilk telefonu hemen al logout
+* "5" saniye bekle
+* dijital magazaya gir
+* "2" saniye bekle
+* "cıhazText" elementi bulunmuyorsa "kalanKullanimlarim" varsa "MAĞAZA SAYFASI AÇILMADI" uyarısı verilir
+* "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+* "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+* "hemenAlButonu"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "hemenAlButonu" li elementi bul ve tıkla
+
+# Tablet Bölümüne gir login
+* "8" saniye bekle
+* dijital magazaya gir
+* Sepeti boşalt
+* "2" saniye bekle
+* "cıhazText" elementi bulunmuyorsa "kalanKullanimlarim" varsa "MAĞAZA SAYFASI AÇILMADI" uyarısı verilir
+* "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+* "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+* "tumuButonu"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "tumuButonu" li elementi bul ve tıkla
+//* "80","90" oranlarından "80","30" oranlarına "1" kere swipe et
+* "2" saniye bekle
+* "bilgisayarTablet" li elementi bul ve tıkla
+* "3" saniye bekle
+* "tabletSekmesi" li elementi bul ve tıkla
+//* "ilkTablet"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+//* "ilkTablet" li elementi bul ve tıkla
+
+# Tablet Bölümüne gir logout
+* "8" saniye bekle
+* dijital magazaya gir
+* "2" saniye bekle
+* "cıhazText" elementi bulunmuyorsa "kalanKullanimlarim" varsa "MAĞAZA SAYFASI AÇILMADI" uyarısı verilir
+ "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+ "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+* "tumuButonu"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "tumuButonu" li elementi bul ve tıkla
+ "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+//* "80","90" oranlarından "80","30" oranlarına "1" kere swipe et
+* "2" saniye bekle
+* "bilgisayarTablet" li elementi bul ve tıkla
+* "3" saniye bekle
+* "tabletSekmesi" li elementi bul ve tıkla
+* "ilkTablet"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+*"ilkTablet" li elementi bul ve tıkla
+
+
+//# Sepeti temizle
+//* "SepetinMagaza" li elementi bul ve varsa tıkla
+//* "SepettenSilBtn" li elementi bul ve varsa tıkla
+//* "2" saniye bekle
+//* "sepetimSilEvet" li elementi bul ve varsa tıkla
+//* "2" saniye bekle
+//* "carpıButonIkı" li elementi bul ve varsa tıkla
+//* "6" saniye bekle
+
+#Akıllı telefonlara gel
+
+*"tumUrunlerBtn"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "tumUrunlerBtn" li elementi bul ve tıkla
+* "akıllıTelefonlarMenuBtn" li elementi bul ve tıkla
+
+# Login Satın al
+* "sorunPopup" li elementi bul ve varsa tıkla
+* "sıparıseDevamEt"li elementi bulana kadar "8" kere swipe yap ve elementi bul
+* Swipe times "1"
+* "sıparıseDevamEt" li elementi bul ve tıkla
+/* "5","60" oranlarından "5","23" oranlarına "9" kere swipe et
+* "sorunPopup" li elementi bul ve varsa tıkla
+* "ödemeYap"li elementi bulana kadar "9" kere swipe yap ve elementi bul
+* "sorunPopup" li elementi bul ve varsa tıkla
+* "onblilgilendirmeRef" elementinin koordinatlarına x="80" y="30" degerlerini ekleyerek tıkla
+* "ödemeYap" li elementi bul ve tıkla
+* "2" saniye bekle
+* "ödemeTcText" li elementi bul, temizle ve "45106611958" değerini yaz
+* Klavyeyi kapat
+* "odemeCvvText" li elementi bul, temizle ve "936" değerini yaz
+* Klavyeyi kapat
+* "odemeOnaylaBtn" li elementi bul ve tıkla
+* "8" saniye bekle
+* "odemeTamamlandıCheck" li element sayfada bulunuyor mu kontrol et
+
+# Stokta bulunmayan telefonu bul ve gir ve gelince haber ver butonuna bas
+* "samsungGalaxyZFlip"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "samsungGalaxyZFlip" li elementi bul ve tıkla
+* "stogaGelinceHaberVer"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "stogaGelinceHaberVer" li elementi bul ve tıkla
+
+# Login stoga gelince haber ver bilgileri doldur
+
+* "haberdarEtTextBox" li elementi bul, temizle ve "g@gmail.com" değerini yaz
+* "haberdarEtCheckBoxBtn" li elementi bul ve tıkla
+* "haberdarEtBtn" li elementi bul ve tıkla
+* "HaberdarEtKapatBtn" li element sayfada bulunuyor mu kontrol et
+
+
+
+
+
+//* "ödemeYap" elementinin koordinatlarına x="5" y="-413" degerlerini ekleyerek tıkla
+//* "ödemeYap" li elementi bul ve tıkla
+//* "2" saniye bekle
+//* "ödemeTcText" li elementi bul, temizle ve "45106611958" değerini yaz
+//* Klavyeyi kapat
+//* "odemeCvvText" li elementi bul, temizle ve "936" değerini yaz
+//* Klavyeyi kapat
+//* "odemeOnaylaBtn" li elementi bul ve tıkla
+//* "8" saniye bekle
+//* "odemeTamamlandıCheck" li element sayfada bulunuyor mu kontrol et

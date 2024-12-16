@@ -1,0 +1,197 @@
+Created by nese on 2019-06-11
+
+This is a concept file with following syntax for each concept.
+# iOS Login Odeme Sayfası Bilgilerini Doldur
+
+* "80","70" oranlarından "80","40" oranlarına "2" kere swipe et
+* "magazaSatinAlma-TeslimAlacakKisi"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-TeslimAlacakKisi" li elementi bul ve "Test Otomasyon" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "80","70" oranlarından "80","40" oranlarına "2" kere swipe et
+* "TCKN"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "TCKN" li elementi bul ve "45106611958" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "3" saniye bekle
+* "magazaSatinAlma-AdSoyad2"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-AdSoyad2" li elementi bul ve tıkla
+* "3" saniye bekle
+* "magazaSatinAlma-AdSoyad2" li elementi bul ve "Turkcell Test" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "80","80" oranlarından "80","30" oranlarına "5" kere swipe et
+* "satinAlFarkliKart"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "satinAlFarkliKart" li elementi bul ve tıkla
+* "3" saniye bekle
+* "satinAlFarkliKartIsım" li elementi bul ve "Turkcell Test" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "satinAlFarkliKartNumara" li elementi bul ve "5440786728974016" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "2" saniye bekle
+* "satinAlFarkliKartAy"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "satinAlFarkliKartAy" li elementi bul ve tıkla
+* "sonKullanmaTarihi-Ay" li elementi bul ve "5" değerini yaz
+* "bittiKlavye" li elementi bul ve tıkla
+* "satinAlFarkliKartYil"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "satinAlFarkliKartYil" li elementi bul ve tıkla
+* "sonKullanmaTarihi-Ay" li elementi bul ve "2021" değerini yaz
+* "bittiKlavye" li elementi bul ve tıkla
+* "satinAlCvvAlani" li elementi bul ve "936" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "80","70" oranlarından "80","40" oranlarına "1" kere swipe et
+* "magazaSatinAlma-DevamButonu"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* "magazaSatinAlma-DevamButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+* "80","70" oranlarından "80","40" oranlarına "1" kere swipe et
+* "satinAlOnBılgılendırme" li elementi bul ve tıkla
+* "satinAlOnBılgılendırmeDevam" li elementi bul ve tıkla
+* "3" saniye bekle
+* "80","80" oranlarından "80","30" oranlarına "4" kere swipe et
+* "sıparısOkudumOnay" li elementi bul ve tıkla
+* "sıparısıTamamla"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* "sıparısıTamamla" li elementi bul ve tıkla
+* "8" saniye bekle
+
+* "kartDogrulamaSayfası" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sepetimButonu" li elementi bul ve tıkla
+* "80","80" oranlarından "80","30" oranlarına "4" kere swipe et
+* "sepetıSıl" li elementi bul ve varsa tıkla
+* "sepetıSılEvet" li elementi bul ve varsa tıkla
+* "5" saniye bekle
+
+
+# iOS Login Aksesuar Odeme Bilgilerini Doldur
+* "80","70" oranlarından "80","40" oranlarına "2" kere swipe et
+* "magazaSatinAlma-TeslimAlacakKisi"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-TeslimAlacakKisi" li elementi bul ve "Test Otomasyon" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "80","70" oranlarından "80","40" oranlarına "2" kere swipe et
+* "TCKN"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "TCKN" li elementi bul ve "45106611958" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "3" saniye bekle
+* "magazaSatinAlma-AdSoyad2"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "magazaSatinAlma-AdSoyad2" li elementi bul ve tıkla
+* "3" saniye bekle
+* "magazaSatinAlma-AdSoyad2" li elementi bul ve "Turkcell Test" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "80","80" oranlarından "80","30" oranlarına "5" kere swipe et
+* "kredıKartOde"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "kredıKartOde" li element varsa  "50" "50" koordinatına tıkla
+* "satinAlFarkliKart"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "satinAlFarkliKart" li elementi bul ve tıkla
+* "3" saniye bekle
+* "satinAlFarkliKartIsım"li elementi bulana kadar "6" kere swipe yap ve elementi bul
+* "satinAlFarkliKartIsım" li elementi bul ve "Turkcell Test" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "satinAlFarkliKartNumara" li elementi bul ve "5440786728974016" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "2" saniye bekle
+* "satinAlFarkliKartAy"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "satinAlFarkliKartAy" li elementi bul ve tıkla
+* "sonKullanmaTarihi-Ay" li elementi bul ve "5" değerini yaz
+* "bittiKlavye" li elementi bul ve tıkla
+* "satinAlFarkliKartYil"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "satinAlFarkliKartYil" li elementi bul ve tıkla
+* "sonKullanmaTarihi-Ay" li elementi bul ve "2021" değerini yaz
+* "bittiKlavye" li elementi bul ve tıkla
+* "satinAlCvvAlani" li elementi bul ve "936" değerini yaz
+* "bittiKlavye" li elementi bul ve varsa tıkla
+* "80","70" oranlarından "80","40" oranlarına "1" kere swipe et
+* "magazaSatinAlma-DevamButonu"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+* "magazaSatinAlma-DevamButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+* "80","70" oranlarından "80","40" oranlarına "4" kere swipe et
+* "satinAlOnBılgılendırme" li elementi bul ve tıkla
+* "satinAlOnBılgılendırmeDevam" li elementi bul ve tıkla
+* "3" saniye bekle
+* "80","80" oranlarından "80","30" oranlarına "7" kere swipe et
+* "sıparısOkudumOnay" li elementi bul ve tıkla
+* "sıparısıTamamla"li elementi bulana kadar "5" kere swipe yap ve elementi bul
+* "sıparısıTamamla" li elementi bul ve tıkla
+* "5" saniye bekle
+* "kartDogrulamaSayfası" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sepetimButonu" li elementi bul ve tıkla
+* "80","80" oranlarından "80","30" oranlarına "4" kere swipe et
+* "sepetıSıl" li elementi bul ve varsa tıkla
+* "sepetıSılEvet" li elementi bul ve varsa tıkla
+* "5" saniye bekle
+
+
+# iOS Logout Odeme Sayfası Bilgilerini Doldur
+* "magazaSatinAlma-AdSoyad" li elementi bul ve "Müşteri Test Otomasyon" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-Ceptelefonu" li elementi bul ve "05307385720" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-EpostaAdresi" li elementi bulana kadar swipe et
+* "magazaSatinAlma-EpostaAdresi" li elementi bul ve "test@gmail.com" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "80","50" oranlarından "80","30" oranlarına "1" kere swipe et
+* "magazaSatinAlma-TeslimAlacakKisi" li elementi bul ve "Teslim Test Otomasyon" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-Adres" li elementi bul ve "Teslimat Adres Test Test Test" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "3" saniye bekle
+* "magazaSatinAlma-IlDropdown" li elementi bul ve tıkla
+* "magazaSatinAlma-IlDropdown2" li elementi bul ve "Adana" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-IlceDropdown" li elementi bul ve tıkla
+* "magazaSatinAlma-IlceDropdown2" li elementi bul ve "Aladağ" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+* "magazaSatinAlma-PostaKodu1" li elementi bul ve "06100" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-IletisimNumarasi1" li elementi bul ve "05307385720" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "80","50" oranlarından "80","30" oranlarına "2" kere swipe et
+* "2" saniye bekle
+* "magazaSatinAlma-TCKN"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "magazaSatinAlma-TCKN" li elementi bul ve "45106611958" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-AdSoyad2" li elementi bul ve "Fatura Test Test Test" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-Adres2" li elementi bul ve "Fatura Adres Test2 Test2 Test2" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "80","50" oranlarından "80","30" oranlarına "1" kere swipe et
+* "3" saniye bekle
+* "magazaSatinAlma-IlDropdownıkı" li elementin  merkezine tıkla
+* "magazaSatinAlma-IlDropdown2" li elementi bul ve "Adana" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-IlceDropdownıkı" li elementin  merkezine tıkla
+* "magazaSatinAlma-IlceDropdown2" li elementi bul ve "Aladağ" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-PostaKodu2" li elementi bul ve "06100" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-IletisimNumarasi2" li elementi bul ve "05307385720" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "80","70" oranlarından "80","30" oranlarına "1" kere swipe et
+* "2" saniye bekle
+* "magazaSatinAlma-KrediKartiAdSoyad" li elementi bul ve "Ödeme Test Otomasyon" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-KrediKartiNumarasi" li elementi bul ve "4912057039101356" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-SKT-AyDropdown" li elementin  merkezine tıkla
+* "magazaSatinAlma-DatePickerAy" li elementi bul ve "8" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-SKT-YilDropdown" li elementin  merkezine tıkla
+* "magazaSatinAlma-DatePickerYıl" li elementi bul ve "2020" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-GuvenlikKodu" li elementi bul ve "365" değerini yaz
+* "IOS-Klavye-BittiButonu" li elementi bul ve tıkla
+* "magazaSatinAlma-DevamButonu" li elementi bulana kadar swipe et ve tıkla
+* "magazaSatinAlma-OnBilgilendirmeCheckbox" li elementi bulana kadar swipe et ve tıkla
+* "magazaSatinAlma-DevamButonu" li elementi bulana kadar swipe et ve tıkla
+* "5" saniye bekle
+* "80","70" oranlarından "80","30" oranlarına "7" kere swipe et
+* "magazaSatinAlma-OkudumOnayliyorum" li elementi bulana kadar swipe et ve tıkla
+* "magazaSatinAlma-SiparisiTamamla"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "50","60" oranlarından "50","30" oranlarına "3" kere swipe et
+* "1" saniye bekle
+* "magazaSatinAlma-SiparisiTamamla" li elementi bulana kadar swipe et ve tıkla
+* "10" saniye bekle
+* "Onay" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+
+# dijital magazaya gir
+* "magazaButonu" li elementi bul ve tıkla
+* "cıhazText" elementi bulunmuyorsa "kalanKullanimlarim" varsa "MAĞAZA SAYFASI AÇILMADI" uyarısı verilir

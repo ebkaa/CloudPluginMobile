@@ -1,0 +1,281 @@
+Created by nese on 2019-06-11
+
+This is a concept file with following syntax for each concept.
+# 5720 ile Giris Yap
+* "5" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5307385720" değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+* Klavyeyi kapat
+* giris yap butonuna tikla
+* "5" saniye bekle
+
+# 6825 ile Giris Yap
+* "5" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5354556825" değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+* Klavyeyi kapat
+* giris yap butonuna tikla
+* "5" saniye bekle
+
+# 8322 ile Giris Yap
+* "5" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5352028322" değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "631583" değerini yaz
+* Klavyeyi kapat
+* giris yap butonuna tikla
+* "5" saniye bekle
+
+# 2468 ile Giris Yap
+* "5" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5338972468" değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+* Klavyeyi kapat
+* giris yap butonuna tikla
+* "5" saniye bekle
+
+# 7243 ile Şifresiz Giris Yap
+* "5" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5307387243" değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "şifresizGiriş" li elementi bul ve tıkla
+* "katılımKosullarınıOnaylıyorum" li elementi bul ve tıkla
+* "2" saniye bekle
+* "şifresizDevamEt" li elementi bul ve tıkla
+* "20" saniye bekle
+* "kodGirinizEkranıCheck" li element sayfada bulunuyor mu kontrol et
+
+# 7243 ile Hatalı Şifresiz Giris Yap
+* "5" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5307387243" değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "şifresizGiriş" li elementi bul ve tıkla
+* "katılımKosullarınıOnaylıyorum" li elementi bul ve tıkla
+* "2" saniye bekle
+* "şifresizDevamEt" li elementi bul ve tıkla
+* "20" saniye bekle
+* "tekKullanımlıkSifreBar" li elementi bul, temizle ve "1111" değerini yaz
+* "kodGirinizEkranıCheck" li elementi bul ve tıkla
+* "hatalıGirişCheck" li element sayfada bulunuyor mu kontrol et
+
+#<key> Elementini bulana kadar yukarı kaydır bulunca tıkla limit <limit>
+*<key>li elementi bulana kadar <limit> kere swipe yap ve elementi bul
+*<key> li elementi bul ve tıkla
+
+#Chatbota gir
+*"akıllıAsistan" li elementi bul ve tıkla
+* "Positive" li elementi bul ve tıkla
+*"mesajBarı" li element sayfada bulunuyor mu kontrol et
+
+# Chatbota <text> yazılır
+* "mesajBarı" li elementi bul, temizle ve <text> değerini yaz
+* "gonderBtn" li elementi bul ve tıkla
+* "3" saniye bekle
+* "chatBoxIcon" li element sayfada bulunuyor mu kontrol et
+
+# Logout EvdenCebe Transfer İşlemini gerçekleştir
+* "evdenCepHemenAlBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "evdenCepHemenAlBtn" li elementi bul ve tıkla
+* "evdenCebeGsmNumber" li elementi bul ve tıkla
+*"evdenCebeGsmNumber" li elementi bul, temizle ve "5354556825" değerini yaz
+* "evdenCebeGsmŞifre" li elementi bul ve tıkla
+* "evdenCebeGsmŞifre" li elementi bul, temizle ve "530530" değerini yaz
+* Klavyeyi kapat
+* "evdenCebeGirisyapBtnn" li elementi bul ve tıkla
+* "logoutTLGSMtext" li elementi bul ve "5307458832" değerini yaz
+* Klavyeyi kapat
+* "5","1540" coordinatından "5","540" coordinatına "3" kere swipe et
+* "transferGmail" li elementi bul, temizle ve "g@gmail.com" değerini yaz
+* "transferGmailIki" li elementi bul, temizle ve "g@gmail.com" değerini yaz
+* Klavyeyi kapat
+* "transferGmailIki" elementinin koordinatlarına x="5" y="210" degerlerini ekleyerek tıkla
+* "transferOnayla" li elementi bul ve tıkla
+* "evdenCebeOnayButton2Ref" elementinin koordinatlarına x="40" y="60" degerlerini ekleyerek tıkla
+* "transferSatinAl" li elementi bul ve tıkla
+* "transferTamamBtn" li element sayfada bulunuyor mu kontrol et
+
+
+# Login EvdenCebe Transfer İşlemini gerçekleştir
+* "evdenCepHemenAlBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "evdenCepHemenAlBtn" li elementi bul ve tıkla
+* "logoutTLGSMtext" li elementi bul ve "5307458832" değerini yaz
+* Klavyeyi kapat
+* "5","1540" coordinatından "5","540" coordinatına "3" kere swipe et
+* "transferGmail" li elementi bul, temizle ve "g@gmail.com" değerini yaz
+* "transferGmailIki" li elementi bul, temizle ve "g@gmail.com" değerini yaz
+* Klavyeyi kapat
+* "transferGmailIki" elementinin koordinatlarına x="5" y="210" degerlerini ekleyerek tıkla
+* "transferOnayla" li elementi bul ve tıkla
+* "evdenCebeOnayButton2Ref" elementinin koordinatlarına x="40" y="60" degerlerini ekleyerek tıkla
+* "transferSatinAl" li elementi bul ve tıkla
+* "transferTamamBtn" li element sayfada bulunuyor mu kontrol et
+
+# Otomatik ödeme talimatları sayfasına gir
+ "faturalarımAyarlarBtn"li elementi bulana kadar "7" kere swipe yap ve elementi bul
+ "faturalarımAyarlarBtn" li elementi bulana kadar swipe et
+ "faturalarımAyarlarBtn" li elementi bul ve tıkla
+* "faturalarımAyarlarBtn" li elementi bulana kadar swipe et ve tıkla
+* "otomatikOdemeTalimati" li elementi bul ve tıkla
+
+# Fatura Ayarlarım sayfasına gir
+* "hizliIslemlerKarti"li elementi bulana kadar "5" kere swipe yap ve elementi bul
+* "faturaAyarlarım"li elementi bulana kadar "5" kere swipe yap ve elementi bul
+* "faturaAyarlarım" elementinin koordinatlarına x="20" y="100" degerlerini ekleyerek tıkla
+* "5" saniye bekle
+* "faturaAyarlariBaslik" li element sayfada bulunuyor mu kontrol et
+
+# Chatbot floating button
+* "mesajBarı" li elementi bul tikla ve "kalan paket" değerini yaz
+* "chatBotGönder" li elementi bul ve tıkla
+* "5" saniye bekle
+* "chatFloating" li elementi bul ve tıkla
+* "mesajBarı" li element sayfada bulunuyor mu kontrol et
+
+# ChatBot Webchat
+
+* "mesajBarı" li elementi bul tikla ve "temsilci" değerini yaz
+* "chatBotGönder" li elementi bul ve tıkla
+/* Wait "5" seconds
+* "mesajBarı" li elementi bul tikla ve "temsilci" değerini yaz
+/* "chatBotGönder" li elementi bul ve tıkla
+* "chatBotGönder" elementinin koordinatlarına x="0" y="0" degerlerini ekleyerek tıkla
+* Wait "5" seconds
+* "mesajBarı" li elementi bul tikla ve "evet" değerini yaz
+* "chatBotGönder" elementinin koordinatlarına x="0" y="0" degerlerini ekleyerek tıkla
+* "webChat" li element sayfada bulunuyor mu kontrol et
+
+
+#ChatBot İnternet
+* "mesajBarı" li elementi bul tikla ve "internetim çekmiyor" değerini yaz
+* "chatBotGönder" li elementi bul ve tıkla
+* "aramaBaglanti" li element sayfada bulunuyor mu kontrol et
+
+
+//android için id lendirme yap
+# Dil ingilizce yapılır
+* "profilSekmesiBtn" li elementi bul ve tıkla
+* "profilAyarGit" li elementi bul ve tıkla
+* "diltercihiBtn" li elementi bul ve tıkla
+* "hesabımUygulamaDili" li elementi bul ve tıkla
+* "btn_English" li elementi bul ve tıkla
+* "dilPopupTamambutonu" li elementi bul ve tıkla
+* "AppEnglish" li element sayfada bulunuyor mu kontrol et
+
+# Dil türkçe yapılır
+* "profilSekmesiBtn" li elementi bul ve tıkla
+* "profilAyarGit" li elementi bul ve tıkla
+* "diltercihiBtn" li elementi bul ve tıkla
+* Wait "3" seconds
+* "hesabımUygulamaDili" elementinin koordinatlarına x="5" y="5" degerlerini ekleyerek tıkla
+/* "hesabımUygulamaDili" li elementi bul ve tıkla
+* "btn_Turkce" li elementi bul ve tıkla
+* "dilPopupTamambutonu" li elementi bul ve tıkla
+* "appTR" li elementi bul ve tıkla
+
+# Güvenli İnternete girilir
+* "tumIslemlerim" li elementi bulana kadar swipe et ve tıkla
+* "tumIslemlerim" li elementi bul ve tıkla
+* "guvenlıInternet" li elementi bulana kadar swipe et
+* "guvenlıInternet" li elementi bul ve tıkla
+* "5" saniye bekle
+* "guvenliNet" li elementi bul yoksa "bulunamadı" mesajını hata olarak göster
+
+# paycellveKayıtlıKartlarım sayfasına gir
+* Paycell ve Kredi Kart İslemleri
+* "9" saniye bekle
+
+# paycell ve kayıtlı kartlarım sayfasında kayıtlı kredi kartını sil
+* Swipe times "1"
+* "8" saniye bekle
+* "kartiSil" li elementi bul ve varsa tıkla
+
+
+# Paycell ve kayıtlı kartlarım sayfasında kredi kartlarım bölümüne gir
+* "2" kere aşağıya kaydır
+* "krediKartlarımAND" li ve değeri "Kredi Kartlarım" e eşit olan elementli bul ve tıkla
+
+# kayıtlı kartlarım sayfasında yeni kredi kartı ekle
+* Swipe times "1"
+* "yenıKredıKartEkle" li elementi bul ve varsa tıkla
+* "krediKartiEkleAd" li elementi bul ve "Turkcell Test" değerini yaz
+* "5" saniye bekle
+* Klavyeyi kapat
+* "krediKartiEkleKartNo" li elementi bul ve "5440786728974016" değerini yaz
+* "5" saniye bekle
+* Klavyeyi kapat
+* "2" saniye bekle
+* "krediKartiEkleKartTarihNo" li elementi bul ve tıkla
+* kredi kartı son kulanma tarihi gir "5" / "2021"
+* "6" saniye bekle
+* "tarihAlanıtamamButonu" li elementi bul ve tıkla
+* "3" saniye bekle
+* "krediKartiEkleKartCvv" li elementi bul ve "936" değerini yaz
+* Klavyeyi kapat
+* "krediKartKaydetBtn" li elementi bul ve tıkla
+* "50","50" oranlarından "50","20" oranlarına "1" kere swipe et
+* "KrediKartKaydetTamam" li elementi bul ve tıkla
+* "10" saniye bekle
+* "kartDogrulamaSayfası" li element sayfada bulunuyor mu kontrol et
+
+# kayıtlı kartlarım sayfasında sanal kredi kartı ekle
+* Swipe times "1"
+* "yenıKredıKartEkle" li elementi bul ve varsa tıkla
+* "krediKartiEkleAd" li elementi bul ve "Turkcell Test" değerini yaz
+* "5" saniye bekle
+* Klavyeyi kapat
+* "krediKartiEkleKartNo" li elementi bul ve "4912057039101356" değerini yaz
+* "5" saniye bekle
+* Klavyeyi kapat
+* "2" saniye bekle
+* "krediKartiEkleKartTarihNo" li elementi bul ve tıkla
+* kredi kartı son kulanma tarihi gir "8" / "2020"
+* "6" saniye bekle
+* "tarihAlanıtamamButonu" li elementi bul ve tıkla
+* "3" saniye bekle
+* "krediKartiEkleKartCvv" li elementi bul ve "365" değerini yaz
+* Klavyeyi kapat
+* "krediKartKaydetBtn" li elementi bul ve tıkla
+* "50","50" oranlarından "50","20" oranlarına "1" kere swipe et
+* "KrediKartKaydetTamam" li elementi bul ve tıkla
+* "10" saniye bekle
+* "kartDogrulamaSayfası" li element sayfada bulunuyor mu kontrol et
+
+# Tum ürünlerim sayfasına git
+* "tumUrunlerimButton"li elementi bulana kadar "9" kere swipe yap ve elementi bul
+* "tumUrunlerimButton" li elementi bul ve tıkla
+
+# Listelenen kart kontrolleri
+
+* "Kart1" li elementi bul yoksa "kart listelenmedi" mesajını hata olarak göster
+* "kart2"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "kart2" li elementi bul yoksa "kart2 listelenmedi" mesajını hata olarak göster
+* "kalanKullanimlarim"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "kalanKullanimlarim" li elementi bul yoksa " kalanKullanimlarim listelenmedi" mesajını hata olarak göster
+* "faturalarımAlani"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "faturalarımAlani" li elementi bul yoksa " faturalarımAlani listelenmedi" mesajını hata olarak göster
+* "urunlerim"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "urunlerim" li elementi bul yoksa " urunlerim listelenmedi" mesajını hata olarak göster
+* "hizliIslemlerKarti"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "hizliIslemlerKarti" li elementi bul yoksa " hizliIslemlerKarti listelenmedi" mesajını hata olarak göster
+
+# Paycell ve Kredi Kart İslemleri
+* Tum işlemlerim sayfasına git
+*"tumIslemlerimPaycellveKredi"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "tumIslemlerimPaycellveKredi" li elementi bul ve tıkla

@@ -1,0 +1,81 @@
+Created by sahabt on 17.12.2018
+
+This is a concept file with following syntax for each concept.
+# Ana sayfa giriş Yap butonuna tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* "googlePıxelreddetBtn" li elementi bul ve varsa tıkla
+* "googlePıxelIzınverBtn" li elementi bul ve varsa tıkla
+* "7" saniye bekle
+* Login  kontrol
+* "10" saniye bekle
+* "anasayfaGirisYapButonu" li elementi bul ve tıkla
+
+
+# Giriş yapılmışsa çıkış yap
+* "ızınVer" li elementi bul ve varsa tıkla
+* "googlePıxelreddetBtn" li elementi bul ve varsa tıkla
+* "googlePıxelIzınverBtn" li elementi bul ve varsa tıkla
+* "5" saniye bekle
+* Login  kontrol
+* "2" saniye bekle
+
+#Çıkış yap butonuna tıkla ve kontrol et
+* "googlePıxelIzınverBtn" li elementi bul ve varsa tıkla
+* "googlePıxelreddetBtn" li elementi bul ve varsa tıkla
+* Çıkış yap butonuna tıkla
+* "10" saniye bekle
+* "ızınVer" li elementi bul ve varsa tıkla
+* "Giriş Yap" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+#Mail hesabı ile giriş yap kullanıcı adı: <Text> Şifre <password>
+* "anasayfaGirisYapButonu" li elementi bul ve tıkla
+* "epostaAlanı" li elementi bul ve <Text> değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "5" saniye bekle
+* "sifreGirisalanı" li elementi bul ve <password> değerini yaz
+* giris yap butonuna tikla
+* "5" saniye bekle
+* Anasayfa widget kontrolü
+* "5376441465" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+#Hatalı şifre ile login ol
+* "anasayfaGirisYapButonu" li elementi bul ve tıkla
+* "gsmNumarasıalanı" li elementi bul ve "5307385720" değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "123456" değerini yaz
+* Klavyeyi kapat
+* giris yap butonuna tikla
+* "5" saniye bekle
+* "HataPopup" li elementi bul yoksa "hata popuo görülmedi" mesajını hata olarak göster
+
+# AND non-turkcell hesap ile kayıtsız giriş
+* "5" saniye bekle
+/* "gsmNumarasıalanı" li elementi bul ve "5364556824" değerini tek tek yaz
+* "gsmNumarasıalanı" li elementi bul, temizle ve "5364556824" değerini yaz
+*  Hide keyboard
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "kayitolBtn" li element sayfada bulunuyor mu kontrol et
+
+
+#Non turkcell Eposta ve Gsm Güncelleme
+* "profilFotografi" li elementi bul ve tıkla
+* "hesapEkleKaldirButonu" li elementi bul ve tıkla
+* "hesapBilgGuncelleme" li elementi bul ve tıkla
+* "btn_emailGuncelle" elementinin koordinatlarına x="2" y="2" degerlerini ekleyerek tıkla
+ "btn_emailGuncelle" li elementi bul ve tıkla
+* "tx_mailGuncelle" li elementi bul ve tıkla
+ "tx_mailGuncelle" value null a esitle
+* "tx_mailGuncelle" li elementi bul, temizle ve "b@testinium.com" değerini yaz
+* Klavyeyi kapat
+* "btn_guncelle" li elementi bul ve tıkla
+ Mail adresslerini degistir
+* "basarılıPopup" li elementi bul yoksa "mail değişikliği başarısız" mesajını hata olarak göster
+* "Positive" li elementi bul ve varsa tıkla
+ "btn_gsmGuncelle" li elementi bul ve tıkla
+* "btn_gsmGuncelle" elementinin koordinatlarına x="2" y="2" degerlerini ekleyerek tıkla
+* "btn_guncelle" li elementi bul yoksa "gsm değişikliği başarısız" mesajını hata olarak göster

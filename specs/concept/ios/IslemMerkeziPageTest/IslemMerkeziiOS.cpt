@@ -1,0 +1,148 @@
+Created by nese on 2019-06-12
+
+This is a concept file with following syntax for each concept.
+# iOS 8832 ile Giris Yap
+* "2" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5307458832" değerini tek tek yaz
+*  "ekranadokun" li elementi bul ve tıkla
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+*  "ekranadokun" li elementi bul ve tıkla
+* "girisYapButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+
+# iOS 6825 ile Giris Yap
+* "2" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5354556825" değerini tek tek yaz
+*  "ekranadokun" li elementi bul ve tıkla
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+*  "ekranadokun" li elementi bul ve tıkla
+* "girisYapButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+
+
+# iOS 8322 ile Giris Yap
+* "2" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5352028322" değerini tek tek yaz
+*  "ekranadokun" li elementi bul ve tıkla
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "631583" değerini yaz
+*  "ekranadokun" li elementi bul ve tıkla
+* "girisYapButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+
+
+# iOS 1466 ile Giris Yap
+* "2" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5376441466" değerini tek tek yaz
+*  "ekranadokun" li elementi bul ve tıkla
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+*  "ekranadokun" li elementi bul ve tıkla
+* "girisYapButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+
+# Tum işlemlerim sayfasına git
+* "tumIslemlerim"li elementi bulana kadar "8" kere swipe yap ve elementi bul
+* "tumIslemlerim" li elementi bul ve tıkla
+
+# 4.5G abonolegim sayfasına gir
+* "TumIslemlerim4.5G"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "TumIslemlerim4.5G" li elementi bul ve tıkla
+* "5" saniye bekle
+* "TumIslemlerim4.5GKontrol" li elementi bul yoksa "4.5G SAYFASINA GİRİLEMEDİ" mesajını hata olarak göster
+
+# Güvenli internet sayfasına git
+* Swipe times "3"
+* "TumIslemlerimGuvenliInternet"li elementi bulana kadar "5" kere swipe yap ve elementi bul
+* "TumIslemlerimGuvenliInternet" li elementi bul ve tıkla
+* "5" saniye bekle
+* "TumIslemlerimGuvenliInternetKontrol" li elementi bul yoksa "GUVENLİ İNTERNET SAYFASINA GİRİLEMEDİ" mesajını hata olarak göster
+
+# Dinamik kartları kapat
+* "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+* "3" saniye bekle
+* "dinamikKartlarıKapatmaIkonu" li elementi bul ve varsa tıkla
+
+# Theatre mod paket grup isimleri kontrolleri yapılır
+* "kalanKullanımYuzde"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "kalanKullanımYuzde" li elementi bul ve tıkla
+* "TheatreInternet"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "TheatreInternet" li elementi bul yoksa "TheatreInternet yok" mesajını hata olarak göster
+* "TheatreKonusma"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "TheatreKonusma" li elementi bul yoksa "TheatreKonusma yok" mesajını hata olarak göster
+* "TheatreUygulama"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "TheatreUygulama" li elementi bul yoksa "TheatreUygulama yok" mesajını hata olarak göster
+* "TheatreSms"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "TheatreSms" li elementi bul yoksa "TheatreSms yok" mesajını hata olarak göster
+
+#Theatre mod paket grupları listesi kontrolleri yapılır
+
+* "kalanKullanımYuzde"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "kalanKullanımYuzde" li elementi bul ve tıkla
+* "theatreInternetLast"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "theatreInternetLast" li elementi bul yoksa "theatreInternetLast yok" mesajını hata olarak göster
+* "theatreKonusmaLast"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "theatreKonusmaLast" li elementi bul yoksa "theatreKonusmaLast yok" mesajını hata olarak göster
+* "theatreUygulamaLast"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "theatreUygulamaLast" li elementi bul yoksa "theatreUygulamaLast yok" mesajını hata olarak göster
+* "theatreSmsLast"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "theatreSmsLast" li elementi bul yoksa "theatreSmsLast yok" mesajını hata olarak göster
+
+# SOL Kalan Kullanım Kartı Bilgileri Kontrol
+
+* "faturalarımAyarlarButonu"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+
+# Hızlı islemler kartı içeriği kontrolü
+
+* "islemMerkeziButonu" li elementi bul ve tıkla
+* "numaraniTasi" li elementi bul yoksa "numaraniTasi bulunamadı" mesajını hata olarak göster
+* "yeniHatAl" li elementi bul yoksa "yeniHatAl bulunamadı" mesajını hata olarak göster
+* "TLtext" li elementi bul yoksa "TLtext bulunamadı" mesajını hata olarak göster
+* "evİnternetiEkle" li elementi bul yoksa "evİnternetiEkle bulunamadı" mesajını hata olarak göster
+* "superboxDijBasvuru" li elementi bul yoksa "superboxDijBasvuru bulunamadı" mesajını hata olarak göster
+
+
+
+
+
+#Listelenen fatura tablerin kontrolü
+ * "faturaKontrolUyariLimiti" li elementi bul ve tıkla
+ * "faturaKontPage" li elementi bul yoksa "faturaKontPage SAYFASINA GİREMEDİ" mesajını hata olarak göster
+ * "btn_Geri" li elementi bul ve tıkla
+ * "faturaGonderimYontemi" li elementi bul ve tıkla
+ * "faturaGonderimYontemiPage" li elementi bul yoksa "faturaGonderimYontemiPage SAYFASINA GİREMEDİ" mesajını hata olarak göster
+ * "2" saniye bekle
+ * "btn_Geri" elementinin koordinatlarına x="2" y="2" degerlerini ekleyerek tıkla
+ * "faturaKesimTarihi" li elementi bul ve tıkla
+ * "faturaKesimTarihiPage" li elementi bul yoksa "faturaKesimTarihiPage SAYFASINA GİREMEDİ" mesajını hata olarak göster
+ * "btn_Geri" elementinin koordinatlarına x="2" y="2" degerlerini ekleyerek tıkla
+ * "faturaOtomatikOdemeTalimati" li elementi bul ve tıkla
+ * "faturaOtomatikOdemeTalimatiPage" li elementi bul yoksa "faturaOtomatikOdemeTalimatiPage SAYFASINA GİREMEDİ" mesajını hata olarak göster
+
+
+# Hızlı işlemler kartı isim ve icon kontrolleri
+
+*"ekPaketIslemlerı" li elementi bul yoksa "ekPaketIslemlerı SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "ekPaketIslemlerıIcon" li elementi bul yoksa "ekPaketIslemlerıIcon SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "çağrıAyarlarıKontrolü" li elementi bul yoksa "çağrıAyarlarıKontrolü SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "çağrıAyarlarıKontrolIcon" li elementi bul yoksa "çağrıAyarlarıKontrolIcon SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "hatIslemleri" li elementi bul yoksa "hatIslemleri SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "hatIslemleriIcon" li elementi bul yoksa "hatIslemleri SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "superboxDijBasvuru" li elementi bul yoksa "superboxDijBasvuru SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "superboxDijBasvuruIcon" li elementi bul yoksa "superboxDijBasvuruIcon SAYFASINA GİREMEDİ" mesajını hata olarak göster
+*"yurtDısıIslemleri" li elementi bul yoksa "yurtDısıIslemleri SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "yurtDısıIslemleriIcon" li elementi bul yoksa "yurtDısıIslemleriIcon SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "faturaIslemleri" li elementi bul yoksa "çağrıAyarlarıKontrolü SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "faturaIslemleriIcon" li elementi bul yoksa "hatIslemleri SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "paycellveKayıtlıKartlarım" li elementi bul yoksa "hatIslemleri SAYFASINA GİREMEDİ" mesajını hata olarak göster
+* "paycellveKayıtlıKartlarımIcon" li elementi bul yoksa "hatIslemleri SAYFASINA GİREMEDİ" mesajını hata olarak göster

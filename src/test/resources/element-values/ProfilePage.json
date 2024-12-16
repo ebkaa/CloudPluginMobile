@@ -1,0 +1,237 @@
+[
+  {
+    "key": "profilSekmesiBtn",
+    "iosValue": "//XCUIElementTypeNavigationBar[contains(@name,'Hesabim')]//XCUIElementTypeStaticText[contains(@name,'5')]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewArrowDown",
+    "androidType": "id"
+  },
+  {
+    "key": "profilimBtn",
+    "iosValue": "//XCUIElementTypeButton[@name='Kimlik Bilgilerim']",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc=\"Kimlik Bilgilerim\"]",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "hesaplarımBtn",
+    "iosValue": "//XCUIElementTypeButton[@name='Hesaplarım']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "diltercihiBtn",
+    "iosValue": "**/XCUIElementTypeButton[`name='Dil Tercihi' OR name='Language'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Dil Tercihi\" or @content-desc=\"Language\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "turkcellSifreBtn",
+    "iosValue": "//XCUIElementTypeButton[@name='Turkcell Şifre']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "hakkındaBtn",
+    "iosValue": "//XCUIElementTypeButton[@name='Hakkında']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "hesapEkleBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Hesap Ekle\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc=\"Hesap Ekle\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapEkleTcNumarası",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Hesabım v3\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "hesapEkleDoğumTarihi",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Hesabım v3\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kimlikBilgileriAd",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Hesabım v3\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[9]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kimlikBilgileriSoyad",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Hesabım v3\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[11]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "profilTcNumarası",
+    "iosValue": "//XCUIElementTypeTextField[@name=\"T.C. KİMLİK NUMARANIZ\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "cikisBtn",
+    "iosValue": "//*[@name='Çıkış']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "cikisYapBtnOnay",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Çıkış Yap\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "hesapDegistirBtn",
+    "iosValue": "xpath//XCUIElementTypeButton[@name=\"Hesap Değiştir\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "hesapEkleDevam",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Devam\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "hesabımUygulamaDili",
+    "iosValue": "//XCUIElementTypeButton[@name='Uygulama Dili' or @name='Application Language']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Application Language\" or @content-desc=\"Uygulama Dili\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesabımİletişimDili",
+    "iosValue": "//XCUIElementTypeButton[@name='İletişim Dili Tercihi']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "beniUnutBtn",
+    "iosValue": "//XCUIElementTypeButton[@name='Beni Unut']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "beniUnutBtnSeç",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Beni Unut\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kullanıcıSözleşmesi",
+    "iosValue": "//XCUIElementTypeButton[@name='Kullanıcı Sözleşmesi']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gizlilikPolitikabtn",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Gizlilik Politikası\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "profilAyarGit",
+    "iosValue": "**/XCUIElementTypeButton[`name='Go to Profile Settings' OR name='Profil Ayarlarına Git '`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewGoToProfile",
+    "androidType": "id"
+  },
+  {
+    "key": "ilkprofil",
+    "iosValue": "//XCUIElementTypeApplication[@name='Turkcell Dijital ICT']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "beniUnutBtnEvet",
+    "iosValue": "//XCUIElementTypeButton[@name='Evet']",
+    "iosType": "xpath"
+    
+  },
+  {
+    "key": "profılPhotoCameraBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Kamera\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "kımlıkAdi",
+    "iosValue": "(//XCUIElementTypeOther[contains(@name,'Adınız')]/following-sibling::XCUIElementTypeOther)/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='profile_fname2']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapEkleKaldir",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Hesap Ekle / Kaldır\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc=\"Hesap Ekle / Kaldır\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapEkleCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@content-desc=\"Hesap Ekle\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kameraCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewTakePhoto']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "isimDegistirmeCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/constraintLayout']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "profilResmi",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Profil\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  }
+,
+  {
+    "key": "gizlilikSozlesmesiSayfasiKontrol",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"DİJİTAL OPERATÖR GİZLİLİK POLİTİKASI\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "hesapEkleDogumTarihi",
+    "iosValue": "//*[@value='Doğum Tarihi']",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  }
+
+]
+
+
+

@@ -1,0 +1,1694 @@
+[
+  {
+    "key": "cihazlarTabı",
+    "iosValue": "//XCUIElementTypeButton[@name='CİHAZLAR']",
+    "iosType": "xpath",
+    "androidValue": "CİHAZLAR",
+    "androidType": "id"
+  },
+  {
+    "key": "uygulamalarTabı",
+    "iosValue": "//XCUIElementTypeButton[@name='UYGULAMALAR']",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='UYGULAMALAR']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "paketlerTabı",
+    "iosValue": "//XCUIElementTypeButton[@name='PAKETLER']",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc=\"PAKETLER\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "akıllıTelefonlarKartBaslık",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Akıllı Telefonlar']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewCardTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "tumuButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='Tüm Cihazlar']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewCardRightText",
+    "androidType": "id"
+  },
+  {
+    "key": "hemenAlButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='Hemen Al'`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonBuyProduct']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "LasthemenAlButonu",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"Hemen Al\"])[last()]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonBuyProduct']",
+    "androidType": "xpath"
+  },
+  {
+  "key": "hemenAlButonu2",
+  "iosValue": "//XCUIElementTypeButton[@name='Hemen Al']",
+  "iosType": "xpath",
+  "androidValue": "(//*[@resource-id='com.ttech.android.onlineislem:id/buttonBuyProduct'])[2]",
+  "androidType": "xpath"
+},
+  {
+    "key": "detayaGitButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='Detaya Git']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonSpecialOfferSuperGift' or @resource-id='com.ttech.android.onlineislem:id/buttonSpecialOfferCard']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "fulltripbutonu",
+    "iosValue": "-",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewApplicationTitle",
+    "androidType": "id",
+    "androidIndex":"0"
+  },
+  {
+    "key": "magazaWebSatinAlButonu",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Satın Al']",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[contains(@text,'Al')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sepetınızde",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Sepetinizde']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.Button[@text='Sepetinizde']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "magazaGirisYapmadanDevamEtButonu",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Giriş Yapmadan Devam Et']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "magazaKullaniciSozlesmesiCheckbox",
+    "iosValue": "//XCUIElementTypeStaticText[@name='okudum kabul ediyorum.']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View[10]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSepetiOnaylaButonu",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,'ONAYLA')]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[contains(@text,'ONAYLA')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-AdSoyad",
+    "iosValue": "(//XCUIElementTypeOther[@name='Ad Soyad']/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='fullName']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-Ceptelefonu",
+    "iosValue": "//XCUIElementTypeOther[@name='Cep Telefonu']/following-sibling::XCUIElementTypeOther[1]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='gsm-1']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-EpostaAdresi",
+    "iosValue": "//XCUIElementTypeOther[@name='Eposta Adresi']/following-sibling::XCUIElementTypeOther[1]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='email']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-TeslimAlacakKisi",
+    "iosValue": "(//XCUIElementTypeOther[@name='TESLİM ALACAK KİŞİ ADI SOYADI']/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='customerDeliveryAddressName']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-Adres",
+    "iosValue": "(//XCUIElementTypeOther[@name='ADRES']/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextView",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='textarea-01']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-IlDropdown",
+    "iosValue": "(//XCUIElementTypeOther[@name='İL'])[1]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@resource-id='form']/android.view.View[9]/android.view.View/android.view.View/android.view.View[2]",
+    "androidType": "xpath"
+  },
+  {
+  "key": "magazaSatinAlma-IlDropdownıkı",
+  "iosValue": "//XCUIElementTypeOther[@name='FATURA BİLGİLERİ']/following-sibling::XCUIElementTypeOther[@name='İL']/following-sibling::XCUIElementTypeOther[@value='Seçiniz']",
+  "iosType": "xpath"
+  },
+  {
+  "key": "magazaSatinAlma-IlceDropdownıkı",
+  "iosValue": "//XCUIElementTypeOther[@name='FATURA BİLGİLERİ']/following-sibling::XCUIElementTypeOther[@name='İLÇE']/following-sibling::XCUIElementTypeOther[@value='Seçiniz']",
+  "iosType": "xpath"
+  },
+
+  {
+    "key": "magazaSatinAlma-DatePicker",
+    "iosValue": "(//XCUIElementTypeStaticText[@name='Seçiniz'])[1]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.CheckedTextView[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-IlceDropdown",
+    "iosValue": "(//XCUIElementTypeOther[@name='İLÇE'])[1]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@resource-id='form']/android.view.View[10]/android.view.View/android.view.View/android.view.View[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-PostaKodu2",
+    "iosValue": "((//XCUIElementTypeOther[@name='POSTA KODU'])[2]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.EditText[@resource-id='bill_postal']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-IletisimNumarasi2",
+    "iosValue": "((//XCUIElementTypeOther[@name='İLETİŞİM NUMARASI'])[2])/following-sibling::XCUIElementTypeOther[1]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='customerDeliveryGsm']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-FaturaAdresiolarakKullanCheckbox",
+    "iosValue": "//XCUIElementTypeStaticText[@name='FATURA ADRESİM OLARAK KULLAN']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[8]/android.view.View[16]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-TCKN",
+    "iosValue": "(//XCUIElementTypeOther[@name='TC Kimlik Numarası']/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='tckimlik']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-AdSoyad2",
+    "iosValue": "(//XCUIElementTypeOther[@name='ADI SOYADI']/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.EditText[@resource-id='billing_fullName']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-KrediKartiAdSoyad",
+    "iosValue": "//XCUIElementTypeOther[@name='Ad Soyad']/following-sibling::XCUIElementTypeOther[1]",
+    "iosType": "xpath",
+    "iosIndex": "1",
+    "androidValue": "//*[@resource-id='ccCardHolderName']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-KrediKartiNumarasi",
+    "iosValue": "(//XCUIElementTypeOther[@name='Kredi Kartı Numarası']/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='ccCardNumber']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-SKT-AyDropdown",
+    "iosValue": "//XCUIElementTypeOther[@name='Son Kullanma Tarihi']/following-sibling::XCUIElementTypeOther[./XCUIElementTypeStaticText][1]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "magazaSatinAlma-DatePickerAy",
+    "iosValue": "//XCUIElementTypePickerWheel[@value='1']",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "magazaSatinAlma-SKT-YilDropdown",
+    "iosValue": "//XCUIElementTypeOther[@name='Son Kullanma Tarihi']/following-sibling::XCUIElementTypeOther[./XCUIElementTypeStaticText][2]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "magazaSatinAlma-DatePickerYıl",
+    "iosValue": "//XCUIElementTypePickerWheel[@value='2019']",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "magazaSatinAlma-GuvenlikKodu",
+    "iosValue": "(//XCUIElementTypeOther[@name='Güvenlik Kodu']/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "magazaSatinAlma-DevamButonu",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Devam']",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@resource-id='nextButton']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-OnBilgilendirmeCheckbox",
+    "iosValue": "//XCUIElementTypeStaticText[@name='ÖN BİLGİLENDİRME FORMUNU VE MESAFELİ SATIŞ SÖZLEŞMESİNİ OKUDUM VE ONAYLIYORUM.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-OkudumOnayliyorum",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Okudum,onaylıyorum']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-SiparisiTamamla",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Siparişi Tamamla']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-ILBaslik",
+    "iosValue": "//XCUIElementTypeStaticText[@value='İL']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "Keşfet",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonOpenApplication",
+    "androidType": "id"
+  },
+  {
+    "key": "sozlesmeTamam",
+    "androidValue": "mobile-information-popup-ok",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Tamam']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "TCKN",
+    "androidValue": "//android.widget.EditText[@resource-id='tckimlik']",
+    "androidType": "xpath",
+    "iosValue":"//XCUIElementTypeOther[@name='TC Kimlik Numarası']/following-sibling::XCUIElementTypeOther[1]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+  "key": "satinAlAdSoyad",
+  "iosValue": "//XCUIElementTypeOther[@name='Sipariş Bilgileri - TURKCELL']/XCUIElementTypeOther[33]/XCUIElementTypeTextField",
+  "iosType": "xpath"
+  },
+  {
+    "key": "satinAlFarkliKart",
+    "androidValue": "//android.view.View[@resource-id='card-area']//android.widget.RadioButton[@resource-id='payment_card_details_radio']/following-sibling::android.view.View[1]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Farklı kredi kartı ile öde']",
+    "iosType": "xpath"
+  },
+  {
+  "key": "kredıKartOde",
+  "androidValue": "//android.view.View[@resource-id='form']/android.view.View[34]",
+  "androidType": "xpath",
+  "iosValue": "//XCUIElementTypeStaticText[@name='Kredi Kartı ile Öde']/preceding-sibling::XCUIElementTypeOther",
+  "iosType": "xpath"
+  },
+  {
+    "key": "satinAlFarkliKartIsım",
+    "androidValue": "//android.widget.EditText[@resource-id='payment_cardholder_name']",
+    "androidType": "xpath",
+    "iosValue": "((//XCUIElementTypeOther[@name='Ad Soyad'])[2]/following-sibling::XCUIElementTypeOther[1])/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "satinAlFarkliKartNumara",
+    "androidValue": "//android.widget.EditText[@resource-id='payment_card_number_1']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeOther[@name='Kredi Kartı Numarası']/following-sibling::XCUIElementTypeOther/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "satinAlFarkliKartAy",
+    "androidValue": "//*[@text='Ay']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeOther[@name='Son Kullanma Tarihi']/following-sibling::XCUIElementTypeOther[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "satinAlFarkliKartYil",
+    "androidValue": "//*[@text='Yıl']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeOther[@name='Son Kullanma Tarihi']/following-sibling::XCUIElementTypeOther[4]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "satinAlFarkliKartAySec",
+    "androidValue": "//*[@text='4']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "satinAlFarkliKartYilSec",
+    "androidValue": "//*[@text='2021']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "satinAlCvvAlani",
+    "androidValue": "//*[@resource-id='ccSecurityNumber']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeOther[@name='Güvenlik Kodu']/following-sibling::XCUIElementTypeOther/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "satinAlOkudumOnay",
+    "androidValue": "//android.view.View[@text='KART BİLGİLERİMİ KAYDETME ŞARTLARINI OKUDUM ONAYLIYORUM']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeOther[@name='Sipariş Bilgileri - TURKCELL']/XCUIElementTypeOther[78]/XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "satinAlOnBılgılendırme",
+    "androidValue": "//android.view.View[@resource-id='agreement-div']/android.view.View",
+    "androidType": "xpath",
+    "androidIndex" : "2",
+    "iosValue": "//XCUIElementTypeStaticText[@name='ÖN BİLGİLENDİRME FORMUNU VE MESAFELİ SATIŞ SÖZLEŞMESİNİ OKUDUM VE ONAYLIYORUM.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "satinAlOnBılgılendırmeDevam",
+    "androidValue": "//android.view.View[@text='Devam']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Devam']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sıparısOkudumOnay",
+    "androidValue": "//android.widget.CheckBox[@resource-id='checkout-toc']/following-sibling::android.view.View[1]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Okudum,onaylıyorum']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sıparısıTamamla",
+    "androidValue": "//android.view.View[@resource-id='continueButton']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeLink[@name='Siparişi Tamamla']",
+    "iosType": "xpath"
+
+  },
+  {
+    "key": "tablet",
+    "androidValue": "//android.view.View[contains(@text,'Tablet')]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeImage[@name='Tablet & Bilgisayar']",
+    "iosType": "xpath"
+
+  },
+  {
+    "key": "tabletSec",
+    "androidValue": "//android.view.View/android.view.View[contains(@text,\"TL\") and (number(substring-before(substring-after(substring-after(@bounds,\"]\"),\",\"),\"]\"))-number(substring-after(substring-before(@bounds,\"]\"),\",\")))>100]",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeStaticText[`name BEGINSWITH \"TL\" AND visible==1`]",
+    "iosType": "classChain"
+
+  },
+  {
+    "key": "sepetıSıl",
+    "androidValue": "//android.view.View[@text='Sepeti Sil']",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Sepeti Sil'`]",
+    "iosType": "classChain"
+  },
+  {
+  "key": "sepetıSılEvet",
+  "androidValue": "//android.view.View[@resource-id='mobile-confirmation-popup-yes']",
+  "androidType": "xpath",
+  "iosValue": "//XCUIElementTypeLink[@name=\"Evet\"]",
+  "iosType": "xpath"
+   },
+
+  {
+    "key": "Aksesuar",
+    "androidValue": "//android.view.View[contains(@text,'Aksesuarlar')]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeImage[@name='Aksesuarlar']",
+    "iosType": "xpath"
+
+  },
+  {
+    "key": "AksesuarTıpıSec",
+    "androidValue": "//android.view.View[contains(@text,'Seyahat')]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Araç & Seyahat\"]",
+    "iosType": "xpath"
+
+  },
+  {
+    "key": "AksesuarSec",
+    "androidValue": "//android.view.View/android.view.View[contains(@text,'TL',) and (number(substring-before(substring-after(substring-after(@bounds,\"]\"),\",\"),\"]\"))-number(substring-after(substring-before(@bounds,\"]\"),\",\")))>100]",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeStaticText[`name BEGINSWITH \"TL\" AND visible==1`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "logoutDevamEt",
+    "androidValue": "//*[@resource-id='none-login-sale-button']",
+    "androidType": "xpath",
+    "iosValue":"//XCUIElementTypeStaticText[@name='Giriş yapmadan devam et']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "satinAlKullanıcıSozlesme",
+    "androidValue": "click-terms",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeApplication[@name='Dijital Operatör']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[12]/XCUIElementTypeOther[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "bittiKlavye",
+    "iosValue": "//XCUIElementTypeButton[@name='Bitti']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sonKullanmaYil",
+    "iosValue": "//XCUIElementTypeApplication[@name='Dijital Operatör']/XCUIElementTypeWindow[4]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypePickerWheel",
+    "iosType": "xpath"
+  },
+  {
+    "key": "androidVıewKlavyeKapat",
+    "androidValue": "android:id/navigationBarBackground",
+    "androidType": "id"
+  },
+  {
+  "key": "incele",
+  "iosValue": "(//XCUIElementTypeButton[@name='İncele'])[last()]",
+  "iosType": "xpath"
+},
+  {
+    "key": "incele1",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"İncele\"])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-Adres2",
+    "androidValue": "//android.widget.EditText[@resource-id='bill_adress']",
+    "androidType": "xpath",
+    "iosValue": "((//XCUIElementTypeOther[@name='ADRES'])[2]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextView",
+    "iosType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-IlDropdown2",
+    "androidValue": "//android.view.View[@resource-id='form']/android.view.View[23]/android.view.View/android.view.View/android.view.View[2]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypePickerWheel",
+    "iosType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-IlceDropdown2",
+    "androidValue": "//android.view.View[@resource-id='form']/android.view.View[24]/android.view.View/android.view.View/android.view.View[2]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypePickerWheel",
+    "iosType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-PostaKodu1",
+    "androidValue": "//*[@resource-id='input-7']",
+    "androidType": "xpath",
+    "iosValue": "(//XCUIElementTypeOther[@name='POSTA KODU']/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "magazaSatinAlma-IletisimNumarasi1",
+    "androidValue": "//android.widget.EditText[@resource-id='deliveryNewContactNumber']",
+    "androidType": "xpath",
+    "iosValue": "(//XCUIElementTypeOther[@name='İLETİŞİM NUMARASI']/following-sibling::XCUIElementTypeOther/XCUIElementTypeTextField)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sldr",
+    "androidValue": "com.ttech.android.onlineislem:id/relativeLayoutCardViewRoot",
+    "androidType": "id"
+  },
+  {
+    "key": "infoDiv",
+    "androidValue": "//android.view.View[@resource-id='form']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tumCıhazlar",
+    "iosValue": "//XCUIElementTypeButton[@name='Tüm Cihazlar']",
+    "iosType": "xpath"
+  },
+  {
+  "key": "haberdarEt",
+  "androidValue": "//*[@text='Stoğa gelince haber ver']",
+  "androidType": "xpath",
+  "iosValue": "//XCUIElementTypeStaticText[@name='Haberdar Et']",
+  "iosType": "xpath"
+  },
+  {
+    "key": "geriIOS",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Geri\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "geriAND",
+    "androidValue": "//android.widget.ImageView[@content-desc='Geri']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "cıhazText",
+    "iosValue": "**/XCUIElementTypeButton[`name='CİHAZLAR'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@text='CİHAZLAR']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "stokTukendı",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"STOK TÜKENMİŞTİR.\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@text='STOK TÜKENMİŞTİR.']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kalanKullanimlarim",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"KALAN KULLANIMLARIM\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"KALAN KULLANIMLARIM\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "testflyUygulamalar",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"Uygulamalar\"])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "urunRenk",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"RENK SEÇİMİ :\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[contains(@text,'RENK')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sepeteEkleBtn",
+    "iosValue": "**/XCUIElementTypeButton[`name='Sepete Ekle'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.Button[@text='Sepete Ekle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kullaniciSozlesmesi",
+    "iosValue": "//*[contains(@name,'okudum, onaylıyorum')] ",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+  "key": "krediSorgula",
+  "iosValue": "**/XCUIElementTypeButton[`name='Kredimi Sorgula'`]",
+  "iosType": "classChain",
+  "androidValue": "//android.widget.Button[@text='Kredimi Sorgula']",
+  "androidType": "xpath"
+  },
+  {
+  "key": "sıparıseDevamEt",
+  "iosValue": "//*[contains(@name,'Siparişe Devam Et')]",
+  "iosType": "xpath",
+  "androidValue": "//*[contains(@text,'Siparişe Devam Et')]",
+  "androidType": "xpath"
+   },
+   {
+    "key": "odemeYap",
+    "iosValue": "//*[contains(@name,'Ödeme Yap')]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "TCKNGuvenlıKart",
+    "iosValue": "//XCUIElementTypeOther[@name=\"TCKN*\"]/preceding-sibling::XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "pesinSatinAl",
+    "iosValue": "(//XCUIElementTypeLink[@name=\\\"Peşin Satın Al\\\"])[1]",
+    "iosType": "xpath",
+    "androidValue": "(//android.view.View[@resource-id=\"credit-query\"]/android.view.View/android.view.View)/following-sibling::android.view.View",
+    "androidType": "xpath"
+  },
+  {
+    "key": "cvvGuvenlıKart",
+    "iosValue": "//XCUIElementTypeOther[@name=\"CVV\"]/preceding-sibling::XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "onaylaGuvenlıKart",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Onayla\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "sıparısSozlesmeOkudum",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kullanıcı sözleşmesini\"]",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View/android.widget.ListView/android.view.View[5]/android.widget.ListView/android.view.View[2]/android.widget.ListView/android.view.View[3]/android.view.View",
+    "androidType": "xpath"
+  },
+  {
+    "key": "odemeSozlesmeOkudum",
+    "iosValue": "//XCUIElementTypeOther[@name=\"ana içerik\"]/XCUIElementTypeOther[51]/XCUIElementTypeOther/XCUIElementTypeSwitch",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+  "key": "sıparısSozlesmeOnayla",
+  "iosValue": "//XCUIElementTypeStaticText[@name=\"Onayla\"]",
+  "iosType": "xpath",
+  "androidValue": "",
+  "androidType": ""
+  },
+  {
+    "key": "ödemeYap",
+    "iosValue": "//*[contains(@name,'Ödeme Yap')]",
+    "iosType": "xpath",
+    "androidValue": "//*[contains(@text,'Ödeme Yap')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "okudumOnaylıyorumReferans",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[contains(@text,'Telefon: 0 212')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "ödemeTcText",
+    "iosValue": "//XCUIElementTypeOther[@name=\"TCKN*\"]/preceding-sibling::XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='tckimlik']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "odemeCvvText",
+    "iosValue": "//XCUIElementTypeOther[@name=\"CVV\"]/preceding-sibling::XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='ccSecurityNumber']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "odemeOnaylaBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Onayla\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[contains(@text,'Onayla')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "odemeTamamlandıCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='imgKartTuru']",
+    "androidType": "xpath"
+
+  },  {
+  "key": "odemeTamamlandıChecklogout",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//*[@text='VISA']",
+  "androidType": "xpath"
+
+},
+  {
+    "key": "bilgisayarTablet",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='devices']//*[contains(@text,'Bilgisayar & Tablet')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "tabletSekmesi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='tabs']//*[@text='Tablet']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "ilkTablet",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='product-list-cards']/*[2]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "ikinciTablet",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='product-list-cards']/*[3]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "cihazlarAksesuarlar",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='devices']//android.view.View[contains(@text,'Aksesuarlar')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "kılıfVeEkranKoruyucu",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='tabs']//android.view.View[contains(@text,'Kılıf ve Ekran Koruyucu')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tabsEkranKoruyucu",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='tabs']//android.view.View[@text='Ekran Koruyucu']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ilkKılıf",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='product-list-cards']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ikinciKılıf",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='product-list-cards']/*[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "geriBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Geri\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.ImageView[@content-desc=\"Geri\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "girişYapmadanDevamEt",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[contains(@text,'yapmadan')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "adanaSehiri",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "(//*[@resource-id='android:id/text1'])[5]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ödemeAdımınaDevamEtBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[contains(@text,'Devam Et')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "SepetinMagaza",
+    "iosValue": "**/XCUIElementTypeButton[`name='Sepetim'`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@content-desc='Sepetim']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "SepettenSilBtn",
+    "iosValue": "**/XCUIElementTypeLink[`name=\"\uEA18 Evet\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='basket']//*[contains(@text,'Evet')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sepetimSilEvet",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Evet\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='modal-delete']//*[contains(@text,'Evet')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tümPaketler",
+    "iosValue": "//*[@name=\"Tüm Paketler\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc='Tüm Paketler']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tümTeklifler",
+    "iosValue": "(//*[@name=\"Tüm Teklifler\"])[2]",
+    "iosType": "xpath",
+    "androidValue":"//android.view.View[@resource-id=\"mainContent\"]/android.view.View[@text='Tüm Teklifler']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tümTekliflerYeni",
+    "iosValue": "(//*[@name=\"Tüm Teklifler\"])[2]",
+    "iosType": "xpath",
+    "androidValue":"//*[@text='kampanyalar?place=card_mobile&nativeapp=true&nativePlatform=android#'][last()]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tümTekliflerAlani",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue":"//android.view.View[@resource-id=\"mainContent\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hazırKart",
+    "iosValue": "//*[@name=\"HAZIR\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@text='HAZIR KART']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "lifeCellPaketleri",
+    "iosValue": "//*[@name=\"Lifecell Paketleri\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[contains(@text,'Lifecell')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "lifecellPaket",
+    "androidValue": "//android.view.View[contains(@text,'Mix Paketler')]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Lifecell Mix Paketler\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "vınnİnternetPaketleri",
+    "iosValue": "//*[@name=\"Lifecell Mix Paketler\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@resource-id=\"package-group-0\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "superMixPaketleri",
+    "iosValue": "//*[@name=\"Lifecell Super Mix Paketi\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@text='Lifecell Super Mix Paketi']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "maviBant",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"BU KAMPANYA HATTINIZ İÇİN UYGUN DEĞİLDİR. YARDIM ALMAK İÇİN LÜTFEN TIKLAYIN.\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[contains(@text,'UYGUN')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "maviBantCheck",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Kampanyalar - TURKCELL\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "onBılgılendirmeFormuKontrol",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@text='ÖN BİLGİLENDİRME FORMU VE MESAFELİ SATIŞ SÖZLEŞMESİ']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "zenginİçerikliPlantiniumPaket",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[contains(@text,'Zengin İçerikli Platinum Black')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "platiniumBlackStar",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[contains(@text,'İNTERNET')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaliLifecell",
+    "iosValue": "//XCUIElementTypeLink[@label='Lifecell Paketleri']",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[contains(@text,'Lifecell')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "lifecellMixPaket",
+    "iosValue": "**/XCUIElementTypeLink[`name='Lifecell Super Mix Paket'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.view.View[@text='Lifecell Mix Paket']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "peketHemenAlBtn",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Hemen Al']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.view.View[5]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "hemenAlReferans",
+    "iosValue": "//*[@resource-id='priceSelector']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='priceSelector']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "SilBtn",
+    "iosValue": "//*[@name='Sil']",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc='Sil']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "ilkBildirim",
+    "iosValue": "(//*[@type='XCUIElementTypeCell'][1])[2]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/recyclerView']/*[1]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "bidirimYokturUyarısı",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Bildiriminiz bulunmamaktadır.\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Bildiriminiz bulunmamaktadır.\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "mesajlarımArtıİşareti",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/imageViewMessageExtend']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "mesajlarımSpinner",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textviewSpinner']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "gonderilenSms",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@content-desc='Gönderilen SMS']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "GelenSms",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Gelen SMS\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "BildirimlerMesajlar",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/linearLayoutSmsItem']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "BildirimlerMEsajlarSearchBar",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/edittextSearch']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "mesajlarımSonuçBulunamadı",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@content-desc='Sonuç bulunamadı']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "yeniTalepAç",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Yeni Talep Aç\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonNewDemand']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "talepSayfarıKontrol",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"TALEP KATEGORİSİ SEÇİNİZ\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"TALEP KATEGORİSİ SEÇİNİZ\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "ekPaketler",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ek Paketler\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='Ek Paketler Ek Paketler']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "taraftarPaketleri",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"Taraftar Paketleri\"])[1]",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='Taraftar Paketleri Taraftar Paketleri']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "sarıPaket",
+    "iosValue": "//XCUIElementTypeLink[@name=\"Sarı Paket\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='Sarı Paket']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "HemenAlBtn",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Hemen Al\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+
+  },
+  {
+    "key": "satınAlBtn",
+    "iosValue": "//XCUIElementTypeLink[@name=\"Satın Al\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='purchase_button']",
+    "androidType": "xpath"
+
+  }
+,
+  {
+    "key": "ePostaCheck",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='E-Posta Adresiniz'`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@text='E-Posta Adresiniz']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "önBilgilendirmeFormuCheck",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='ÖN BİLGİLENDİRME FORMU VE MESAFELİ SATIŞ SÖZLEŞMESİ'`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='accept-terms']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "yıllıkAbonelik",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"YILLIK ABONELİK\"])[1]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.Spinner[contains(@text,'GB')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "talebinizBulunmamaktadirUyari",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,'Randevunuz bulunmamaktadır')]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Randevunuz bulunmamaktadır. Yardım menüsü altındaki En Yakın Turkcell seçeneğinden randevu alabilirsiniz.\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "detaylıBilgi",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Detay\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonDetail']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "randevuTarihi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Randevu Tarihi\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Randevu Tarihi\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "randevuSebebi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Randevu Sebebi\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Randevu Sebebi\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "superonlineHesabı",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"ÜMİT GÖK\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"51371547\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "bildirimlerMesajlarım",
+    "iosValue": "//XCUIElementTypeButton[@name=\"MESAJLARIM\"]",
+    "iosType": "xpath",
+    "androidValue": ".//*[contains(@text,'MESAJLARIM')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "bildirimlerRandevularım",
+    "iosValue": "//XCUIElementTypeButton[@name=\"RANDEVULARIM\"]",
+    "iosType": "xpath",
+    "androidValue": ".//*[contains(@text,'RANDEVULARIM')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "bildirimlerTaleplerimRenkbarıKontrolu",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Sizden Bilgi Bekleniyor\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/linearLayoutStatusList']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "iptalEdilenTaleplerim",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Siparişlerim\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='İPTAL EDİLEN TALEPLERİM']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "DO",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Dijital Operatör\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+
+  },
+  {
+    "key": "tumPaketler",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Tüm Paketler'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.view.View[contains(@text,'Tüm Paketler')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "yeniPlatinumPaketler",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Yeni Platinum Paketler\"`][2]",
+    "iosType": "classChain",
+    "androidValue": "//android.view.View[@resource-id=\"package-group-0\"]/android.view.View",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "yeniPlatinumPaketler2",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Zengin İçerikli Platinum Black Paketler\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.view.View[@resource-id=\"package-group-0\"]/android.view.View",
+    "androidType": "xpath"
+
+  },
+
+  {
+    "key": "paketIcerik",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='TL / AY'`][1]",
+    "iosType": "classChain",
+    "androidValue": "//android.view.View[contains(@text,'TL / AY')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "yillikAbonelikAlanıSecimi",
+    "iosValue": "(//XCUIElementTypeToolbar[@name=\"Toolbar\"])[2]/following-sibling::XCUIElementTypeOther",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.CheckedTextView[contains(@text,'YILLIK')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "paketSatinAlBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@text='Satın Al']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "paketSatinAlemailAlani",
+    "iosValue": "//XCUIElementTypeOther[@name=\"E-Posta Adresiniz\"]/following-sibling::XCUIElementTypeOther",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='packages-email']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "paketSatinAlemailAlaniAgain",
+    "iosValue": "//*/XCUIElementTypeOther[37]/XCUIElementTypeTextField[2]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='packages-email-again']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "paketSatinAlSozlesmeCheckBox",
+    "iosValue": "//XCUIElementTypeOther[./XCUIElementTypeStaticText[@name=\"Ön bilgilendirme formu ve mesafeli satış sözleşmesini okudum, onaylıyorum\"]]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@resource-id=\"contract-aggreement-div\"]/following-sibling::android.view.View",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "paketSatinAlOnBilgilendirmeCheckBox",
+    "iosValue": "//XCUIElementTypeOther[./XCUIElementTypeLink[@name=\"Ön Bilgilendirme Metnini Okudum\"]]",
+    "iosType": "xpath",
+    "androidValue": "signinForm",
+    "androidType": "id"
+
+  },
+  {
+    "key": "paketSatinAlTamamPopup",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Satın Al\"]",
+    "iosType": "xpath",
+    "androidValue": "topUpResultOkButton",
+    "androidType": "id"
+
+  },
+  {
+    "key": "paketSatinAlOnay",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Onay\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+
+  },
+
+  {
+    "key": "taleplerimSekmesiCheck",
+    "iosValue": "//XCUIElementTypeButton[@name=\"TALEPLERİM\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"TALEPLERİM\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+
+  },
+  {
+    "key": "dergilik",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Dergilik\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Dergilik\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "kesfetBtnDergılık",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonOpenApplication",
+    "androidType": "id",
+    "androidIndex": "6",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"Keşfet\"])[6]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sepetinizdeUrunBulunmamaktadır",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Sepetinizde ürün bulunmamaktadır.\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+
+  },
+  {
+    "key": "filtreBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "(//*[@text='Filtrele'])[1]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "markalarBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "(//*[@text='Markalar'])[1]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "AppleBar",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "(//*[@text='Yaani'])[1]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "uygulaBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "(//*[@text='Uygula'])[1]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "tumUrunlerBtn",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Tüm Cihazlar\"`][2]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewCardRightText",
+    "androidType": "id"
+
+  },
+  {
+    "key": "akıllıTelefonlarMenuBtn",
+    "iosValue": "**/XCUIElementTypeLink[`name=\"Akıllı Telefonlar\"`][2]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='devices']//*[@text='Akıllı Telefonlar']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "iphone11",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[contains(@text,'iPhone 11')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "enyakınTurkcellTamamBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPositive",
+    "androidType": "id"
+
+  },
+  {
+    "key": "SDKbaslık",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewSectionTitle",
+    "androidType": "id"
+
+  },
+  {
+    "key": "SDKturkcellveSuperonline",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/linearLayoutCompanySection",
+    "androidType": "id"
+
+  },
+  {
+    "key": "SDKHaritaİşaretleyici",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewMyLocation",
+    "androidType": "id"
+
+  },
+  {
+    "key": "SDKharita",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewMyLocation",
+    "androidType": "id"
+
+  },
+  {
+    "key": "EnyakınTurkcellkonumVAZGEC",
+    "iosValue": "**/XCUIElementTypeButton[`name='Ayarlara Git'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonNegative",
+    "androidType": "id"
+
+  },
+  {
+    "key": "KonumAcıkEnYakınTurkcellBayi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"ŞENGÜLLER MAĞAZACILIK A.Ş\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "btn_Ac",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Platinum\"]/..//XCUIElementTypeButton[@name=\"Aç\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='Aç']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "btn_Kesfet",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"Keşfet\"])[last()]",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='Keşfet']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "btn_Yukle",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@text='Yükle']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "GooglePlay",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"App Store\"]",
+    "iosType": "xpath",
+    "androidValue": "com.android.vending:id/recycler_view",
+    "androidType": "id"
+
+  },
+  {
+    "key": "Platinum",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Platinum\"]",
+    "iosType": "",
+    "androidValue": "com.turkcellplatinum.main:id/image_view",
+    "androidType": "id"
+
+  },
+  {
+    "key": "gecicişifrebarı",
+    "iosValue": "//XCUIElementTypeButton[@name=\"icon pass show\"]/..",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+
+  },
+  {
+    "key": "hazırKarttanFaturalıyaGeçiş",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Hazır Kart’tan Faturalı’ya Geçiş'`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+
+  },
+  {
+    "key": "filtreMarkalarToolBar",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View/android.view.View[1]/android.view.View[2]/android.widget.EditText",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "filtreSamsung",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@text='Upcall']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "samsungGalaxyZFlip",
+    "iosValue": "//*[@name='Samsung Galaxy Z Flip']",
+    "iosType": "xpath",
+    "androidValue": "//*[contains(@text,'Flip')]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "stogaGelinceHaberVer",
+    "iosValue": "/**XCUIElementTypeButton[`name=\"Stoğa gelince haber ver\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@text='Stoğa gelince haber ver']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "haberdarEtTextBox",
+    "iosValue": "/**XCUIElementTypeOther[`name=\"Email Adresi\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='s0-0-0-0-39-41-43-input']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "haberdarEtBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Haberdar Et\"]",
+    "iosType": "xpath",
+    "androidValue": "(//*[@text='Haberdar Et'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "haberdarEtCheckBoxBtn",
+    "iosValue": "//*[contains(@value,\"bilgilen\")]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='stock-checkbox']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "HaberdarEtKapatBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@text='Kapat']",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "sorunPopup",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Sipariş Özeti - TURKCELL\"]/XCUIElementTypeButton[1]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.ViewGroup[@resource-id=\"com.ttech.android.onlineislem:id/constraintLayout\"]//android.view.View[./android.widget.Button[@text=\"Cevapla\"]]/android.widget.Button[not(@text=\"Cevapla\")]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "onblilgilendirmeRef",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='order-summary-Form']//*[@resource-id='checkbox-1']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "iptalbtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonExtraBenefit']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tamamButton",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='topUpResultOkButton']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "samsung1015Fotosecimi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.simplemobiletools.gallery:id/medium_thumbnail",
+    "androidType": "id"
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  }
+
+]
+

@@ -1,0 +1,489 @@
+[
+  {
+    "key": "yeniKullanıcıIleGirisYapButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonNewUser",
+    "androidType": "id"
+  },
+  {
+    "key": "reddetButonu",
+    "androidValue": "com.android.packageinstaller:id/permission_deny_button",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Cancel']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "geriOkButtonu",
+    "androidValue": "android.widget.ImageButton",
+    "androidType": "class"
+  },
+  {
+    "key": "turkceDevanEtbutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonContinue",
+    "androidType": "id"
+  },
+  {
+    "key": "anasayfaGirisYapButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewLoginTitle",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`name='Giriş Yap'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gsmNumarasıalanı",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextGsm",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeTextField[`value='GSM NUMARASI'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "epostaAlanı",
+    "androidValue": "com.ttech.android.onlineislem:id/email",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeTextField[@value='E-POSTA']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "loginDevambutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/dg_login_continue",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`name='Devam'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sifreileGirisyapButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPasswordLogin",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`name='Şifre İle Giriş'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sifresizHızlıgirisButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonMcLogin",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Şifresiz Hızlı Giriş']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sifreGirisalanı",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextLoginPassword",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeSecureTextField[`value='Şifre'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sifreDegistirButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewChangePassword",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Şifre Değiştir']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sifreDegistir",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "eskiSifrealanı",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextCurrentPassword",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeSecureTextField[@value='Eski Şifre']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "deneme",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextCurrentPassword",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeSecureTextField[@value='Yeni Şifre']/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "yeniSifreAlanı",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextPassword",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeSecureTextField[@value='Yeni Şifre']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "yeniSifreTekrarAlanı",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextPasswordRepeat",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeSecureTextField[@value='Yeni Şifre Tekrar']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "tamamButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonConfirm",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Tamam']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kullanımlarımBilgisialanı",
+    "androidValue": "com.ttech.android.onlineislem:id/relativeLayoutContentRoot",
+    "androidType": "id"
+  },
+  {
+    "key": "cikisButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/relativeLayoutSettings",
+    "androidIndex": "5",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Çıkış\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "cikisButonu2",
+    "androidValue": "//android.widget.TextView[@content-desc='Çıkış']",
+    "androidType": "xpath",
+    "iosValue": "//*[@name='Çıkış']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "popupCikisYapButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPositive",
+    "androidType": "id",
+    "iosValue": "(//*[@name='Çıkış Yap'])[last()]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "uyeDegilsenkayıtOlbutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewRegister",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Üye Değilsen KAYIT OL\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "uyeOlgsmNumarasıalanı",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextGsm",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeTextField[@value='GSM Numarası*']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "uyeEmailalanı",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextEmail",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeTextField[@value='E-Posta*']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "uyeSifregirisAlanı",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextPassword",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeSecureTextField[@value='Şifre*']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "uyeSifretekrarAlanı",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextPassword2",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeSecureTextField[@value='Şifre Tekrar*']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kayitOlbutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonRegisterConfirm",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Kayıt Ol']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "aktivasyonKodualanı",
+    "androidValue": "com.ttech.android.onlineislem:id/linearLayoutOtpCode",
+    "androidType": "id"
+  },
+  {
+    "key": "aktivasyonKodualanıİlkAlan",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Turkcell\"]/XCUIElementTypeTextField[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "aktivasyonKodualanıİkinciAlan",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Turkcell\"]/XCUIElementTypeTextField[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "aktivasyonKodualanıÜçüncüAlan",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Turkcell\"]/XCUIElementTypeTextField[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "aktivasyonKodualanıDördüncüAlan",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Turkcell\"]/XCUIElementTypeTextField[4]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "aktivasyonKoduDevam",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Devam Et\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "anasayfaNumraAlanı",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewLoginMsisdn",
+    "androidType": "id"
+  },
+  {
+    "key": "HataPopup",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewTitle",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Hata\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "internetKalanKullanım",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewZoneType",
+    "androidType": "id"
+  },
+  {
+    "key": "ekranadokun",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Giriş Yap']",
+    "iosType": "xpath"
+  },
+  {
+  "key": "toolbarDoneButton",
+  "iosValue": "//XCUIElementTypeButton[@name='Toolbar Done Button' or @name='Bitti']",
+  "iosType": "xpath"
+},
+  {
+    "key": "toolbarDoneButtonReferans",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ön bilgilendirme formu ve mesafeli satış sözleşmesini okudum, onaylıyorum\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "yardimBtn",
+    "androidValue": "com.ttech.android.onlineislem:id/icon",
+    "androidType": "id"
+  },
+  {
+    "key": "asıstant",
+    "androidValue": "com.ttech.android.onlineislem:id/textView",
+    "androidType": "id"
+  },
+  {
+    "key": "sifresizHizliGiris",
+    "iosValue": "**/XCUIElementTypeButton[`name='Şifresiz Hızlı Giriş'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sifresizKatilimKosuluOnayliyorum",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"‘nı Onaylıyorum\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sifresizDevamEtBtn",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Devam Et\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "loginTekKullanimlikSifre",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Tek Kullanımlık Şifre\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "tekKullanimlikSifreAlani",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Tek Kullanımlık Şifre\"]/following-sibling::XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "googlePıxelreddetBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.android.permissioncontroller:id/permission_deny_button",
+    "androidType": "id"
+  },
+  {
+    "key": "şirketimiYükleBtn",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonPersonalizationDetail']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "şifresizGiriş",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonMcLogin']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "katılımKosullarınıOnaylıyorum",
+    "androidValue": "//*[@resource-id='termsAgree']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "şifresizDevamEt",
+    "androidValue": "//*[@resource-id='termsSubmit']",
+    "androidType": "xpath"
+  },  {
+  "key": "turkcellVeGrupBtn",
+  "androidValue": "//*[@resource-id='etk']",
+  "androidType": "xpath"
+},  {
+  "key": "kodGirinizEkranıCheck",
+  "androidValue": "//*[@resource-id='smsOtpSubmit']",
+  "androidType": "xpath"
+},  {
+  "key": "tekKullanımlıkSifreBar",
+  "androidValue": "//*[@resource-id='otpAll']",
+  "androidType": "xpath"
+},  {
+  "key": "hatalıGirişCheck",
+  "androidValue": "//*[@resource-id='kbaw_error']",
+  "androidType": "xpath"
+},  {
+  "key": "kayitolBtn",
+  "androidValue": "//*[@text='Kayıt Ol']",
+  "androidType": "xpath",
+  "iosValue": "//XCUIElementTypeButton[@name=\"Kayıt Ol\"]",
+  "iosType": "xpath"
+},{
+  "key": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "androidValue": "",
+  "androidType": ""
+},  {
+  "key": "devamEtBtn",
+  "iosValue": "Devam Et",
+  "iosType": "id"
+},  {
+  "key": "HemenKatılBtn",
+  "iosValue": "//XCUIElementTypeStaticText[@name=\"Hemen Katıl\"]",
+  "iosType": "xpath"
+},  {
+  "key": "GirisYapText",
+  "iosValue": "**/XCUIElementTypeButton[`name='Giriş Yap'`]",
+  "iosType": "classChain"
+},
+  {
+    "key": "hesapBilgGuncelleme",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Hesap Bilgileri Güncelleme\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hesap Bilgileri Güncelleme\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "btn_emailGuncelle",
+    "iosValue": "(//XCUIElementTypeImage[@name=\"icon\"])[1]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewArrowRight",
+    "androidType": "id"
+  },
+  {
+    "key": "btn_gsmGuncelle",
+    "iosValue": "(//XCUIElementTypeImage[@name=\"icon\"])[2]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewArrowRight2",
+    "androidType": "id"
+  },
+  {
+    "key": "tx_mailGuncelle",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Güncelle\"]/../\tXCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextEmail",
+    "androidType": "id"
+  },
+  {
+    "key": "btn_guncelle",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Güncelle\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "basarılıPopup",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"İşlem Başarılı\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"İşlem Başarılı\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kayıtGerekliPopup",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Kayıt Gerekli\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@text=\"Kayıt Gerekli\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "rememberMeChckbox",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Onay Kutusu\"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/remember_me_checkbox",
+    "androidType": "id"
+  },
+  {
+    "key": "hataligirdiniz",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Şifrenizi 3 defa hatalı girdiniz. Lütfen 30 dakika sonra tekrar deneyiniz.\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  }
+]
+
+

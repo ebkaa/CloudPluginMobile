@@ -1,0 +1,393 @@
+  [
+  {
+    "key": "tlYukleButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='TL Yükle']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/cardViewRoot",
+    "androidType": "id",
+    "androidIndex":"1"
+  },
+  {
+    "key": "hazırKartPaketYukle",
+    "iosValue": "//XCUIElementTypeButton[@name='Hazır Kart Paket Yükle']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/cardViewRoot",
+    "androidType": "id",
+    "androidIndex":"1"
+  },
+  {
+    "key": "ceptenInternet",
+    "iosValue": "//XCUIElementTypeButton[@name='Cepten İnternet']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/cardViewRoot",
+    "androidType": "id",
+    "androidIndex":"2"
+  },
+  {
+    "key": "faturalıyaGecis",
+    "iosValue": "//XCUIElementTypeButton[@name='Faturalıya Geçiş']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[4]/android.widget.LinearLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "evdenCebeTransfer",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Evden Cebe Transfer\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Evden Cebe Transfer\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "vinnInternet",
+    "iosValue": "//XCUIElementTypeButton[@name='Tablet-VINN İnternet']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Tablet-VINN İnternet\"]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "ilkPaketSecenegi",
+    "iosValue": "//XCUIElementTypeCell[1]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/card_view",
+    "androidType": "id",
+    "androidIndex":"1"
+  }
+  ,
+    {
+      "key": "ilkPaketSecenegiEvdencebe",
+      "iosValue": "//XCUIElementTypeStaticText[contains(@name,\"TL\")]",
+      "iosType": "xpath",
+      "androidValue": "com.ttech.android.onlineislem:id/card_view",
+      "androidType": "id"
+    },
+  {
+    "key": "yuklemeYapılacakGSMNoAlanı",
+    "iosValue": "**/XCUIElementTypeTextField[`value='GSM Numarası (Örn: 5xxxxxxxxx)'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextGsmNo",
+    "androidType": "id"
+  },
+    {
+      "key": "yuklemeYapılacakGSMNoAlanıYeni",
+      "iosValue": "//XCUIElementTypeOther[@name=\"Güvenlik Kodu\"]/../XCUIElementTypeOther[4]",
+      "iosType": "xpath",
+      "androidValue": "com.ttech.android.onlineislem:id/editTextGsmNo",
+      "androidType": "id"
+    },
+  {
+    "key": "ilerleButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='İlerle'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "kayıtlıKartIleOdeme-onBilgilendirmeCheckbox",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"Ön bilgilendirme formu ve mesafeli satış sözleşmesini okudum, onaylıyorum.\"]/..//*)[1]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/checkBox",
+    "androidType": "id"
+  },
+  {
+    "key": "baskaKartIleOdeButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='Başka Kart ile Öde']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPayNewCard",
+    "androidType": "id"
+  },
+  {
+    "key": "paycellIleOdemeYapButonu",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Seçili Kart İle Ödeme Yap\"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "krediKartıIsimAlanı",
+    "iosValue": "**/XCUIElementTypeTextField[`value='Kart Üzerindeki Ad Soyad'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextName",
+    "androidType": "id"
+  },
+  {
+    "key": "buKartileOdemeYapButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='Bu kart ile Ödeme Yap']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+
+  },
+  {
+    "key": "kartNumarasıAlanı",
+    "iosValue": "**/XCUIElementTypeTextField[`value='Kart Numarası'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextCardNumber",
+    "androidType": "id"
+  },
+  {
+    "key": "kartSonKullanmaTarihiAlanı",
+    "iosValue": "**/XCUIElementTypeTextField[`value='Son Kullanma Tarihi'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextExpires",
+    "androidType": "id"
+  },
+  {
+    "key": "sonKullanmaTarihi-Ay",
+    "iosValue": "**/XCUIElementTypePickerWheel[1]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/picker_month",
+    "androidType": "id"
+  },
+  {
+    "key": "sonKullanmaTarihi-Yıl",
+    "iosValue": "**/XCUIElementTypePickerWheel[2]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/picker_year",
+    "androidType": "id"
+  },
+  {
+    "key": "krediKartınıKaydetCheckBox",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/checkBoxStoreCard",
+    "androidType": "id"
+  },
+  {
+    "key": "krediKartıIleOdeme-onBılgılendırmeCheckbox",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,'Ön bilgilendirme')]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/checkBoxConfirm",
+    "androidType": "id"
+  },
+
+  {
+    "key": "krediKartıIleOdeme-onBılgılendırmeCheckboxLoginsiz",
+    "iosValue": "**/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/checkBox",
+    "androidType": "id"
+  },
+  {
+    "key": "odemeYapButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='Ödeme Yap'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "cvvAlanı",
+    "iosValue": "**/XCUIElementTypeTextField[`value='CVV'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextCvv",
+    "androidType": "id"
+  },
+  {
+    "key": "cvvBilgileri-mailAlanı",
+    "iosValue": "**/XCUIElementTypeTextField[`value='E-Posta'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextEmail",
+    "androidType": "id"
+  },
+  {
+    "key": "siparisOnayıCheckBox",
+    "iosValue": "**/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/cheeckBox",
+    "androidType": "id"
+  },
+  {
+    "key": "tarihAlanıtamamButonu",
+    "iosValue": "//*[@value='Kredi Kartı ile Ödeme']",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='TAMAM' or @text='Tamam']",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "tamamButonuAND",
+    "androidValue": "com.ttech.android.onlineislem:id/container_toolbar",
+    "androidType": "id"
+  },
+  {
+    "key": "logout-krediKartıAdınızSoyadınız",
+    "iosValue": "**/XCUIElementTypeTextField[`value='Adınız Soyadınız'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextNameSurname",
+    "androidType": "id"
+  },
+
+
+  {
+    "key": "logout-krediKartıGSMNumaranız",
+    "iosValue": "**/XCUIElementTypeTextField[`value='GSM Numaranız'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextCardGsmNo",
+    "androidType": "id"
+  },
+  {
+    "key": "buKartileOdemeYapButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='Bu kart ile Ödeme Yap']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "kartDogrulamaSayfası",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewWebViewClose",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Kapat']",
+    "iosType": "xpath"
+
+  },
+  {
+    "key": "detayPrepaid",
+    "iosValue": "//*[@name=\"Detay\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='Detay']",
+    "androidType": "xpath"
+  },
+  {
+  "key": "detayPrepaidAySecimi",
+  "iosValue": "//XCUIElementTypeButton[contains(@name,'2019')]",
+  "iosType": "xpath",
+  "androidValue": "",
+  "androidType": ""
+   },
+  {
+  "key": "detayPrepaidAySecimiALanı",
+  "iosValue": "//XCUIElementTypeButton[@name=\"Eylül 2019\"]",
+  "iosType": "xpath",
+  "androidValue": "",
+  "androidType": ""
+  },
+  {
+    "key": "ekim2019",
+    "androidValue": "//*[@content-desc=\"Ekim 2019\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Agustos2019",
+    "androidValue": "//*[@content-desc=\"Ağustos 2019\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Eylül2019",
+    "androidValue": "//*[@content-desc=\"Eylül 2019\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "checkEylül",
+    "androidValue": "//*[@content-desc=\"30 Eylül\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "checkEkim",
+    "androidValue": "//*[@content-desc=\"11 Ekim\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "checkAğustos",
+    "androidValue": "//*[@content-desc=\"29 Ağustos\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tümü",
+    "androidValue": "//*[@content-desc=\"Tümü\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "konuşma",
+    "androidValue": "//*[@content-desc=\"Konuşma\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sms",
+    "androidValue": "//*[@content-desc=\"SMS\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mms",
+    "androidValue": "//*[@content-desc=\"MMS\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "internet",
+    "androidValue": "//*[@content-desc=\"İnternet\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "checkKonuşma",
+    "androidValue": "//*[@content-desc=\"Mevcut kullanım detayı bulunmamaktadır.\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "checkSMS",
+    "androidValue": "//*[@content-desc=\"Mevcut kullanım detayı bulunmamaktadır.\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "checkMMS",
+    "androidValue": "//*[@content-desc=\"Mevcut kullanım detayı bulunmamaktadır.\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "checkİnternet",
+    "androidValue": "//*[@content-desc=\"11 Ekim\"]",
+    "androidType": "xpath"
+  },
+  {
+  "key": "detayPrepaidTumuSecimi",
+  "iosValue": "//XCUIElementTypeButton[@name=\"Tümü\"]",
+  "iosType": "xpath",
+  "androidValue": "",
+  "androidType": ""
+  },
+  {
+  "key": "siparişOnayıÖdeme",
+  "iosValue": "//*[@name=\"Sipariş onayı ödeme yükümlülüğü doğuracaktır. \"]",
+  "iosType": "xpath"
+  },
+  {
+  "key": "TLtext",
+  "iosValue": "//XCUIElementTypeStaticText[@name=\"TL Yükle\"]",
+  "iosType": "xpath",
+  "androidValue": "//android.widget.TextView[@content-desc=\"TL Yükle\"]",
+  "androidType": "xpath"
+  },
+  {
+    "key": "seciliKartIleOdemeYapButonu",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Seçili Kart İle Ödeme Yap\"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "iptal",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ek Faydalarım ve Ek Paketlerim\"]//following:: XCUIElementTypePageIndicator[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "dogrulamaKoduEkranı",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/linearLayoutContent",
+    "androidType": "id"
+  },
+  {
+    "key": "logoutCheckBox2",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"Sipariş onayı ödeme yükümlülüğü doğuracaktır. \"]/..//*)[1]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "dogrulamaEkrani",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Güvenliğiniz için kullanım detaylarınızı görüntülemeden önce gsm numaranıza doğrulama kodu gönderilecektir.\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  }
+
+
+]

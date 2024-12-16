@@ -1,0 +1,2773 @@
+[
+
+
+
+  {
+    "key": "sallaKazanButonu",
+    "iosValue": "Salla Kazan",
+    "iosType": "id",
+    "androidValue": "//android.widget.ImageButton[@content-desc='Salla Kazan']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kullanımTipiDropdownIkonu-kapalı",
+    "iosValue": "//XCUIElementTypeImage[@name='arrow']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewCardRightText",
+    "androidType": "id"
+  },
+  {
+    "key": "kullanımTipiDropdownIkonu-acık",
+    "iosValue": "//XCUIElementTypeImage[@name='arrowBlue']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewCardFrontMenuRightText",
+    "androidType": "id"
+  },
+  {
+    "key": "dropdownInternetLabel",
+    "iosValue": "//XCUIElementTypeStaticText[@name='İnternet']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "dropdownDakikaLabel",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Dakika']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "dropdownUygulamalarLabel",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Uygulamalar']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[3]/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "dropdownSMSLabel",
+    "iosValue": "//XCUIElementTypeStaticText[@name='SMS']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewCardFrontMenuItem",
+    "androidType": "id",
+    "androidIndex": "3"
+  },
+  {
+    "key": "paketAlButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='Paket Yükselt'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBuyPackage",
+    "androidType": "id"
+  },
+  {
+    "key": "faturalarımAyarlarButonu",
+    "iosValue": "//XCUIElementTypeImage[@name='settings']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.ImageView[@content-desc='Fatura Ayarları']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturayıInceleButonu",
+    "iosValue": "**/XCUIElementTypeButton[`name='Faturayı İncele'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonShowBillDetail",
+    "androidType": "id"
+  },
+  {
+    "key": "gorusmeyiBaslatButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='Görüşmeyi Başlat']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonMyBillDispute",
+    "androidType": "id"
+  },
+  {
+    "key": "ozetTabı",
+    "iosValue": "//XCUIElementTypeStaticText[@name='ÖZET']",
+    "iosType": "xpath",
+    "androidValue": "//android.support.v7.app.ActionBar.Tab[@content-desc='ÖZET']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "detayTabı",
+    "iosValue": "//XCUIElementTypeStaticText[@name='DETAY']",
+    "iosType": "xpath",
+    "androidValue": "//android.support.v7.app.ActionBar.Tab[@content-desc='DETAY']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hemenOdeButonu",
+    "iosValue": "//*[@name=\"Hemen Öde\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonPayBillNow']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "PDFButonu",
+    "iosValue": "PDF",
+    "iosType": "id",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewPDF",
+    "androidType": "id"
+  },
+  {
+    "key": "closeButonu",
+    "iosValue": "//XCUIElementTypeButton[@name='close']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewClose",
+    "androidType": "id"
+  },
+  {
+    "key": "urunlerim-paketDetayıButonu",
+    "iosValue": "Paket Detayı",
+    "iosType": "id",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewDetailInfo",
+    "androidType": "id"
+  },
+  {
+    "key": "tumUrunlerimButonu",
+    "iosValue": "Tüm Ürünlerim",
+    "iosType": "id",
+    "androidValue": "com.ttech.android.onlineislem.:id/buttonPackageAndTariffCard",
+    "androidType": "id"
+  },
+  {
+    "key": "yıllıkPaketeGecButonu",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "urunlerim-iptalButonu",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "urunlerim-servisiIptalEtButonu",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "urunlerim-yeniServisAlButonu",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "urunlerim-detaylıBilgiButonu",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "tumIslemlerim",
+    "iosValue": "**/XCUIElementTypeButton[`name='Tüm İşlemler'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Tüm İşlemler\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hatIslemleri",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Hat İşlemleri'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewSettingsTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "HatAyarlarımText",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Hat Ayarlarım\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+
+
+  {
+    "key": "cagrıAyarlarım",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Çağrı Ayarları']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewSettingsTitle",
+    "androidType": "id",
+    "androidIndex": "1"
+  },
+  {
+    "key": "yurtDısıIslemleri",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Yurt Dışı İşlemleri\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Yurt Dışı İşlemleri\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "YurtDışıAyarlarımText",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Yurt Dışı Ayarlarım\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": "id"
+  },
+  {
+    "key": "pukKodu",
+    "iosValue": "//XCUIElementTypeLink[@name=\"PUK Kodu\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "siparislerim",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Siparişlerim\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc='Siparişlerim']",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "siparişlerimText",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Siparişlerim\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+
+  {
+    "key": "smsAyalarimText",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"SMS Ayarlarım\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "paycellveKayıtlıKartlarım",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Paycell ve Kredi Kart İşlemleri\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc='Paycell ve Kredi Kart İşlemleri']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tumIslemlerım-PaycellveKayıtlıKartlarım",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Paycell ve Kredi Kart İşlemleri\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "paycellveKayıtlıKartlarımkartalanı",
+    "iosValue": "-",
+    "iosType": "-",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewSettingsTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "paycellKartlarım",
+    "iosValue": "//*[@name='Paycell Kartlarım']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewPaymentSystemTitle",
+    "androidType": "id",
+    "androidIndex": "0"
+  },
+  {
+    "key": "sallaKazan",
+    "iosValue": "//XCUIElementTypeButton[@name='Salla Kazan']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewSettingsTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "faturaIslemlerım",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Fatura Ayarlarım\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Fatura Ayarlarım']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "smsAyarlarım",
+    "iosValue": "//XCUIElementTypeButton[@name='SMS Ayarlarım']",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc=\"SMS Ayarlarım\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "akıllıFaturaKampanyası",
+    "iosValue": "//XCUIElementTypeButton[@name='Akıllı Fatura Kampanyası']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Akıllı Fatura Kampanyası\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "akıllıFaturaKampanyasıKontrol",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@text='Akıllı Fatura Kampanyası']",
+    "androidType": "xpath"
+  },
+
+
+  {
+    "key": "dortBucukG",
+    "iosValue": "//XCUIElementTypeButton[@name='4.5G Aboneliğim']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewSettingsTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "guvenliInternet",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Güvenli İnternet\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Güvenli İnternet\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaliyaGecis",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Faturalıya Geçiş\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Faturalıya Geçiş\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "yurtDısıAyarlarım",
+    "iosValue": "//XCUIElementTypeButton[@name='Yurt Dışı Ayarlarım']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.RelativeLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "yurtDısıPaketleri",
+    "iosValue": "//XCUIElementTypeButton[@name='Yurt Dışı Paketleri']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.RelativeLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kablosuzAgIslemlerim",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Kablosuz Ağ İşlemlerim\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Kablosuz Ağ İşlemlerim\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kablosuzAgIslemlerim1",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Kablosuz Ağ İşlemlerim\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Kablosuz Ağ İşlemlerim\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "nakitIslemlerim",
+    "iosValue": "//*[@name='Nakil İşlemlerim']",
+    "iosType": "xpath",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.RelativeLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hizmetDondurma",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Hizmet Dondurma\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hizmet Dondurma\"]",
+    "androidType": "xpath"
+  },
+
+
+
+
+  {
+    "key": "faturaAyarlarım",
+    "iosValue": "//XCUIElementTypeImage[@name=\"settings\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@text=\"Fatura Ayarlarım\"]",
+    "androidType": "xpath"
+  },
+
+
+  {
+    "key": "otomatikOdemeTalimati",
+    "iosValue": "**/*[`name=\"Fatura Otomatik Ödeme Talimatı\" OR name=\"Otomatik Ödeme Talimatı\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[contains(@text,\"Otomatik\")]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ileriTarihliPaketDegisikligi",
+    "iosValue": "//XCUIElementTypeButton[@name=\"İleri Tarihli Paket Değişikliği\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"İleri Tarihli Paket Değişikliği\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ileriTarihliPaketDegisikligiTest",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"İleri Tarihli Paket Değişikliği\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"İleri Tarihli Paket Değişikliği\"]",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "cagriAyarlari",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Çağrı Ayarları\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc=\"Çağrı Ayarları\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "çagrıAyarlarıcheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@text='Çağrı Ayarlarım']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "cagriAyarlariText",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Çağrı Ayarlarım\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+
+
+  {
+    "key": "krediKartlarımAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Kredi Kartlarım']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kalanDakika",
+    "iosValue": "//XCUIElementTypeButton[@name='Dakika']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Dakika']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kalanInternet",
+    "iosValue": "//XCUIElementTypeButton[@name='İnternet']",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='İnternet']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "dropdownSecenek",
+    "androidValue": "com.ttech.android.onlineislem:id/textviewSpinner",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,'20')]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "dropdowmios",
+    "iosValue": "**/XCUIElementTypeButton[`name='Faturayı İncele'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "kartSılTamam",
+    "iosValue": "//XCUIElementTypeOther[./XCUIElementTypeStaticText[@name='Kredi kartınız silinecektir.']]/following-sibling::XCUIElementTypeOther//XCUIElementTypeButton[@name='Tamam']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kartSılBasarılıPopup",
+    "iosValue": "//XCUIElementTypeOther[./XCUIElementTypeStaticText[@name='İşlem Başarılı'] and ./XCUIElementTypeStaticText[@name='Kart silme işleminiz başarıyla gerçekleşmiştir.']]/following-sibling:: XCUIElementTypeOther//XCUIElementTypeButton[@name='Tamam']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "dropdownSecenekSec",
+    "androidValue": "com.ttech.android.onlineislem:id/textviewSpinner",
+    "androidType": "id",
+    "androidIndex": "1",
+    "iosValue": "//XCUIElementTypeButton[@name='Konuşma']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "detaySecim",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,'a')]",
+    "iosType": "xpath",
+    "iosIndex": "1"
+  },
+  {
+    "key": "detaySecimIkı",
+    "iosValue": "//XCUIElementTypeOther[@name=\"drop_down\"]//XCUIElementTypeTable/XCUIElementTypeCell",
+    "iosType": "xpath",
+    "iosIndex": "2"
+  },
+  {
+    "key": "faturalarımAySecimi",
+    "androidValue": "com.ttech.android.onlineislem:id/textviewSpinnerMonth",
+    "androidType": "id",
+    "androidIndex": "2",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,'20')]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "faturaTutar",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewMyBillAmount",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,'TL')]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "faturaIncele",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonShowBillDetail",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Faturayı İncele']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "faturaDetay",
+    "androidValue": "//androidx.appcompat.app.ActionBar.Tab[@content-desc='DETAY']/android.widget.TextView",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='FATURA DETAY'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "faturaKalemi",
+    "androidValue": "com.ttech.android.onlineislem:id/expand",
+    "androidType": "id",
+    "androidIndex": "1",
+    "iosValue": "//XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton[last()]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "fıltreDetay",
+    "androidValue": "(//android.widget.TextView[@content-desc='Tümü'])[1]",
+    "androidType": "xpath",
+    "iosValue": "(//XCUIElementTypeButton[@name='Tümü'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "fıltreDetayıkı",
+    "androidValue": "//android.widget.TextView[@content-desc='Tümü']",
+    "androidType": "xpath",
+    "iosValue": "(//XCUIElementTypeButton[@name='Tümü'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kartiSil",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonDeleteCard",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Kartı sil']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "krediKartiEkleAd",
+    "androidValue": "com.ttech.android.onlineislem:id/textInputEditTextCardOwner",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeTextField[contains(@value,'Ad')]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "krediKartiEkleKartNo",
+    "androidValue": "com.ttech.android.onlineislem:id/textInputEditTextCardNumber",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeTextField[`value='Kart Numarası'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "krediKartiEkleKartCvv",
+    "androidValue": "com.ttech.android.onlineislem:id/textInputEditTextCardCvv",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeTextField[`value='CVV'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "krediKartiEkleKartTarihNo",
+    "androidValue": "//android.widget.EditText[@text='Son Kullanma Tarihi']",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeTextField[`value='Son Kullanma Tarihi'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "krediKartKaydetBtn",
+    "androidValue": "com.ttech.android.onlineislem:id/checkBoxAddCard",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kredi Kartını/Banka Kartını Kaydet\"]/../XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "KrediKartKaydetTamam",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonSaveCard",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`name='Tamam'`]",
+    "iosType": "classChain"
+  },  {
+    "key": "krediKartSaklamaOnay",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPositive",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "vazgec",
+    "androidValue": "//android.widget.Button[@text='Vazgeç']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Vazgeç\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "adSsoyadEklePopup",
+    "androidValue": "//android.widget.TextView[@content-desc='Lütfen ad/soyad giriniz.']",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Lütfen ad/soyad giriniz.'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "kartNoEklePopup",
+    "androidValue": "//android.widget.TextView[@content-desc='Lütfen 16 haneli kart numaranızı giriniz.']",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Lütfen 16 haneli kart numaranızı giriniz.'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "kartTarıhEklePopup",
+    "androidValue": "//android.widget.TextView[@content-desc='Lütfen ay/yıl seçiniz.']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Lütfen ay/yıl seçiniz.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kartCvvEklePopup",
+    "androidValue": "//android.widget.TextView[@content-desc='Lütfen 3 haneli CVV numaranızı giriniz.']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Lütfen 3 haneli CVV numaranızı giriniz.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kartCheckboxTiklaPopup",
+    "androidValue": "//android.widget.TextView[@content-desc='Lütfen ön bilgilendirme metnini okuyarak sözleşmeyi onaylayınız.']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Lütfen ön bilgilendirme metnini okuyarak sözleşmeyi onaylayınız.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kartScanBtn",
+    "androidValue": "//android.widget.ImageView[@resource-id='com.ttech.android.onlineislem:id/buttonScan']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeButton[@name='scan credit card']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "paycellApp",
+    "androidValue": "//android.widget.TextView[contains(@text,'Paycell')]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,'Paycell')]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "paycellPhoneNumber",
+    "androidValue": "com.turkcell.paycell:id/fragment_phone_number_phone_number_tv",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Telefon Numaran']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "paycellAppIndır",
+    "androidValue": "//android.widget.TextView[contains(@text,'Paycell')]",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,'Paycell')]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "yenıKredıKartEkle",
+    "androidValue": "yenıKredıKartEkl",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Yeni Kart Ekle']",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "krediKartiKaydetme",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kredi Kartı Kaydetme\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "krediKartiTamamBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Tamam\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "bakıyeYukle",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonAddBalance",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Bakiye Yükle']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "BakıyeTutar",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextTextAmount",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "bakıyeDevam",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonSave",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Devam']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "bakıyeLımıtPopup",
+    "androidValue": "//android.widget.TextView[@content-desc='Lütfen kart limiti aralığında bir değer giriniz!']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Lütfen kart limiti aralığında bir değer giriniz!']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "sallaKazanPopup",
+    "iosValue": "//XCUIElementTypeOther[@name='Salla kazan']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "kartEklePopup",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Yeni Kart Ekle\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.Button[@text='Yeni Kart Ekle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "krediKartiKaydetme",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kredi Kartı Kaydetme\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Kredi Kartı Kaydetme\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "krediKartKaydet",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kredi Kartını Kaydet\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "ekPaketIslemlerı",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,'Ek Paket')]",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='Ek Paket İşlemleri']",
+    "androidType": "xpath"
+  }
+,
+  {
+    "key": "internetEkPaketleriText",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='İnternet Ek Paketleri'`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "ınternetEkPaketlerı",
+    "iosValue": "//XCUIElementTypeOther[@name=\"İnternet Ek Paketleri\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/imageViewWebViewClose']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturalarımAyarlarBtn",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Dijital Operatör\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage",
+    "iosType": "xpath",
+    "androidValue": "//*[@content-desc='Fatura Ayarları']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaOtomatıkOdemeTalımatıTESt",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Fatura Otomatik Ödeme Talimatı\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "faturaOtomatıkOdemeTalımatıNumaraSecimAlani",
+    "iosValue": "//XCUIElementTypeOther[./XCUIElementTypeOther/XCUIElementTypeLink/XCUIElementTypeStaticText[contains(@name,'053')]]",
+    "iosType": "xpath",
+    "androidValue": "your_lines",
+    "androidType": "id"
+  },
+  {
+    "key": "faturaTalımatAdi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Talimat Adı\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@text='Talimat Adı']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaGuvenlıkKodu",
+    "iosValue": "//XCUIElementTypeOther[@name=\"GÜVENLİK KODU\"]/following-sibling::XCUIElementTypeOther/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='security_code1']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaOtomatıkOdemeCheckBox",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"OTOMATİK ÖDEME ŞARTLARINI ONAYLIYORUM\"]/preceding-sibling::XCUIElementTypeOther",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "faturalarımAlani",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"FATURALARIM\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"FATURALARIM\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "otomatıkOdemeDevamEt",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Devam Et\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "klavyeBıttıBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Bitti\"]",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "farkliKredıKartiOtoOdeme",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Farklı Bir Kredi Kartı İle Öde\"]/preceding-sibling::XCUIElementTypeOther",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "talımatAdiFarkliKart",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Dijital Operatör\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[17]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "adsoyadFarkliKart",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Dijital Operatör\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[19]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "kartnumarasiFarkliKart",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Dijital Operatör\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[22]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "aysecımıFarkliKart",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Dijital Operatör\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[24]/XCUIElementTypeOther",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "yilsecımıFarkliKart",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Dijital Operatör\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[26]/XCUIElementTypeOther",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "cvvAlaniFarkliKart",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Dijital Operatör\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[29]/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "sıkcaSorulanSorular",
+    "iosValue": "//XCUIElementTypeLink[@name=\"Sıkça Sorulan Sorular\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='support-cnt']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "bakiyeYükleBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Bakiye Yükle\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonAddBalance']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "yuklemekİstediginizMiktarıGiriniz",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"Yüklemek istediğiniz miktarı giriniz.\"]/..//*)[2]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/editTextTextAmount']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "DevamBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Devam\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonSave']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "devamBtnPopUp",
+    "iosValue": "//XCUIElementTypeButton[@name=\"İptal\"]/..//XCUIElementTypeButton[@name=\"Devam\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonPositive']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "cvvText",
+    "iosValue": "//XCUIElementTypeButton[@name=\"CVV nedir?\"]/..",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/editTextCvv']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "payTamamBtn",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Tamam\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonBottom']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kart1",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/imageViewBg']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hemenÖdeKartSeçimi",
+    "iosValue": "//*[@name=\"Hemen Öde\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonBottomPayBillNow']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "cvvKartSeçimi",
+    "iosValue": "//*[@value=\"CVV\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textInputEditTextCardCvv']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hemenOdeCvv",
+    "iosValue": "//*[@name=\"Hemen Öde\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonBottomCvv']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "baskaKrediKartıİleÖde",
+    "iosValue": "//*[@name=\"Başka Kart ile Öde\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonBottomPayBillNewCard']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "krediKartıİsim",
+    "iosValue": "//*[@value='Kredi Kartı Üzerindeki Ad Soyad']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textInputEditTextCardOwner']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "krediKartıNumarası",
+    "iosValue": "//*[@value='Kart Numarası']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textInputEditTextCardNumber']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "krediKartıSonKullanmaTarihi",
+    "iosValue": "//*[@value='Son Kullanma Tarihi']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textInputEditTextCardExpires']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "krediKartıCvv",
+    "iosValue": "//*[@value='CVV']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textInputEditTextCardCvv']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "krediKartıHemenÖde",
+    "iosValue": "//*[@name='Hemen Öde']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonBottomPayBill']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "garanti3DGüvenlik",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='uyari2']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "DevamEtOtomatikOdemeBtn",
+    "iosValue": "//*[@value='Devam Et']",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "OtomatikOdemeOnay",
+    "iosValue": "//*[@name=\"OTOMATİK ÖDEME ŞARTLARINI ONAYLIYORUM\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "OtomatikOdemeTamam",
+    "iosValue": "//*[@name=\"Tamam\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "yeniKrediKartıCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonSaveCard']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "sirketimBanner",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,\"Şirketim Uygulaması\")]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "krediKartiKaydetmeText",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kredi Kartı Kaydetme\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "mesajlarimText",
+    "iosValue": "//XCUIElementTypeButton[@name=\"MESAJLARIM\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "EvdenCebeGB",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,\"TL\")]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[contains(@content-desc,\"TL\")]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "evdenCepHemenAlBtn",
+    "iosValue": "//XCUIElementTypeLink[@name=\"Hemen Al\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[contains(@text,'Hemen')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "logoutTLGSMtext",
+    "iosValue": "//*[@value='Transfer Edilecek Numara (53XXXXXXXX)']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='param1']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "logoutVinnTLGSMtext",
+    "iosValue": "//XCUIElementTypeTextField[contains(@value,'GSM')]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextGsmNo",
+    "androidType": "id"
+  },
+  {
+    "key": "logoutVinnTLAdtext",
+    "iosValue": "//XCUIElementTypeTextField[@value='Adınız Soyadınız']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextNameSurname",
+    "androidType": "id"
+  },
+  {
+    "key": "logoutTabletTLGSMtext",
+    "iosValue": "//XCUIElementTypeTextField[contains(@value,'GSM')]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextCardGsmNo",
+    "androidType": "id"
+  },
+  {
+    "key": "logoutTLAdtext",
+    "iosValue": "(//XCUIElementTypeOther[@name=\"Turkcell Şifreniz\"]/following-sibling::XCUIElementTypeOther)/XCUIElementTypeSecureTextField",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.EditText[@resource-id=\"password\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "logoutGırısYapBtn",
+    "iosValue": "//XCUIElementTypeLink[@name=\"Giriş Yap\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@resource-id=\"signin_button\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "transferNumara",
+    "iosValue": "//XCUIElementTypeTextField[contains(@value,'Numara')]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.EditText[@resource-id=\"param1\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "transferGmail",
+    "iosValue": "(//XCUIElementTypeOther[@name=\"E-Posta Adresiniz\"]/following-sibling::XCUIElementTypeOther)/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='email1']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "transferGmailIki",
+    "iosValue": "  //*[@value='E-Posta Adresiniz Tekrar']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='email1-again']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "transferOnayla",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Onayla\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='package-buy-button']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "transferOnaylaCheckBox",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@value,'Onaylıyorum')]/preceding-sibling::XCUIElementTypeOther",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@resource-id=\"contract-aggreement-checkbox-div\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "transferOnaylaCheckBoxRef",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Onaylıyorum, Onayınız ödeme yükümlülüğü doğuracaktır.\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@resource-id=\"contract-aggreement-checkbox-div\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "transferSatinAl",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Satın Al\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='package-buy-button']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "transferTalebTamamBtn",
+    "iosValue": "//XCUIElementTypeLink[@name=\"Tamam\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "transferOnaylaCheckBoxOnayliyorum",
+    "androidValue": "//android.view.View[@resource-id=\"etk-last-step-checkbox\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "transferTamamBtn",
+    "androidValue": "//*[@resource-id='closeProductDetailPurchaseConfirmationButton']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "numaram5720",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"5307385720\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewLoginMsisdn']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "numaram",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"5307458832\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewLoginMsisdn']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "numaram9973",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"5054039973\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewLoginMsisdn']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "odenmemisfaturaUyarısı",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ödenmemiş faturanız bulunmamaktadır.\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"1 adet ödenmemiş faturanız var.\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "platiniumAvantajPaketi",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"Platinum+ Avantaj Paketi\"])[2]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Platinum+ Avantaj Paketi\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "TLveAY",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"TL / AY\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"TL / AY\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "detayliBilgi",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Detaylı Bilgi\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewDetailInfo",
+    "androidType": "id"
+  },
+  {
+    "key": "paketHemenAlBtn",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Hemen Al'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.view.View[contains(@text,'Hemen Al')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "paketSecBtn",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Seç\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "paketDevamEt",
+    "iosValue": "//XCUIElementTypeLink[@name=\"Devam Et\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "paketSözlesmeForm",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,\"form\")]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "anaSayfaNumaraAlani",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"5307385720\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[contains(@content-desc,\"5307385720\")]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "umitGokNumaraAlani",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"ÜMİT GÖK\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"ÜMİT GÖK\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kulaklikSearchTextResult",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,\"Kulak\")]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[contains(@content-desc,\"Kulak\")]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "searchHistoryTextResult",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,\"Turk\")]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[contains(@content-desc,\"Turk\")]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "searchTabCarpi",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Metni sil\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+
+  {
+    "key": "tumUrunlerimButton",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Tüm Ürünlerim\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonPackageAndTariffCard']",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "urunlerim",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"ÜRÜNLERİM\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "ekFaydalarimYazisi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ek Faydalarım ve Ek Paketlerim\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewExtraBenefitCardTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ekFaydaIptalButonu",
+    "iosValue": "//*[@value='sayfa 1 / 4']",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonExtraBenefit']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ekFaydaSwipeCheck",
+    "iosValue": "//*[@value='sayfa 4 / 4']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewExtraBenefitTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "eminMisinizYazisi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Emin misiniz?\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Emin misiniz?\"]\n",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasiKampanyaIsmi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewMyCampaignTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasiKampanyaTarihi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewMyCampaignStartDate']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasiKampanyaAyrintisi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewMyCampaignDetail']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mevcutTarifeIsmi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewPackageAndTariffCardTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mevcutTarifeUcretBilgisi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewPrice']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mevcutTarifeDetayi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewDetailInfo",
+    "androidType": "id"
+  },
+  {
+    "key": "mevcutTarifeZamanBari",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/seekBarPackageAndTariff']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mevcutTarifeBaslangicTarihi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewPackageAndTariffStartDate']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mevcutTarifeBitisTarihi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewPackageAndTariffEndDate']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mevcutPaketIsmi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Mevcut Paket ve Tarifem\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewPackageTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ekFaydaIsmi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ek Faydalarım ve Ek Paketlerim\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewExtraBenefitTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kampanyalarimIsmi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Servislerim\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewMyCampaignTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "servislerimIsmi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Servislerim\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewMyServicesTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasindaKapatmaButonu",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/imageViewWebViewClose']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimDetayliAyrintiSayfasi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='mainPage']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasindaMevcutPaketIsmi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewPackageTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasindaPaketZamanBari",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/seekBarPackageAndTariff']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasindaFiyatBilgisi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewPackageAndTariffPrice']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasindaBaslangicTarihi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewPackageAndTariffStartDate']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasindaBitisTarihi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewPackageAndTariffEndDate']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasindaDetayliBilgiButonu",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Detaylı Bilgi\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerimSayfasindaPaketiniDegistirButonu",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/buttonPackageAndTariff']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kampanyaDetayliBilgiButonu",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewMyCampaignDetail']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "servislerimDetayliBilgiButonu",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewMyServicesDetail']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mevcutPaketVeTarifenCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Lifecell Platinum 5GB Kampanyası\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "mevcutPaketVeTarifenRef",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/imageViewPackageImage']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "servisiIptalEt",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonMyServices",
+    "androidType": "id"
+  },
+  {
+    "key": "birinciServisIsmi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewMyServicesTitle']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "yeniServisAlButonu",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonNewService",
+    "androidType": "id"
+  },
+  {
+    "key": "servisiIptalEtmedenVazgeç",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonNegative",
+    "androidType": "id"
+  },
+  {
+    "key": "yeniServislerSayfasi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/constraintBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "profilFotografi",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Profil\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewProfilIcon",
+    "androidType": "id"
+  },
+  {
+    "key": "hesapEkleKaldirButonu",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Hesap Ekle / Kaldır\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hesap Ekle / Kaldır\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapKaldirButonu",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Hesap Kaldır\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hesap Kaldır\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ekliHesabinizBulunmamaktadirUyarisi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ekli bir hesabınız bulunmamaktadır.\"]\n",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewRemoveAccountWarning",
+    "androidType": "id"
+  },
+  {
+    "key": "numaraEngellemeServisiIsmi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Kim Aramış\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapEkleButonu",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Hesap Ekle\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hesap Ekle\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapEklemeIsleminiYaptinizUyarisi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Hesap ekleme işlemini daha önce yaptınız. Hesabım altından eklediğiniz hesaplara ulaşabilirsiniz.\"]\n",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewNoDataLine",
+    "androidType": "id"
+  },
+  {
+    "key": "fizyServisIsmi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Fizy\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "theatreModuInternetPaketlerimBasligi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/packageTitle' and @text='İnternet']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "theatreModuDakikaPaketlerimBasligi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/packageTitle' and @text='Dakika']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "theatreModuUygulamalarPaketlerimBasligi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/packageTitle' and @text='Uygulamalar']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "theatreModuSMSPaketlerimBasligi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/packageTitle' and @text='SMS']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "theatreModunaGiris",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/decoView']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturalarimSonOdemeTarihi",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,'Ödeme')]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewMyBillDate",
+    "androidType": "id"
+  },
+  {
+    "key": "guncelFaturamiGosterButonu",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Güncel Faturamı Göster\"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/button_review_current_bill",
+    "androidType": "id"
+  },
+  {
+    "key": "odenmemisFaturaBilgisi",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=' 1 adet ödenmemiş faturanız var.'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewBillStatus",
+    "androidType": "id"
+  },
+  {
+    "key": "odemeDetaylari",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ödeme Detayları\"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewSectionTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "faturaAyarlari",
+    "iosValue": "//XCUIElementTypeImage[@name=\"settings\"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewSettings",
+    "androidType": "id"
+  },
+  {
+    "key": "faturaKontrolUyariLimiti",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Fatura Kontrol Uyarı Limiti\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[contains(@text,'Fatura Kontrol Uyarı Limiti')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaGonderimYontemi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Fatura Gönderim Yöntemi\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[contains(@text,'Fatura Gönderim Yöntemi')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaKesimTarihi",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Fatura Kesim Tarihi\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[contains(@text,'Fatura Kesim Tarihi')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaOtomatikOdemeTalimati",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Fatura Otomatik Ödeme Talimatı'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.view.View[contains(@content-desc,\"Otomatik Ödeme Talimatı\")]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "turkcellAsistanaBaglan",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Turkcell Asistan'a Bağlan\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonMyBillDispute",
+    "androidType": "id"
+  },
+  {
+    "key": "turkcellAsistanSayfaBasligi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Size nasıl yardımcı olabilirim?\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hizmetDondurmaTEst",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Hizmet Dondurma\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hizmet Dondurma\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaAyarlarimTest",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Fatura Ayarlarım\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Fatura Ayarlarım\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "otomatikOdemeTalimatiTest",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Otomatik Ödeme Talimatı\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Otomatik Ödeme Talimatı\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "guvenliInternetTest",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Güvenli İnternet\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "teknikİslemlerim",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Teknik İşlemlerim\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@text=\"Teknik İşlemlerim\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hizliIslemlerKarti",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"HIZLI İŞLEMLER\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"HIZLI İŞLEMLER\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "gönderButonu",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Gönder\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@text=\"Gönder\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaAyarlariBaslik",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Fatura Ayarları\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@text=\"Fatura Ayarları\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "yeniTalimatEkle",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Yeni Talimat Ekle\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@text=\"Yeni Talimat Ekle\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "degisikligiOnaylaButonu",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Değişikliği Onayla\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.Button[@text=\"Değişikliği Onayla\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kullanimKartiBasligi",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='KULLANIM'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"KULLANIM\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "superOnlineKullanimBari",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/frameLayoutProgress",
+    "androidType": "id"
+  },
+  {
+    "key": "superOnlineKullanimAciklamasi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[contains(@text,'kullanıyorsunuz')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "superOnlineIndirmeBilgisi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewDownloadLabel",
+    "androidType": "id"
+  },
+  {
+    "key": "superOnlineYuklemeBilgisi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewUploadLabel",
+    "androidType": "id"
+  },
+  {
+    "key": "superOnlineToplamKullanimBilgisi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewProgressBarUsage",
+    "androidType": "id"
+  },
+  {
+    "key": "akıllıAsistan",
+    "iosValue": "**/XCUIElementTypeButton[`name='chatbotCentral'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/layout_chatbot_main",
+    "androidType": "id"
+  },
+  {
+    "key": "Positive",
+    "iosValue": "//XCUIElementTypeButton[@name='Evet' or @name='Tamam']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPositive",
+    "androidType": "id"
+  },
+  {
+    "key": "mesajBarı",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Bu alana yazabilirsiniz...'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextMessage",
+    "androidType": "id"
+  },
+  {
+    "key": "chatBoxIcon",
+    "iosValue": "//*[@name='chatbot_emocan']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/card_view_message",
+    "androidType": "id"
+  },
+  {
+    "key": "gonderBtn",
+    "iosValue": "**/XCUIElementTypeButton[`name='chatbot send'`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/relativeLayoutBottom']//*[@resource-id='com.ttech.android.onlineislem:id/imageViewSend']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "btn_hesaplarıGor",
+    "iosValue": "**/XCUIElementTypeImage[`name=\"profile_arrow_down\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewArrowDown",
+    "androidType": "id"
+  },
+  {
+    "key": "btn_yeniHesapEkle",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Hesap Ekle / Kaldır\"`]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewAddAccountIcon",
+    "androidType": "id"
+  },
+  {
+    "key": "tc",
+    "iosValue": "//*[@value='TC Kimlik Numarası']",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextIdNumber",
+    "androidType": "id"
+  },
+  {
+    "key": "dogumTarihi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextBirthDate",
+    "androidType": "id"
+  },
+  {
+    "key": "btn_HesapEkleDevam",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Devam\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "popup_HesapEkle",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"İlgili alanları doğru formatta girerek doldurunuz.\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/constraintLayoutBody",
+    "androidType": "id"
+  },
+  {
+    "key": "btn_uygulamaDili",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@text='Uygulama Dili']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "btn_AyarlaraGit",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Profil Ayarlarına Git \"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/relativeLayoutGoToProfile",
+    "androidType": "id"
+  },
+  {
+    "key": "btn_English",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"ENGLISH\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"ENGLISH\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "AppEnglish",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"My Account\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@text='My Account']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "paycellVeKayıtlıKartlarımText",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"PAYCELL VE KAYITLI KARTLARIM\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "faturaAyarlarıText",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Fatura Ayarları\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.view.View[@text='Fatura Ayarları']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "evdenCebeOnayButton2Ref",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='etk-last-step-checkbox']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "evdenCebeGsmNumber",
+    "iosValue": "(//XCUIElementTypeOther[@name=\"GSM NUMARANIZ\"]/following-sibling::XCUIElementTypeOther)/XCUIElementTypeTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='msisdn']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "evdenCebeGsmŞifre",
+    "iosValue": "(//XCUIElementTypeOther[@name=\"Turkcell Şifreniz\"]/following-sibling::XCUIElementTypeOther)/XCUIElementTypeSecureTextField",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='password']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "evdenCebeGirisyapBtnn",
+    "iosValue": "//XCUIElementTypeLink[@name=\"Giriş Yap\"]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='signin_button']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "chatBotGönder",
+    "iosValue": "**/XCUIElementTypeButton[`name='chatbot send'`]",
+    "iosType": "classChain",
+    "androidValue": "(//*[@resource-id='com.ttech.android.onlineislem:id/imageViewSend'])[last()]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "chatFloating",
+    "iosValue": "**/XCUIElementTypeOther[`name='chatbot'`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "webChat",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Turkcell Canlı Hizmet' OR name='Turkcell Live Support'`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@text= 'Turkcell Live Support' or @text='Turkcell Canlı Hizmet']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "aramaBaglanti",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Arama ve Bağlantı Kontrolü\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Arama ve Bağlantı Kontrolü\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ENGprofilAyarGit",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Go to Profile Settings\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "ENGdiltercihiBtn",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Language\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "ENGhesabımUygulamaDili",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Application Language\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "btn_Turkce",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"TÜRKÇE\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"TÜRKÇE\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "appTR",
+    "iosValue": "**/XCUIElementTypeButton[`name='İşlem Merkezi'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"İşlem Merkezi\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "webChatKapat",
+    "iosValue": "**/XCUIElementTypeButton[`name='Kapat'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewWebViewClose",
+    "androidType": "id"
+  },
+
+  {
+    "key": "ıosKeyboardDone",
+    "iosValue": "**/XCUIElementTypeButton[`name='Done' OR name='Toolbar Done Button' OR name='Bitti'`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  }
+
+,
+  {
+    "key": "faturaAyi",
+    "iosValue": "//XCUIElementTypeButton[contains(@name, 'Ocak')]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+
+  {
+    "key": "pp",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Profil\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/imageViewProfilIcon']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "HesapEkleKaldırBtn",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Hesap Ekle / Kaldır\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hesap Ekle / Kaldır\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tumIşlemlerimKontrol",
+    "iosValue": "**/XCUIElementTypeButton[`name='Ek Paket İşlemleri'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/layoutTop",
+    "androidType": "id"
+  },
+
+
+  {
+    "key": "TumIslemlerim4.5G",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"4.5G Aboneliğim\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "TumIslemlerim4.5GKontrol",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/button4G",
+    "androidType": "id"
+  },
+  {
+    "key": "TumIslemlerimGuvenliInternet",
+    "iosValue": "**/XCUIElementTypeButton[`name='Güvenli İnternet'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Güvenli İnternet\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "TumIslemlerimGuvenliInternetKontrol",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Güvenli İnternet\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@text='Güvenli İnternet']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "paketDevamEt2",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Devam Et\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  }
+,
+  {
+    "key": "UygulamaIndir",
+    "iosValue": "**/XCUIElementTypeButton[`name='Paycell Uygulama İndir'`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "paketDevamEt2",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Devam Et\"]",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "guvenliInternetKontrol",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Güvenli İnternet\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "tb_hediyelerim",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='HEDİYELERİM'`]",
+    "iosType": "classChain",
+    "androidValue": "//androidx.appcompat.app.ActionBar.Tab[@content-desc='HEDİYELERİM']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "KrediKartlarım",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Kredi Kartlarım'`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "tb_tarihce",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='TARİHÇE'`]",
+    "iosType": "classChain",
+    "androidValue": "//androidx.appcompat.app.ActionBar.Tab[@content-desc='TARİHÇE']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tb_ayricaliklar",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='AYRICALIKLAR'`]",
+    "iosType": "classChain",
+    "androidValue": "//androidx.appcompat.app.ActionBar.Tab[@content-desc=\"AYRICALIKLAR\"]/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "tb_istekazan",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='İŞTE KAZAN'`]",
+    "iosType": "classChain",
+    "androidValue": "//androidx.appcompat.app.ActionBar.Tab[@content-desc='İŞTE KAZAN']",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "saatlik500",
+    "iosValue": "**/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[`name=\"Saatlik 500 MB\"`]",
+    "iosType": "classChain",
+    "androidValue": "(//*[@resource-id='com.ttech.android.onlineislem:id/constraintLayoutLayoutCardViewRoot'])[1]//android.widget.TextView[@content-desc='Saatlik 500 MB']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "karakoduOkut",
+    "iosValue": "**/XCUIElementTypeButton[`name='Karekodu Okut'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.Button[@text='Karekodu Okut']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "izinver",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.android.packageinstaller:id/permission_allow_button",
+    "androidType": "id"
+  },
+  {
+    "key": "btn_kullanılmayanCekler",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Henüz kullanmadığınız hediye çek(ler)iniz var. Görüntülemek için tıklayın.'`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonUnusedGifts",
+    "androidType": "id"
+  },
+  {
+    "key": "kullanılmayanCeklerList",
+    "iosValue": "(//XCUIElementTypeStaticText[contains(@name,'Turkcell')])[1]",
+    "iosType": "xpath",
+    "androidValue": "(//android.widget.TextView[contains(@content-desc,'Turkcell')])[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "btn_HediyeInternet",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,'Internet')]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='Internet']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "GB",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,'GB')]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc='GB']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ayricalikKesfet",
+    "iosValue": "**/XCUIElementTypeButton[`name='Keşfet'`][1]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPrivilege",
+    "androidType": "id"
+  },
+  {
+    "key": "istekazanKampanya",
+    "iosValue": "**/XCUIElementTypeOther[`name='Kurumsal İndirim Kampanya | Faturalı Hat Kampanya | Turkcell Kuru'`]/XCUIElementTypeLink[2]/XCUIElementTypeImage",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='campaignList']/android.view.View[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "istekazanHemenAl",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Hemen Katıl'`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@resource-id='campaignBuyButton']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "pesin",
+    "iosValue": "//*[contains(@name,'Peşin Fiyat')]",
+    "iosType": "xpath",
+    "androidValue": "//*[contains(@text,'Peşin Fiyat')]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "btn_talimatIptal",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Talimat İptal'`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "baslangicCheck",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Başlangıç: \"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewPackageAndTariffStartDateTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "bitisCheck",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Bitiş: \"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewPackageAndTariffEndDateTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "tumIslemlerimBackButton",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Geri\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "islemMerkeziBuyuklukKontrol",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kablosuz Ağ İşlemlerim\"]/../../*[13]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/recyclerViewSettingsCard']/*[7]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturalarimIkinciSiradaOlmasi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "(//*[@resource-id='com.ttech.android.onlineislem:id/relativeLayoutRoot'])[2]//android.widget.TextView[@content-desc=\"FATURALARIM\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaliyaGecisKontrol",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Faturalı Hatta Geçiş\"`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@text='Faturalı Hatta Geçiş']",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "UygulamaIndir",
+    "iosValue": "**/XCUIElementTypeButton[`name='Paycell Uygulama İndir'`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "PaycellKartlarım",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Paycell Kartlarım'`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "hızlıIslemlerKartıOtomatikOdemeTalimatı",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Otomatik Ödeme Talimatı\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "islemMerkeziKablosuzIslem",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonSecond",
+    "androidType": "id"
+  },
+  {
+    "key": "sallaKazanBtnIslemMErkezi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/image_open",
+    "androidType": "id"
+  },
+  {
+    "key": "sallakazanCheck",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/imageView5",
+    "androidType": "id"
+  },
+  {
+    "key": "kazandiklarim",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,'KAZANDIKLARIM')]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textviewSpinner",
+    "androidType": "id"
+  },
+  {
+    "key": "HHinternet",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,'İnternet')]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewFilterFirstItemValue",
+    "androidType": "id"
+  },
+  {
+    "key": "HHdiger",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,'Diğer')]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewFilterSecondItemValue",
+    "androidType": "id"
+  },
+  {
+    "key": "kazandiklarim2",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,'KAZANDIKLARIM')]",
+    "iosType": "xpath",
+    "androidValue": "(//android.widget.TextView[contains(@text,'KAZANDIKLARIM')])[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "digerListelenen",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Dijital Operatör\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/constraintLayoutLayoutCardViewRoot",
+    "androidType": "id"
+  },
+  {
+    "key": "HHKesfet",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"Keşfet\"])[1]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPrivilege",
+    "androidType": "id"
+  },
+  {
+  "key": "btn_PaycellGit",
+  "iosValue": "**/XCUIElementTypeButton[`name=\"Paycell'e Git\"`]",
+  "iosType": "classChain",
+  "androidValue": "//android.widget.Button[@text=\"Paycell'e Git\"]",
+  "androidType": "xpath"
+},
+  {
+    "key": "PaycellBilgilendirme",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"BİLGİLENDİRME\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "devam_btn",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Devam\"`]",
+    "iosType": "classChain",
+    "androidValue":"com.ttech.android.onlineislem:id/buttonPositive",
+    "androidType": "id"
+  },  {
+  "key": "paketiniDegistirBtn1",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "com.ttech.android.onlineislem:id/buttonPackageAndTariff",
+  "androidType": "id"
+},
+  {
+    "key": "yenilemeBitis",
+    "iosValue": "//XCUIElementTypeStaticText[contains(@name,\"Yenileme/Bitiş\")]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[contains(@text,\"Yenileme/Bitiş\")]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "5727Datasi",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"5307385720\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"5307385720\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "UrunlerimSAyfasıServislerimKartı",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewMyServicesCardTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "Kart1",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"close\"])[1]",
+    "iosType": "xpath",
+    "androidValue": "(//android.widget.ImageView[@resource-id='com.ttech.android.onlineislem:id/imageViewBackground'])[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kart2",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"close\"])[2]",
+    "iosType": "xpath",
+    "androidValue": "(//android.widget.ImageView[@resource-id='com.ttech.android.onlineislem:id/imageViewBackground'])[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "urunlerim",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"ÜRÜNLERİM\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"ÜRÜNLERİM\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "eklemeOncedenYapildi",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Hesap ekleme işlemini daha önce yaptınız. Hesabım altından eklediğiniz hesaplara ulaşabilirsiniz.\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hesap ekleme işlemini daha önce yaptınız. Hesabım altından eklediğiniz hesaplara ulaşabilirsiniz.\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kalanKullanımYuzde",
+    "iosValue": "//*[contains(@value,'%')]",
+    "iosType": "xpath",
+    "androidValue": "//android.widget.TextView[@content-desc=\"%100\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "TheatreInternet",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='İnternet Paketleri'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@text=\"İnternet\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "TheatreKonusma",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Konuşma Paketleri'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@text=\"Dakika\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "TheatreUygulama",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Uygulama Paketleri'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@text=\"Uygulamalar\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "TheatreSms",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='SMS Paketleri'`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@text=\"SMS\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "theatreInternetLast",
+    "iosValue": "(//XCUIElementTypeCell[1]//XCUIElementTypeStaticText[contains(@name,'2020')])[last()]",
+    "iosType": "xpath",
+    "androidValue": "(//android.widget.TextView[@text=\"İnternet\"]/../androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout)[last()]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "theatreKonusmaLast",
+    "iosValue": "(//XCUIElementTypeCell[2]//XCUIElementTypeStaticText[contains(@name,'2020')])[last()]",
+    "iosType": "xpath",
+    "androidValue": "(//android.widget.TextView[@text=\"Dakika\"]/../androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout)[last()]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "theatreUygulamaLast",
+    "iosValue": "(//XCUIElementTypeCell[3]//XCUIElementTypeStaticText[contains(@name,'2020')])[last()]",
+    "iosType": "xpath",
+    "androidValue": "(//android.widget.TextView[@text=\"Uygulamalar\"]/../androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout)[last()]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "theatreSmsLast",
+    "iosValue": "(//XCUIElementTypeCell[4]//XCUIElementTypeStaticText[contains(@name,'2020')])[last()]",
+    "iosType": "xpath",
+    "androidValue": "(//android.widget.TextView[@text=\"SMS\"]/../androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout)[last()]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "nakilIslemlerimTest",
+    "iosValue": "**/XCUIElementTypeButton[`name=\"Nakil İşlemlerim\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "nakilIslemlerim",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Nakil İşlemlerim\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Nakil İşlemlerim\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "nakilIslemlerimPage",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Taşıma Sihirbazı\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.view.View[@text=\"Taşıma Sihirbazı\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "numaraniTasi",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Numaranı Taşı\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Numaranı Taşı\"]",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "yeniHatAl",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Yeni Hat Al\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Yeni Hat Al\"]",
+    "androidType": "xpath"
+  },
+
+  {
+    "key": "yeniHatAlmakİstiyorum",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Yeni Hat Almak İstiyorum\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "yeniNumaraAl",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Yeni Numara Al\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "evİnternetiEkle",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Ev İnternetini Ekle\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Ev İnternetini Ekle\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "superboxDijBasvuru",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Superbox Dijital Başvuru\"`]",
+    "iosType": "classChain",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Superbox Dijital Başvuru\"]",
+    "androidType": "xpath"
+  }
+,
+  {
+    "key": "numaraniTasiPage",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Numaranı taşı veya yeni bir numara al\"]",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonContinue",
+    "androidType": "id"
+  },
+
+  {
+    "key": "hemenBasla",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Hemen Başla\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "hattimiTurkcelleTasimakİstiyorum",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Hattımı Turkcell'e Taşımak İstiyorum\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "numaraTasima",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Numara Taşıma\"]",
+    "iosType": "xpath"
+  },
+
+  {
+    "key": "yeniHatAlPage",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Yeni Hat Al\"`]",
+    "iosType": "classChain",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonContinue",
+    "androidType": "id"
+  },
+  {
+    "key": "tumIslemlerimPaycellveKredi",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Paycell ve Kredi Kart İşlemleri\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "krediKartlarım",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Kredi Kartlarım\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaKontPage",
+    "iosValue": "**/XCUIElementTypeOther[`name=\"Evden Cebe Transfer\"`]",
+    "iosType": "classChain",
+    "androidValue": "(//android.view.View[@text='Fatura Kontrol Uyarı Limiti'])[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "btn_Geri",
+    "iosValue": "**/XCUIElementTypeStaticText[`name='Geri'`]",
+    "iosType": "classChain",
+    "androidValue": "//*[@text='Geri' or @content-desc='Geri' ]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaGonderimYontemiPage",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Fatura Gönderim Yöntemi\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@text='Fatura Gönderim Yöntemi']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaKesimTarihiPage",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Fatura Kesim Tarihi\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@text='Fatura Kesim Tarihi']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "faturaOtomatikOdemeTalimatiPage",
+    "iosValue": "//XCUIElementTypeOther[@name=\"Otomatik Ödeme Talimatı\"]",
+    "iosType": "xpath",
+    "androidValue": "//android.view.View[@text='Otomatik Ödeme Talimatı']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "btn_pdf",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"ÖZET\"]/../../../../../../XCUIElementTypeButton",
+    "iosType": "xpath",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewPDF",
+    "androidType": "id"
+  },
+  {
+    "key": "ekPaketIslemlerıIcon",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ek Paket İşlemleri\"]/../XCUIElementTypeImage",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "çağrıAyarlarıKontrolIcon",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Çağrı Ayarları\"]/../XCUIElementTypeImage",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "hatIslemleriIcon",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Hat İşlemleri\"]/../XCUIElementTypeImage",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "superboxDijBasvuruIcon",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Superbox Dijital Başvuru\"]/../XCUIElementTypeImage",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  }
+,
+  {
+    "key": "yurtDısıIslemleriIcon",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Yurt Dışı İşlemleri\"]/../XCUIElementTypeImage",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  } ,
+  {
+    "key": "faturaIslemleriIcon",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Fatura İşlemleri\"]/../XCUIElementTypeImage",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "paycellveKayıtlıKartlarımIcon",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Paycell ve Kredi Kart İşlemleri\"]/../XCUIElementTypeImage",
+    "iosType": "xpath",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "faturaIslemleri",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Fatura İşlemleri\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "sigortaİslemlerim",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Sigorta İşlemlerim\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "LogoutaramaButonu",
+    "iosValue": "**/XCUIElementTypeSearchField[`name=\"Marka veya ürün ara\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "paycellKartlarimYeni",
+    "iosValue": "**/XCUIElementTypeStaticText[`name=\"Paycell Kartlarım\"`]",
+    "iosType": "classChain",
+    "androidValue": "",
+    "androidType": ""
+  },
+
+  {
+    "key": "cagriAyarlari",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@content-desc=\"Çağrı Ayarları\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hataMesajı",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//android.widget.TextView[@content-desc=\"Hata\"]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+  }
+]
+

@@ -1,0 +1,329 @@
+[
+  {
+    "key": "profilImageAND",
+    "androidValue": "com.ttech.android.onlineislem:id/imageViewProfilIcon",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`name='Profil'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "profilImageANDıkı",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewProfilePhotoTitle']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeImage [@name='pic']/following-sibling::XCUIElementTypeImage",
+    "iosType": "xpath"
+  },
+  {
+    "key": "profilAyarlarınaGitAND",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewGoToProfile",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name='Go to Profile Settings']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "yeniHesapEkleButonuAND",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewAddAccountText",
+    "androidType": "id"
+  },
+  {
+    "key": "profilimButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewSettingsTitle",
+    "androidType": "id",
+    "androidIndex": "0"
+  },
+  {
+    "key": "hesaplarımBtn",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewSettingsTitle",
+    "androidType": "id",
+    "androidIndex": "1"
+  },
+  {
+    "key": "dilTercihiBtnAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Dil Tercihi']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "languageiBtnAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Language']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeButton[@name='Language']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "turkcellSifreBtnAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Turkcell Şifre']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hakkındaBtnAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Hakkında']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapEklebutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonChangeProfile",
+    "androidType": "id"
+  },
+  {
+    "key": "tcknAlanıAND",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextIdNumber",
+    "androidType": "id"
+  },
+  {
+    "key": "hesapEkleDogumTarihiAlanıAND",
+    "androidValue": "com.ttech.android.onlineislem:id/editTextBirthDate",
+    "androidType": "id"
+  },
+  {
+    "key": "günAlanıAND",
+    "androidValue": "com.ttech.android.onlineislem:id/picker_day",
+    "androidType": "id"
+  },
+  {
+    "key": "ayAlanıAND",
+    "androidValue": "com.ttech.android.onlineislem:id/picker_month",
+    "androidType": "id"
+  },
+  {
+    "key": "yılAlanıAND",
+    "androidValue": "com.ttech.android.onlineislem:id/picker_year",
+    "androidType": "id"
+  },
+  {
+    "key": "tamamButonuAND",
+    "androidValue": "com.ttech.android.onlineislem:id/btn_confirm",
+    "androidType": "id"
+  },
+  {
+    "key": "hesapEkleSozlesmeOnayıCheckbox",
+    "androidValue": "com.ttech.android.onlineislem:id/checkBoxAddAccountPermission",
+    "androidType": "id"
+  },
+  {
+    "key": "SozlesmeSayfasıOnayCheckbox",
+    "androidValue": "com.ttech.android.onlineislem:id/checkboxFirst",
+    "androidType": "id"
+  },
+  {
+    "key": "SozlesmeSayfasıOnaylıyorumButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPositive",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Tamam\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "hesapEklesayfasıDevambutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "hesapEklesayfasıDevambutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "hesapAyarlarıdogrulamaKodualanı",
+    "androidValue": "com.ttech.android.onlineislem:id/linearLayoutOtpCode",
+    "androidType": "id"
+  },
+  {
+    "key": "eklenecekHesaplar",
+    "androidValue": "com.ttech.android.onlineislem:id/recyclerView",
+    "androidType": "id"
+  },
+  {
+    "key": "hesaplarSayfasıdevamButonu",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout[3]/android.widget.Button",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapDegistirbutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonChangeProfile",
+    "androidType": "id"
+  },
+  {
+    "key": "bagliHesaplar",
+    "androidValue": "com.ttech.android.onlineislem:id/relativeLayoutRoot",
+    "androidType": "id"
+  },
+  {
+    "key": "secilenHesap",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewUsername",
+    "androidType": "id"
+  },
+  {
+    "key": "dilTercihibutonu",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[4]/android.widget.RelativeLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesabımUygulamadiliAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Uygulama Dili']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "applicationLanguageAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Application Language']",
+    "androidType": "xpath",
+    "iosValue": "//XCUIElementTypeButton[@name='Application Language']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "diCheckboxlistesiENG",
+    "androidValue": "com.ttech.android.onlineislem:id/checkBox",
+    "androidType": "id",
+    "androidIndex": "1",
+    "iosValue" : "//XCUIElementTypeStaticText[@name='ENGLISH']",
+    "iosType": "xpath"
+
+
+  },{
+  "key": "diCheckboxlistesiTR",
+  "androidValue": "com.ttech.android.onlineislem:id/checkBox",
+  "androidType": "id",
+  "androidIndex": "0",
+  "iosValue": "//XCUIElementTypeStaticText[@name='TÜRKÇE']",
+  "iosType": "xpath"
+
+  },
+  {
+    "key": "dilPopupTamambutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPositive",
+    "androidType": "id",
+    "iosValue" : "**/XCUIElementTypeButton[`name='Tamam' OR name='Done'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "iletisimDilitercihiButonu",
+    "androidValue": "//android.widget.TextView[@content-desc='İletişim Dili Tercihi']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "turkcellSifrebutonu",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[4]/android.widget.RelativeLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "beniUnutveDatahatlarımAlankontrolu",
+    "androidValue": "com.ttech.android.onlineislem:id/recyclerViewSubMenu",
+    "androidType": "id"
+  },
+  {
+    "key": "beniUnutsekmesiAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Beni Unut']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "beniUnutbutonuAND",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonForgetMe",
+    "androidType": "id"
+  },
+  {
+    "key": "beniUnutpopupEvetbutonuAND",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPositive",
+    "androidType": "id"
+  },
+  {
+    "key": "hesaplarımButonunatıkla",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.RelativeLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapEklekaldıralani",
+    "androidValue": "com.ttech.android.onlineislem:id/recyclerViewSubMenu",
+    "androidType": "id"
+  },
+  {
+    "key": "hesapKaldırsekmesi",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.RelativeLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapKaldırbutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonBottom",
+    "androidType": "id"
+  },
+  {
+    "key": "hakkındaButonu",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[5]/android.widget.RelativeLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "kullanıcıSözlesmesiveGizlilikpolitikasıalanı",
+    "androidValue": "com.ttech.android.onlineislem:id/recyclerViewSubMenu",
+    "androidType": "id"
+  },
+  {
+    "key": "kullanıcıSözlesmesisekmesiAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Kullanıcı Sözleşmesi']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "gızlılıkSözlesmesisekmesiAND",
+    "androidValue": "//android.widget.TextView[@content-desc='Gizlilik Politikası']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "gizlilikSözlesmesisekmesi",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.RelativeLayout",
+    "androidType": "xpath"
+  },
+  {
+    "key": "düzenleButonu",
+    "androidValue": "com.ttech.android.onlineislem:id/textViewProfilePhotoTitle",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`name='Düzenle'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "fotografKamerasilİptalalanKontrolü",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout",
+    "androidType": "xpath",
+    "iosValue": "Sil",
+    "iosType": "id"
+  },
+  {
+    "key": "fotografSecbutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/linearLayoutPickPhoto",
+    "androidType": "id"
+  },
+  {
+    "key": "tumUrunlerimbutonu",
+    "androidValue": "com.ttech.android.onlineislem:id/buttonPackageAndTariffCard",
+    "androidType": "id"
+  },
+  {
+    "key": "iosDilPopupTamambutonuEng",
+    "iosValue": "//XCUIElementTypeButton[@name='Done']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "silBtn",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewDeletePhoto']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "hesapEkleDevamBtn",
+    "iosValue": "//*[@name=\"Devam\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "turkceDili",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@ text ='TÜRKÇE']",
+    "androidType": "xpath"
+  }
+,
+  {
+    "key": "ingilizceDili",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@ text ='ENGLISH']",
+    "androidType": "xpath"
+  }
+
+]
+

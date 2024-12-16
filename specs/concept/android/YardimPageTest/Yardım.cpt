@@ -1,0 +1,323 @@
+Created by nese on 2019-06-11
+
+This is a concept file with following syntax for each concept.
+# 8832 ile Giris Yap
+* "2" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5307458832" değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+* giris yap butonuna tikla
+* "5" saniye bekle
+
+
+# 1466 ile Giris Yap
+* "2" saniye bekle
+* "gsmNumarasıalanı" li elementi bul ve "5376441466" değerini yaz
+* Klavyeyi kapat
+* "loginDevambutonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "sifreileGirisyapButonu" li elementi bul ve tıkla
+* "sifreGirisalanı" li elementi bul ve "530530" değerini yaz
+* giris yap butonuna tikla
+* "5" saniye bekle
+
+# En yakın turkcell sayfasına gir konum kapalı
+  * "yardımButonu" li elementi bul ve tıkla
+  * "3" saniye bekle
+  * "enYakınTurkcell" li elementi bul ve tıkla
+  * "3" saniye bekle
+  * "enyakınTurkcellTamamBtn" li elementi bul ve varsa tıkla
+  * "3" saniye bekle
+  * "EnyakınTurkcellkonumVAZGEC" li elementi bul ve varsa tıkla
+  * "2" saniye bekle
+
+  # En yakın turkcell sayfasına gir konum acık
+    * "yardımButonu" li elementi bul ve tıkla
+    * "enYakınTurkcell"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+    * "enYakınTurkcell" li elementi bul ve tıkla
+     "3" saniye bekle
+     "enyakınTurkcellTamamBtn" li elementi bul ve varsa tıkla
+    * "3" saniye bekle
+    * "EnyakınTurkcellkonumVAZGEC" li elementi bul varsa "CİHAZIN KONUMU KAPALI" mesajını hata olarak göster
+    * "8" saniye bekle
+
+# <sehir> sehrine <ilce> ilcesine git
+* "sehirCheckBox" li elementi bul ve tıkla
+ "155","300" coordinatından "155","1000" coordinatına "5" kere swipe et
+ "155","300" coordinatından "155","0" coordinatına "5" kere swipe et
+ * <sehir> elementi bulana kadar "155","100" Koordinatından "155","1100" coordinatına "4" kere swipe et
+  <sehir> elementi bulana kadar "155","300" Koordinatından "155","-200" coordinatına "6" kere swipe et
+ * <sehir> li elementi bul ve tıkla
+ * "ılceCheckBox" li elementi bul ve tıkla
+ * <ilce> elementi bulana kadar "155","300" Koordinatından "155","-100" coordinatına "6" kere swipe et
+ * <ilce> li elementi bul ve tıkla
+ * "5" saniye bekle
+
+
+
+
+# IOS <sehir> sehrine <ilce> ilcesine git
+// ıos'da şehir combobox açılınca bütün şehirlere erişebilir olduğu için il bazlı swipe işlemi yapılır.
+burada osmaniye'ye göre işlem yapılmıştır.
+
+* "sehirCheckBox" li elementi bul ve tıkla
+ "155","300" coordinatından "155","1000" coordinatına "5" kere swipe et
+ "155","300" coordinatından "155","0" coordinatına "5" kere swipe et
+ * "100","250" koordinatından "155","500" koordinatına "9" kere asagı swipe et
+ * <sehir> li elementi bul ve tıkla
+ * "ılceCheckBox" li elementi bul ve tıkla
+ * <ilce> li elementi bul ve tıkla
+ * "5" saniye bekle
+
+# Konumkapalı olarak çalıştır AND
+ * "5" saniye bekle
+ * "reddet" li elementi bul ve varsa tıkla
+ * "2" saniye bekle
+
+# Network Talepleri Sayfasına Gir
+ * "yardımButonu" li elementi bul ve tıkla
+ * "3" saniye bekle
+ * "aramaBaglantiKontrolu" li elementi bul ve tıkla
+ * "aramaBaglantıKontolTalepIlet" li elementi bul ve tıkla
+
+# Arama ve Baglantı Check Element <key>
+* "aramaBaglantiKontroluIkıncıCheckBox" li elementi bul ve tıkla
+* <key> li elementi bul yoksa "İNTERNETİM YAVAŞ SEÇENEGİ GÖRÜLEMEDİ" mesajını hata olarak göster
+
+# Yardım sayfasından Talep ilet sayfasına git
+* "yardımButonu" li elementi bul ve tıkla
+* "3" saniye bekle
+* "yeniTalepIlet" li elementi bul ve tıkla
+
+# UrunServisveKampanya talebinde bulun
+* "50","60" oranlarından "50","30" oranlarına "2" kere swipe et
+* "urunServisveKampanyaTalepleri" li elementi bul ve tıkla
+* "5" saniye bekle
+* "kampanyaText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+* "kampanyaText" li elementi bul tikla ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+* "kampanyaGonder" li elementi bul ve tıkla
+
+# UcretlendirmeveFatura Talebinde bulun
+* "ucretlendirmeveFaturaTalepleri" li elementi bulana kadar swipe et ve tıkla
+* "3" saniye bekle
+* "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+* "Talep Gönder" değerini sayfa üzerinde olup olmadığını kontrol et.
+* "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+* "talepFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "5" saniye bekle
+* "ızınVer" li elementi bul ve varsa tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* "5" saniye bekle
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepGonder" li elementi bul ve tıkla
+* "8" saniye bekle
+* "Başarılı" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# OdemeninYansımamasıMukerrerOdeme talebinde bulun
+* "odemeninYansımamasıMukerrerOdemeTalepleri" li elementi bul ve tıkla
+* "8" saniye bekle
+* "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+* "Talep Gönder" değerini sayfa üzerinde olup olmadığını kontrol et.
+* "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+* "talepDekontFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepGonder" li elementi bul ve tıkla
+* "8" saniye bekle
+* "Başarılı" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# AbonelikBilgiDuzeltmeveDegisiklik Talebinde bulun
+* "abonelikBilgiDuzeltmeveDegisiklik"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "abonelikBilgiDuzeltmeveDegisiklik" li elementi bulana kadar swipe et ve tıkla
+* "3" saniye bekle
+* "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+* "50","70" oranlarından "50","30" oranlarına "1" kere swipe et
+* "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "5" saniye bekle
+* "ızınVer" li elementi bul ve varsa tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* "5" saniye bekle
+* Galeriden fotograf seç
+* "50","60" oranlarından "50","30" oranlarına "2" kere swipe et
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepGonder" li elementi bul ve tıkla
+* "8" saniye bekle
+* "Başarılı" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# HazırKartTlYuklemeSorunu Talebinde bulun
+* "5" saniye bekle
+* "hazırKartTlYuklemeSorunu" li elementi bulana kadar swipe et ve tıkla
+* "3" saniye bekle
+* "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+* "Talep Gönder" değerini sayfa üzerinde olup olmadığını kontrol et.
+* "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+* "talepDekontFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "5" saniye bekle
+* "ızınVer" li elementi bul ve varsa tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepGonder" li elementi bul ve tıkla
+* "8" saniye bekle
+* "Başarılı" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# AbonelikIptali Talebinde bulun
+* "abonelikIptali"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "abonelikIptali" li elementi bul ve tıkla
+* "abonelikIptali" li elementi bulana kadar swipe et ve tıkla
+* "3" saniye bekle
+* "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+* "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "5" saniye bekle
+* "ızınVer" li elementi bul ve varsa tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* "5" saniye bekle
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "50","60" oranlarından "50","30" oranlarına "2" kere swipe et
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepGonder" li elementi bul ve tıkla
+* "8" saniye bekle
+* "Başarılı" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# KurumaOzelPlatınum talebinde bulun
+* "5" saniye bekle
+* "kurumaOzelPlatınum"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "kurumaOzelPlatınum" li elementi bul ve tıkla
+* "3" saniye bekle
+* "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+* "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+* "5" saniye bekle
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "5" saniye bekle
+* "ızınVer" li elementi bul ve varsa tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* "5" saniye bekle
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "5" saniye bekle
+* "ızınVer" li elementi bul ve varsa tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* "5" saniye bekle
+* Galeriden fotograf seç
+* "talepGonder" li elementi bul ve tıkla
+* "8" saniye bekle
+* "Başarılı" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# TurkcellSanalMagaza Talebinde bulun
+* "turkcellSanalMagazaTalepleri"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "turkcellSanalMagazaTalepleri" li elementi bul ve tıkla
+* "3" saniye bekle
+* "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+* "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+* "talepGonder" li elementi bul ve tıkla
+* "8" saniye bekle
+* "Başarılı" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# MusteriHızmetIslem Talebinde bulun
+ * "5" saniye bekle
+* "musteriHızmetIslemTalepleri"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+ * "musteriHızmetIslemTalepleri" li elementi bul ve tıkla
+* "3" saniye bekle
+* "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+* "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "5" saniye bekle
+* "ızınVer" li elementi bul ve varsa tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* "5" saniye bekle
+* Galeriden fotograf seç
+* "50","60" oranlarından "50","30" oranlarına "2" kere swipe et
+* "talepKımlıkFotoSec" li elementi bul ve tıkla
+* "galeriFotoSec" li elementi bul ve tıkla
+* "ızınVer" li elementi bul ve varsa tıkla
+* Galeriden fotograf seç
+* "5" saniye bekle
+* "talepGonder" li elementi bul ve tıkla
+* "8" saniye bekle
+* "Başarılı" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# Bütün talepleri tektek kontrol et
+* "4" saniye bekle
+  * "odemeninYansımamasıMukerrerOdemeTalepleri" li elementi bul ve tıkla
+  * "8" saniye bekle
+  * "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+  * "Talep Gönder" değerini sayfa üzerinde olup olmadığını kontrol et.
+  * geri butonuna bas
+  * "abonelikBilgiDuzeltmeveDegisiklik" li elementi bul ve tıkla
+  * "3" saniye bekle
+  * "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+  * "50","70" oranlarından "50","30" oranlarına "1" kere swipe et
+  * "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+  * geri butonuna bas
+  * "hazırKartTlYuklemeSorunu" li elementi bulana kadar swipe et ve tıkla
+  * "3" saniye bekle
+  * "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+  * "Talep Gönder" değerini sayfa üzerinde olup olmadığını kontrol et.
+  * geri butonuna bas
+  * "abonelikIptali" li elementi bulana kadar swipe et ve tıkla
+  * "3" saniye bekle
+  * "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+  * "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+  * geri butonuna bas
+  * "kurumaOzelPlatınum" li elementi bul ve tıkla
+  * "3" saniye bekle
+  * "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+  * "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+ / * geri butonuna bas
+  /* "turkcellSanalMagazaTalepleri"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+  /* "turkcellSanalMagazaTalepleri" li elementi bul ve tıkla
+  * "3" saniye bekle
+ / * "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+ / * "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+  * geri butonuna bas
+  * "50","60" oranlarından "50","30" oranlarına "2" kere swipe et
+  * "musteriHızmetIslemTalepleri" li elementi bul ve tıkla
+  * "3" saniye bekle
+  * "talepText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+  * "talepText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz
+  * geri butonuna bas
+  * "50","60" oranlarından "50","30" oranlarına "2" kere swipe et
+  * "urunServisveKampanyaTalepleri" li elementi bul ve tıkla
+  * "3" saniye bekle
+  * "kampanyaText" elementi bulunmuyorsa "talepUyarı" varsa "BU KATEGORİDE ÇÖZÜM BEKLEYEN  TALEBİNİZ BULUNMAKTADIR." uyarısı verilir
+  * "kampanyaText" li elementi bul ve "HESABIM UYGULAMASI ICIN TEST TALEBIDIR ACIL KAPATILMALI" değerini yaz

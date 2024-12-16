@@ -1,0 +1,147 @@
+Created by nese on 2019-06-11
+
+This is a concept file with following syntax for each concept.
+# Login Kart Bilgilerini Gir
+* "5" saniye bekle
+* "krediKartıIsimAlanı" li elementi bul ve "Kullanıcı Adı" değerini yaz
+* Klavyeyi kapat
+* "kartNumarasıAlanı" li elementi bul ve "KrediKartNo" değerini yaz
+* Klavyeyi kapat
+* "3" saniye bekle
+* "kartSonKullanmaTarihiAlanı" elementinin koordinatlarına x="3" y="3" degerlerini ekleyerek tıkla
+* "2" saniye bekle
+* son kullanma tarihi gir
+* "2" saniye bekle
+/* Hide keyboard
+ * "yılAlanıAND" elementinin koordinatlarına x="0" y="-60" degerlerini ekleyerek tıkla
+/* "tarihAlanıtamamButonu" li elementi bul ve varsa tıkla
+* "1" saniye bekle
+* "5" kere aşağıya kaydır
+* "1" saniye bekle
+* "krediKartıIleOdeme-onBılgılendırmeCheckbox" li elementi bul ve tıkla
+* "4" kere aşağıya kaydır
+* "buKartileOdemeYapButonu" li elementi bul ve tıkla
+* "7" saniye bekle
+* "cvvAlanı" li elementi bul ve "Cvv" değerini yaz
+* "cvvBilgileri-mailAlanı" li elementi bul, temizle ve "g@gmail.com" değerini yaz
+* Klavyeyi kapat
+* "2" saniye bekle
+* "siparisOnayıCheckBox" li elementi bul ve tıkla
+* "odemeYapButonu" li elementi bul ve tıkla
+* "8" saniye bekle
+* "kartDogrulamaSayfası" li element sayfada bulunuyor mu kontrol et
+
+
+
+
+# Logout Kart Bilgilerini Gir
+* "krediKartıIsimAlanı" li elementi bul ve "Kullanıcı Adı" değerini yaz
+* Klavyeyi kapat
+* "kartNumarasıAlanı" li elementi bul ve "KrediKartNo" değerini yaz
+* Klavyeyi kapat
+* "kartSonKullanmaTarihiAlanı" li elementi bul ve tıkla
+* "2" saniye bekle
+* son kullanma tarihi gir
+* "2" saniye bekle
+/* Hide keyboard
+* "yılAlanıAND" elementinin koordinatlarına x="0" y="-60" degerlerini ekleyerek tıkla
+//* "tarihAlanıtamamButonu" li elementi bul ve varsa tıkla
+* "7" saniye bekle
+* "buKartileOdemeYapButonu" li elementi bul ve tıkla
+* "6" saniye bekle
+* "logout-krediKartıAdınızSoyadınız" li elementi bul ve "Turkcell Test" değerini yaz
+* "logout-krediKartıGSMNumaranız" li elementi bul ve "5354556825" değerini yaz
+* Klavyeyi kapat
+* "krediKartıIleOdeme-onBılgılendırmeCheckboxLoginsiz" li elementi bul ve tıkla
+* "odemeYapButonu" li elementi bulana kadar swipe et ve tıkla
+* "8" saniye bekle
+* "cvvAlanı" li elementi bul ve "Cvv" değerini yaz
+* Klavyeyi kapat
+* "cvvBilgileri-mailAlanı" li elementi bul, temizle ve "g@gmail.com" değerini yaz
+* Klavyeyi kapat
+* "siparisOnayıCheckBox" li elementi bul ve tıkla
+* "odemeYapButonu" li elementi bulana kadar swipe et ve tıkla
+* "12" saniye bekle
+* "kartDogrulamaSayfası" li element sayfada bulunuyor mu kontrol et
+
+# TL yükle sayfasına gir
+* "2" saniye bekle
+* "AnasayfaTLYukleButonu" li elementi bul ve tıkla
+* "3" saniye bekle
+* "tlYukleButonu" li elementi bul ve tıkla
+* "2" saniye bekle
+* "yuklemeYapılacakGSMNoAlanı" li elementi bul ve varsa "5354556825" yaz
+* Klavyeyi kapat
+* "ilerleButonu" li elementi bul ve tıkla
+* "ilkPaketSecenegi" li elementi bul ve tıkla
+
+
+# Kayıtlı kart kontrol
+* Swipe times "2"
+* "kayıtlıKartIleOdeme-onBilgilendirmeCheckbox" li elementi bul yoksa "KAYITLI KART BULUNAMADI" mesajını hata olarak göster
+* "kayıtlıKartIleOdeme-onBilgilendirmeCheckbox" li elementi bul ve tıkla
+* "seciliKartIleOdemeYapButonu" li elementi bul ve tıkla
+
+
+
+
+
+# Kayıtlı kart bilgilerini doldur
+* "cvvAlanı" li elementi bul ve "936" değerini yaz
+* Klavyeyi kapat
+* "cvvBilgileri-mailAlanı" li elementi bul, temizle ve "g@gmail.com" değerini yaz
+* Klavyeyi kapat
+* "siparisOnayıCheckBox" li elementi bul ve tıkla
+* "odemeYapButonu" li elementi bul ve tıkla
+* "8" saniye bekle
+* "kartDogrulamaSayfası" li element sayfada bulunuyor mu kontrol et
+
+# Başka kart ile ödeme sayfasına gir
+* "baskaKartIleOdeButonu"li elementi bulana kadar "4" kere swipe yap ve elementi bul
+* "baskaKartIleOdeButonu" li elementi bul ve tıkla
+
+
+# Hazırkart paket yükle sayfasına gir
+* "AnasayfaTLYukleButonu" li elementi bul ve tıkla
+* "3" saniye bekle
+* "hazırKartPaketYukle" li elementi bul ve tıkla
+* "yuklemeYapılacakGSMNoAlanı" li elementi bul ve varsa "5354556825" yaz
+* Klavyeyi kapat
+* "ilerleButonu" li elementi bul ve tıkla
+* "ilkPaketSecenegi" li elementi bul ve tıkla
+
+
+# Kayıtsız kredi kartı ile ödeme sayfasına gir
+* "baskaKartIleOdeButonu"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* "baskaKartIleOdeButonu" li elementi bul ve varsa tıkla
+
+# Cepten internet Sayfasına Gir
+/* "5" saniye bekle
+* "AnasayfaTLYukleButonu" li elementi bul ve tıkla
+/* "3" saniye bekle
+* "ceptenInternet" li elementi bul ve tıkla
+* "yuklemeYapılacakGSMNoAlanı" li elementi bul ve varsa "5352028308" yaz
+* Klavyeyi kapat
+* "ilerleButonu" li elementi bul ve tıkla
+* "ilkPaketSecenegi" li elementi bul ve tıkla
+
+
+# Vınn internet sayfasına gir
+* "6" saniye bekle
+* "AnasayfaTLYukleButonu" li elementi bul ve tıkla
+* "3" saniye bekle
+* Swipe times "1"
+* "vinnInternet" li elementi bul ve tıkla
+ "ilkPaketSecenegi" li elementi bul ve tıkla
+* "yuklemeYapılacakGSMNoAlanı" li elementi bul ve varsa "5354556825" yaz
+/* "yuklemeYapılacakGSMNoAlanı" li elementi bul, temizle ve "5354556825" değerini yaz
+* Klavyeyi kapat
+* "ilerleButonu" li elementi bul ve tıkla
+* "ilkPaketSecenegi" li elementi bul ve varsa tıkla
+
+
+# Evden Cebe Transver
+* "AnasayfaTLYukleButonu" li elementi bul ve tıkla
+* "evdenCebeTransfer" li elementi bul ve tıkla
+* "ilkPaketSecenegiEvdencebe" li elementi bul ve varsa tıkla
+* "3" saniye bekle

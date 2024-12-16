@@ -1,0 +1,50 @@
+
+[
+
+  {
+    "key": "telefon",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@resource-id='product-list-cards']/android.view.View[2]",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "keyKoordinat",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "//*[@text='Menüyü kapat']",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "aksesuarRandom",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "(//*[@resource-id='product-list-cards']//android.view.View)[2]\n",
+    "androidType": "xpath"
+
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+
+  },
+  {
+    "key": "",
+    "iosValue": "",
+    "iosType": "",
+    "androidValue": "",
+    "androidType": ""
+
+  }
+
+
+
+
+
+
+]

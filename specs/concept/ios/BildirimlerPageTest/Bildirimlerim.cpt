@@ -1,0 +1,41 @@
+Created by sahabt on 2019-11-21
+
+This is a concept file with following syntax for each concept.
+//# Ios 5720 ile telefonu ayaga kaldır
+//* Uygulamanın açıldığını kontrol et
+//* Kullanıcı girişi yapılmışsa çıkış yap
+//* "anasayfaGirisYapButonu" li elementi bul ve tıkla
+//* iOS 8832 ile Giris Yap
+//* "5" saniye bekle
+
+#Bildirimler sayfasına gir
+* "bildirimlerButonu" li elementi bul ve tıkla
+* "5" saniye bekle
+* "BİLDİRİMLERİM" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# Bildirimlerim sayfasından siparişlerim tabına geç
+* "siparişlerimTabı" li elementi bul ve tıkla
+* "5" saniye bekle
+
+
+# Bildirimlerim sayfasından Taleplerim tabına geç
+* Bildirimlerim sayfasından siparişlerim tabına geç
+* "taleplerimTabı" li elementi bul ve tıkla
+* "5" saniye bekle
+* "TALEPLERİM" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# Bildirimlerim sayfasından Mesajlarım Tabına geç
+* "mesajlarımSekmesi" li elementi bul ve tıkla
+* "5" saniye bekle
+* "mesajlarımSekmesi" li element sayfada bulunuyor mu kontrol et
+
+# Bildirimlerim sayfasından Randevularım tabına geç
+* Bildirimlerim sayfasından siparişlerim tabına geç
+* "randevularımTabı" li elementi bul ve tıkla
+* "5" saniye bekle
+* "RANDEVULARIM" değerini sayfa üzerinde olup olmadığını kontrol et.
+
+# Tableplerim tabında yeni talep aç
+* "yeniTalepAç" li elementi bul ve tıkla
+* "5" saniye bekle
+* "talepSayfarıKontrol" li element sayfada bulunuyor mu kontrol et

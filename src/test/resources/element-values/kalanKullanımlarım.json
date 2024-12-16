@@ -1,0 +1,226 @@
+[{
+  "key": "kalanKullanımlarımText",
+  "iosValue": "//*[@name=\"KALAN KULLANIMLARIM\"]\n",
+  "iosType": "xpath",
+  "androidValue": "",
+  "androidType": ""
+},
+  {
+    "key": "yenilemeBitiş",
+    "iosValue": "//*[contains(@value,'Yenileme')]",
+    "iosType": "xpath",
+    "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewRefreshDateLabel']",
+    "androidType": "xpath"
+  },{
+  "key": "kalanGünSayısı",
+  "iosValue": "//XCUIElementTypeStaticText[contains(@name,'Gün')]",
+  "iosType": "xpath",
+  "androidValue": "//*[@resource-id='com.ttech.android.onlineislem:id/textViewRefreshDate']",
+  "androidType": "xpath"
+},{
+  "key": "limitsizKullanimKarti",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"16 Mbps'ekadar - LİMİTSİZ\"]",
+  "androidType": "xpath"
+},{
+  "key": "limitsizInternet",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"16 Mbps'ekadar - LİMİTSİZ internet kullanıyorsunuz. \"]",
+  "androidType": "xpath"
+},{
+  "key": "indirme",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[contains(@content-desc,'İndirme:')]",
+  "androidType": "xpath"
+},{
+  "key": "yukleme",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[contains(@content-desc,'Yükleme:')]",
+  "androidType": "xpath"
+},{
+  "key": "kullanimBari",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "com.ttech.android.onlineislem:id/frameLayoutBaseProgress",
+  "androidType": "id"
+},{
+  "key": "limitsizText",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"Limitsiz\"]",
+  "androidType": "xpath"
+},{
+  "key": "btn_ekPaketAl",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.Button[@text='Ek Paket Al']",
+  "androidType": "xpath"
+},{
+  "key": "ekPaketAlPage",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.view.View[@text='Satın Al']",
+  "androidType": "xpath"
+},{
+  "key": "kademeliKotaliKarti",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"25 Mbps - 25 GB KOTALI\"]",
+  "androidType": "xpath"
+},{
+  "key": "kademeliKotali",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[contains(@content-desc,'25 GB’lık kademeyi kullanıyorsunuz.')]",
+  "androidType": "xpath"
+},{
+  "key": "birinciBarGB",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"25GB\"]",
+  "androidType": "xpath"
+},{
+  "key": "ikinciBarGB",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"50GB\"]",
+  "androidType": "xpath"
+},{
+  "key": "ucuncuBarGB",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"75GB\"]",
+  "androidType": "xpath"
+},{
+  "key": "dorduncuBarGB",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"100GB\"]",
+  "androidType": "xpath"
+},{
+  "key": "birinciBarTL",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"78 TL\"]",
+  "androidType": "xpath"
+},{
+  "key": "ikinciBarTL",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"88 TL\"]",
+  "androidType": "xpath"
+},{
+  "key": "ucuncuBarTL",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"98 TL\"]",
+  "androidType": "xpath"
+},{
+  "key": "dorduncuBarTL",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.TextView[@content-desc=\"108 TL\"]",
+  "androidType": "xpath"
+},{
+  "key": "kablosuzIslem",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "//android.widget.Button[@text='Kablosuz İşlem']",
+  "androidType": "xpath"
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+},{
+  "key": "",
+  "iosValue": "",
+  "iosType": "",
+  "androidValue": "",
+  "androidType": ""
+}
+]
+
