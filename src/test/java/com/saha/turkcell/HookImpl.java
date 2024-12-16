@@ -47,7 +47,7 @@ public class HookImpl {
     public static final String KEY = USERNAME + ":" + ACCESS_KEY;
     public static final String URL = "http://hub.testinium.io/wd/hub";
     private static AppiumDriver<AndroidElement> driver;
-    String key = "qa63:a0c767b1e729c52c077f842a0363322a";
+    String key = "mehmetaksahin:afbe7d859ad86b5149f75077c52035e3";
 
 
 
@@ -121,7 +121,7 @@ public class HookImpl {
             if (System.getenv("platform").equals("ANDROID")) {
                 isDeviceAnd=true;
                 // capabilities.setCapability("key", System.getenv("key"));
-                capabilities.setCapability("key", "qa63:a0c767b1e729c52c077f842a0363322a");  //clouddev
+                capabilities.setCapability("key", "mehmetaksahin:afbe7d859ad86b5149f75077c52035e3");  //clouddev
                 //capabilities.setCapability("key", System.getenv("key"));  //clouddev
 
 
@@ -155,7 +155,7 @@ public class HookImpl {
                 capabilities.setCapability("usePrebuiltWDA", true); //changed
                 // capabilities.setCapability("maxTypeFrequency", 5);
                 // capabilities.setCapability("key", System.getenv("key"));
-                 capabilities.setCapability("key", "qa63:a0c767b1e729c52c077f842a0363322a");
+                 capabilities.setCapability("key", "mehmetaksahin:afbe7d859ad86b5149f75077c52035e3");
                 //capabilities.setCapability("key", "enesturan:39572507e9c3db2d6e975ae537a9c80b");
                 //capabilities.setCapability("key", "mehmetaksahin:66e85f66c902b99253229b608203e5e2");  //prod
                // capabilities.setCapability("key", "mehmetaksahin:66e85f66c902b99253229b608203e5e2");  //clouddev
