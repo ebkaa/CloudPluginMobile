@@ -100,7 +100,9 @@ public class HookImpl {
 
             if (System.getenv("platform").equals("ANDROID")) {
                 isDeviceAnd=true;
+                // capabilities.setCapability("key", System.getenv("key"));
                 capabilities.setCapability("key", "mehmetaksahin:afbe7d859ad86b5149f75077c52035e3");  //clouddev
+                //capabilities.setCapability("key", System.getenv("key"));  //clouddev
 
 
                 capabilities
@@ -129,7 +131,14 @@ public class HookImpl {
                 capabilities.setCapability(MobileCapabilityType.NO_RESET, true);
                 capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
                 capabilities.setCapability("usePrebuiltWDA", true); //changed
+                // capabilities.setCapability("maxTypeFrequency", 5);
+                // capabilities.setCapability("key", System.getenv("key"));
                  capabilities.setCapability("key", "mehmetaksahin:afbe7d859ad86b5149f75077c52035e3");
+                //capabilities.setCapability("key", "enesturan:39572507e9c3db2d6e975ae537a9c80b");
+                //capabilities.setCapability("key", "mehmetaksahin:66e85f66c902b99253229b608203e5e2");  //prod
+               // capabilities.setCapability("key", "mehmetaksahin:66e85f66c902b99253229b608203e5e2");  //clouddev
+                //capabilities.setCapability("key", "mehmetaksahin:b0fa2cca656533bb82e5978f677b4b4a");  //clouddev
+                //capabilities.setCapability("key", System.getenv("key"));
                 capabilities.setCapability("testinium:appToken", System.getenv("appToken"));
                 capabilities.setCapability("testinium:testID", System.getenv("testID"));
                 capabilities.setCapability("waitForAppScript", "$.delay(1000);");
