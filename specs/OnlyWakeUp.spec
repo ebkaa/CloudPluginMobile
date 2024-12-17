@@ -12,5 +12,3 @@ tags:OnlyWakeUp
 * "10" saniye bekle
 * Swipe times "3"
 * "10" saniye bekle
-// * En yakın turkcell sayfasına gir konum kapalı
-//* "yeniKullanıcıIleGirisYapButonu" li elementi bul ve varsa tıkla
